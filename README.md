@@ -143,5 +143,3 @@ Given more time, I would:
 ---
 
 I hope this README provides a clear picture of my implementation approach and thought process. If you have any questions or need clarification on any aspect of the project, please don't hesitate to reach out!
-
-<div style="text-align: center">⁂</div>
