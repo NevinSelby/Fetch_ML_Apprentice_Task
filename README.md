@@ -1,13 +1,6 @@
 # Starbucks Reviews Multi-Task Learning Analysis
 
 ## How to Run the Code
-
-### You can run my code with any of the following two methods:
-
-### Method 1
-
-#### Install Python (Preferably the latest version)
-
 #### Clone this repo to your local directory by downloading the zip or using 'git clone https_of_this_repo' The https of this repo can be found here as shown in the below screenshot
 
 ![alt text](screenshots/image.png) 
@@ -17,6 +10,20 @@
 #### Open your terminal, and navigate to the folder in which you have cloned this repository using the 'cd' command. I have added a screenshot of how my directory looks in the terminal.
 
 ![alt text](screenshots/image-1.png)
+### You can run my code with any of the following two methods:
+
+### Method 1 (With Docker)
+#### You can also use Docker after cloning the repo (I would recommend this as it's way easier!):
+
+```bash
+# Build the Docker container
+docker build -t starbucks-reviews-analysis .
+
+# Run the model training
+docker run starbucks-reviews-analysis
+```
+
+### Method 2 (Without Docker)
 
 #### Create a virtualenv using 'python -m venv virtualenvname' and activate the virtual env by doing 'source myenv/bin/activate' for linux or 'myenv\Scripts\activate' for windows. I have mac, so I have done 'source myenv/bin/activate'.
 
@@ -34,16 +41,6 @@ python main.py --mode train --data_path starbucks_reviews.csv --epochs 5
 python main.py --mode predict --review_text "The coffee was excellent and the service was fast" --model_path models/starbucks_mtl_best.pt
 ```
 
-### Method 2
-#### You can also use Docker after cloning the repo (I would recommend this as it's way easier!):
-
-```bash
-# Build the Docker container
-docker build -t starbucks-reviews-analysis .
-
-# Run the model training
-docker run starbucks-reviews-analysis
-```
 
 
 ## Task 1: Sentence Transformer Implementation
