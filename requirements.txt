@@ -1,0 +1,14 @@
+# Core dependencies
+torch
+transformers
+pandas
+numpy
+scikit-learn
+
+# Visualization and UI
+matplotlib
+seaborn
+streamlit
+
+# Utilities
+tqdm
