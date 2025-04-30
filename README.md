@@ -145,6 +145,3 @@ Given more time, I would:
 I hope this README provides a clear picture of my implementation approach and thought process. If you have any questions or need clarification on any aspect of the project, please don't hesitate to reach out!
 
 <div style="text-align: center">⁂</div>
-
-[^1]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/63134519/f05992db-52ac-4045-8712-93957a55a6d3/Fetch_ML_Apprentice_Take_Home_Instructions.pdf
-
