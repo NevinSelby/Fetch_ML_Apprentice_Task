@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
 # Starbucks Reviews Multi-Task Learning Analysis
 
 ## Project Overview
@@ -145,12 +143,4 @@ Given more time, I would:
 ---
 
 I hope this README provides a clear picture of my implementation approach and thought process. If you have any questions or need clarification on any aspect of the project, please don't hesitate to reach out!
-
-<div style="text-align: center">⁂</div>
-
-[^1]: Fetch_ML_Apprentice_Take_Home_Instructions.pdf
-
-[^2]: image.jpg
-
-[^3]: paste-3.txt
 
