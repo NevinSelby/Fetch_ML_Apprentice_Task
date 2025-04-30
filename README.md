@@ -10,17 +10,17 @@
 
 #### > Clone this repo to your local directory by downloading the zip or using 'git clone https_of_this_repo' The https of this repo can be found here as shown in the below screenshot
 
-![alt text](image.png) 
+![alt text](screenshots/image.png) 
 
 #### Extract the zip file, and store it in a desired directory.
 
 #### Open your terminal, and navigate to the folder in which you have cloned this repository using the 'cd' command. I have added a screenshot of how my directory looks in the terminal.
 
-![alt text](image-1.png)
+![alt text](screenshots/image-1.png)
 
 #### Create a virtualenv using 'python -m venv virtualenvname' and activate the virtual env by doing 'source myenv/bin/activate' for linux or 'myenv\Scripts\activate' for windows. I have mac, so I have done 'source myenv/bin/activate'.
 
-![alt text](image-2.png)
+![alt text](screenshots/image-2.png)
 
 #### Next, you can run the following commands
 ```bash
