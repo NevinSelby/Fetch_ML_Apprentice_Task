@@ -6,9 +6,9 @@
 
 ### Method 1
 
-#### > Install Python (Preferably the latest version)
+#### Install Python (Preferably the latest version)
 
-#### > Clone this repo to your local directory by downloading the zip or using 'git clone https_of_this_repo' The https of this repo can be found here as shown in the below screenshot
+#### Clone this repo to your local directory by downloading the zip or using 'git clone https_of_this_repo' The https of this repo can be found here as shown in the below screenshot
 
 ![alt text](screenshots/image.png) 
 
