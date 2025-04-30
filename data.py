@@ -6,8 +6,8 @@ from transformers import BertTokenizer
 import numpy as np
 import re
 
-class McDonaldsReviewsDataset(Dataset):
-    """Dataset class for McDonald's reviews with both attribute and sentiment labels."""
+class StarbucksReviewsDataset(Dataset):
+    """Dataset class for Starbucks reviews with both attribute and sentiment labels."""
     def __init__(self, reviews, attribute_labels, sentiment_labels, tokenizer, max_length=128):
         self.reviews = reviews
         self.attribute_labels = attribute_labels
@@ -49,91 +49,43 @@ def preprocess_text(text):
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
-def map_ratings_to_sentiment(rating):
-    """Convert numerical ratings to sentiment categories."""
-    try:
-        rating = float(rating)  # Convert to float in case of decimals
-    except ValueError:
-        return 'neutral'
-    
-    if rating >= 4:
-        return 'positive'
-    elif rating <= 2:
-        return 'negative'
-    else:
-        return 'neutral'
-
-def extract_attribute_from_review(review, category=None):
-    """Extracts likely attribute from review text using keyword matching.
-    
-    This is a simplified approach. In a production environment, you might want
-    to use a more sophisticated NLP approach or manual labeling.
-    """
-    review = review.lower()
-    
-    # Define attribute keywords
-    attribute_keywords = {
-        'food': ['food', 'burger', 'fries', 'nugget', 'mcnugget', 'sandwich', 'breakfast', 'meal', 'chicken', 'taste', 'delicious'],
-        'service': ['service', 'staff', 'cashier', 'employee', 'server', 'worker', 'wait', 'time', 'fast', 'slow'],
-        'cleanliness': ['clean', 'dirty', 'mess', 'hygiene', 'sanitize', 'tidy', 'swept', 'mopped', 'bathroom', 'toilet'],
-        'price': ['price', 'expensive', 'cheap', 'afford', 'cost', 'money', 'dollar', 'value'],
-        'atmosphere': ['atmosphere', 'environment', 'ambiance', 'seat', 'table', 'chair', 'noise', 'loud', 'quiet'],
-        'location': ['location', 'parking', 'drive-thru', 'drive through', 'access', 'area', 'neighborhood']
-    }
-    
-    # Count keyword matches for each attribute
-    attribute_counts = {attr: 0 for attr in attribute_keywords}
-    
-    for attr, keywords in attribute_keywords.items():
-        for keyword in keywords:
-            if keyword in review:
-                attribute_counts[attr] += 1
-    
-    # If category is provided, give it a slight boost
-    if category and category.lower() in attribute_counts:
-        attribute_counts[category.lower()] += 0.5
-    
-    # Return the attribute with the most keyword matches
-    # If no matches found, default to 'food' as most common topic
-    max_count = max(attribute_counts.values())
-    if max_count > 0:
-        for attr, count in attribute_counts.items():
-            if count == max_count:
-                return attr
-    
-    return 'food'  # Default attribute if no keywords matched
-
 def load_and_prepare_data(csv_path, tokenizer_name='bert-base-uncased', test_size=0.2, val_size=0.1, 
                           batch_size=32, random_state=42):
-    """Load, preprocess, and prepare McDonald's reviews data for multi-task learning."""
+    """Load, preprocess, and prepare Starbucks reviews data for multi-task learning."""
     # Load data
-    df = pd.read_csv(csv_path, encoding='latin1')
+    df = pd.read_csv(csv_path)
     
     # Basic preprocessing
-    df['review_clean'] = df['review'].apply(preprocess_text)
+    df['review_clean'] = df['sentence'].apply(preprocess_text)
     
-    # Convert ratings to sentiment classes
-    df['sentiment'] = df['rating'].apply(map_ratings_to_sentiment)
+    # Using provided attribute and sentiment classes
+    # Attribute mapping (already numeric in dataset)
+    # Using attr_class instead of attributes because half the attributes row were NaN. Found the class labels by visualizing the data separately.
+    attribute_categories = sorted(df['attr_class'].unique())
+    idx_to_attribute = {
+        0: 'ambiance',
+        1: 'food',
+        2: 'location',
+        3: 'service',
+        4: 'price',
+        5: 'general'
+    }
+    attribute_to_idx = {v: k for k, v in idx_to_attribute.items()}
     
-    # Extract attributes from review content
-    df['attribute'] = df.apply(lambda row: extract_attribute_from_review(row['review_clean'], row.get('category')), axis=1)
-    
-    # Create attribute and sentiment label mappings
-    attribute_categories = df['attribute'].unique()
-    attribute_to_idx = {attr: idx for idx, attr in enumerate(attribute_categories)}
-    idx_to_attribute = {idx: attr for attr, idx in attribute_to_idx.items()}
-    
-    sentiment_categories = df['sentiment'].unique()
-    sentiment_to_idx = {sent: idx for idx, sent in enumerate(sentiment_categories)}
-    idx_to_sentiment = {idx: sent for sent, idx in sentiment_to_idx.items()}
-    
-    # Convert labels to indices
-    df['attribute_idx'] = df['attribute'].map(attribute_to_idx)
-    df['sentiment_idx'] = df['sentiment'].map(sentiment_to_idx)
+    # Sentiment mapping (already numeric in dataset)
+    sentiment_categories = sorted(df['sent_class'].unique())
+    # Based on examples, assuming:
+    # 0: negative, 1: neutral, 2: positive
+    idx_to_sentiment = {
+        0: 'negative',
+        1: 'neutral',
+        2: 'positive'
+    }
+    sentiment_to_idx = {v: k for k, v in idx_to_sentiment.items()}
     
     # Split data: first into train+val and test, then train and val
     train_val_df, test_df = train_test_split(
-        df, test_size=test_size, random_state=random_state, stratify=df[['attribute', 'sentiment']]
+        df, test_size=test_size, random_state=random_state, stratify=df[['attr_class', 'sent_class']]
     )
     
     # Calculate validation size relative to train+val
@@ -141,7 +93,7 @@ def load_and_prepare_data(csv_path, tokenizer_name='bert-base-uncased', test_siz
     
     train_df, val_df = train_test_split(
         train_val_df, test_size=relative_val_size, 
-        random_state=random_state, stratify=train_val_df[['attribute', 'sentiment']]
+        random_state=random_state, stratify=train_val_df[['attr_class', 'sent_class']]
     )
     
     print(f"Data split: {len(train_df)} train, {len(val_df)} validation, {len(test_df)} test")
@@ -150,24 +102,24 @@ def load_and_prepare_data(csv_path, tokenizer_name='bert-base-uncased', test_siz
     tokenizer = BertTokenizer.from_pretrained(tokenizer_name)
     
     # Create datasets
-    train_dataset = McDonaldsReviewsDataset(
+    train_dataset = StarbucksReviewsDataset(
         train_df['review_clean'].values,
-        train_df['attribute_idx'].values,
-        train_df['sentiment_idx'].values,
+        train_df['attr_class'].values,
+        train_df['sent_class'].values,
         tokenizer
     )
     
-    val_dataset = McDonaldsReviewsDataset(
+    val_dataset = StarbucksReviewsDataset(
         val_df['review_clean'].values,
-        val_df['attribute_idx'].values,
-        val_df['sentiment_idx'].values,
+        val_df['attr_class'].values,
+        val_df['sent_class'].values,
         tokenizer
     )
     
-    test_dataset = McDonaldsReviewsDataset(
+    test_dataset = StarbucksReviewsDataset(
         test_df['review_clean'].values,
-        test_df['attribute_idx'].values,
-        test_df['sentiment_idx'].values,
+        test_df['attr_class'].values,
+        test_df['sent_class'].values,
         tokenizer
     )
     

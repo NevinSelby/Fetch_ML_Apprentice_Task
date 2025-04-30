@@ -1,62 +1,23 @@
-# McDonald's Reviews Multi-Task Learning Analysis
+<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+
+# Starbucks Reviews Multi-Task Learning Analysis
 
 ## Project Overview
 
-This project implements a multi-task learning system for analyzing McDonald's customer reviews, simultaneously performing attribute classification (identifying what aspect of McDonald's the review discusses) and sentiment analysis (determining if the review is positive, negative, or neutral). The implementation uses BERT as the backbone with task-specific classification heads.
+This project implements a comprehensive multi-task learning system for analyzing Starbucks customer reviews. Using BERT as the backbone architecture, the model simultaneously performs two critical NLP tasks: attribute classification (identifying which aspect of Starbucks the review discusses - ambiance, food, location, service, price, or general) and sentiment analysis (determining if the sentiment is positive, neutral, or negative). This approach leverages shared representations while allowing for task-specific predictions, creating a more efficient and powerful analysis tool.
 
 ## Tasks Completed
 
 I've successfully completed all the required tasks from the ML Apprentice Take-Home Exercise:
 
-1. **Sentence Transformer Implementation**: Created a BERT-based sentence encoder
-2. **Multi-Task Learning Expansion**: Extended the model to handle both attribute classification and sentiment analysis
-3. **Training Considerations**: Implemented strategic freezing/unfreezing approaches for transfer learning
+1. **Sentence Transformer Implementation**: Created a BERT-based sentence encoder that generates fixed-length embeddings
+2. **Multi-Task Learning Expansion**: Extended the model to handle both attribute classification and sentiment analysis simultaneously
+3. **Training Considerations**: Implemented strategic freezing/unfreezing approaches for effective transfer learning
 4. **Training Loop Implementation**: Developed a complete multi-task training pipeline with dynamic loss weighting
 
 Plus, I've added a Streamlit web interface for easy visualization and interaction with the model!
 
-## How to Run the Project
-
-### Option 1: Using Docker (Recommended)
-
-```bash
-# Build the Docker container
-docker build -t mcdonalds-reviews-analysis .
-
-# Run the container with Streamlit interface
-docker run -p 8501:8501 mcdonalds-reviews-analysis
-
-# Open your browser and navigate to:
-# http://localhost:8501
-```
-
-
-### Option 2: Running Without Docker
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Train the model
-python main.py --mode train --data_path mcdonalds_reviews.csv --epochs 5
-
-# Run the Streamlit interface
-streamlit run app.py
-```
-
-
-### Additional Command Options
-
-```bash
-# Evaluate a trained model
-python main.py --mode evaluate --model_path models/mcdonalds_mtl_best.pt
-
-# Make predictions on a specific review
-python main.py --mode predict --review_text "The burgers were great but the service was slow" --model_path models/mcdonalds_mtl_best.pt
-```
-
-
-## My Implementation Approach \& Thought Process
+## Implementation Approach \& Thought Process
 
 ### Task 1: Sentence Transformer Implementation
 
@@ -76,8 +37,8 @@ Extending to multi-task learning was both challenging and exciting! I created a 
 
 - A shared BERT backbone that learns common language features
 - Two task-specific classification heads:
-    - Attribute classifier: Categorizes reviews into aspects like food, service, cleanliness, etc.
-    - Sentiment analyzer: Determines if the sentiment is positive, negative, or neutral
+    - Attribute classifier: Categorizes reviews into Starbucks-specific aspects (ambiance, food, location, service, price, general)
+    - Sentiment analyzer: Determines if the sentiment is positive, neutral, or negative
 
 I made the architectural choice to use similar structures for both task heads (linear → ReLU → dropout → linear) because both tasks involve sentence-level classification. Each head has enough parameters to learn task-specific patterns while sharing the computationally expensive BERT backbone.
 
@@ -87,7 +48,7 @@ The most interesting part was designing the interface between the shared and tas
 
 Transfer learning is critical for BERT-based models, so I carefully considered different freezing strategies:
 
-1. **Freezing the entire network**: This would be too restrictive, preventing the model from adapting to the McDonald's domain language
+1. **Freezing the entire network**: This would be too restrictive, preventing the model from adapting to the Starbucks domain language
 2. **Freezing only the BERT backbone**: This approach makes sense for limited data scenarios, letting the task heads adapt while preserving language fundamentals
 3. **Freezing one task head**: This would be useful if one task was pre-trained but would likely cause the backbone to overfit to the unfrozen task
 
@@ -97,7 +58,7 @@ I implemented a gradual unfreezing approach where:
 - After the first epoch, the last few layers are selectively unfrozen
 - A lower learning rate is used for fine-tuning to prevent catastrophic forgetting
 
-This approach strikes a balance between adaptation and preservation of pre-trained knowledge, which is crucial for the McDonald's reviews domain where specific food, service, and restaurant terminology might not be well-represented in BERT's original training data.
+This approach strikes a balance between adaptation and preservation of pre-trained knowledge, which is crucial for the Starbucks reviews domain where specific coffee, food, and café terminology might not be well-represented in BERT's original training data.
 
 ### Task 4: Training Loop Implementation
 
@@ -108,7 +69,7 @@ The multi-task training loop was perhaps the most intricate part of this project
 3. **Comprehensive metrics tracking**: Beyond just accuracy, I track F1 scores and confusion matrices for both tasks to get a complete picture of model performance
 4. **Early stopping**: To prevent overfitting, especially important with limited review data
 
-One particularly interesting challenge was balancing the tasks. In review data, sentiment analysis is often easier than attribute classification (it's easier to tell if someone is happy than what they're specifically happy about). My uncertainty-based weighting approach helps balance this by giving more weight to the task that's struggling more.
+One particularly interesting challenge was balancing the tasks. In Starbucks reviews, sentiment analysis is often easier than attribute classification (it's easier to tell if someone is happy than what they're specifically happy about). My uncertainty-based weighting approach helps balance this by giving more weight to the task that's struggling more.
 
 ### Streamlit Interface
 
@@ -120,12 +81,53 @@ As a bonus, I built a Streamlit interface that makes the project accessible to n
 - Displaying model performance metrics and training curves
 
 
+## How to Run the Project
+
+### Option 1: Using Docker (Recommended)
+
+```bash
+# Build the Docker container
+docker build -t starbucks-reviews-analysis .
+
+# Run the container with Streamlit interface
+docker run -p 8501:8501 starbucks-reviews-analysis
+
+# Open your browser and navigate to:
+# http://localhost:8501
+```
+
+
+### Option 2: Running Without Docker
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Train the model
+python main.py --mode train --data_path starbucks_reviews.csv --epochs 5
+
+# Run the Streamlit interface
+streamlit run app.py
+```
+
+
+### Additional Command Options
+
+```bash
+# Evaluate a trained model
+python main.py --mode evaluate --model_path models/starbucks_mtl_best.pt
+
+# Make predictions on a specific review
+python main.py --mode predict --review_text "The coffee was excellent but the ambiance was too noisy" --model_path models/starbucks_mtl_best.pt
+```
+
+
 ## Challenges and Learnings
 
-The most challenging aspect was adapting the model to handle the McDonald's reviews dataset structure, particularly:
+The most challenging aspect was working with the pre-labeled Starbucks reviews dataset, particularly:
 
-1. **Attribute extraction**: Since the dataset doesn't have pre-labeled attributes, I implemented a keyword-based approach to extract likely attributes from review text
-2. **Rating conversion**: Mapping the numeric ratings (1-5) to sentiment categories required careful consideration of thresholds
+1. **Handling class distributions**: Some attributes like "food" appeared more frequently than others, requiring careful stratification during dataset splitting
+2. **Model capacity balancing**: Finding the right size for task-specific heads to prevent overfitting while maintaining expressive power
 3. **Training time management**: BERT-based models take significant time to train, so I had to optimize my implementation for efficiency
 
 Through this project, I've gained deeper insights into the nuances of multi-task learning, particularly how sharing representations can help models generalize better while keeping task-specific components allows for specialization. I've also learned how careful consideration of freezing strategies can dramatically impact model performance and training efficiency.
@@ -134,12 +136,21 @@ Through this project, I've gained deeper insights into the nuances of multi-task
 
 Given more time, I would:
 
-1. Implement more sophisticated attribute extraction using dependency parsing
-2. Add aspect-based sentiment analysis to detect sentiment toward specific attributes
-3. Incorporate the geographical data (latitude/longitude) for location-based insights
-4. Add temporal analysis to track sentiment trends over time
-5. Experiment with alternative backbone models like RoBERTa or ALBERT
+1. Implement aspect-based sentiment analysis to detect sentiment toward specific attributes
+2. Explore hierarchical classification for more fine-grained attribute categorization
+3. Add cross-validation to improve reliability of performance metrics
+4. Experiment with alternative backbone models like RoBERTa or ALBERT
+5. Add store-specific analysis to identify location-based patterns in customer satisfaction
 
 ---
 
 I hope this README provides a clear picture of my implementation approach and thought process. If you have any questions or need clarification on any aspect of the project, please don't hesitate to reach out!
+
+<div style="text-align: center">⁂</div>
+
+[^1]: Fetch_ML_Apprentice_Take_Home_Instructions.pdf
+
+[^2]: image.jpg
+
+[^3]: paste-3.txt
+

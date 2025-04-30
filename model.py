@@ -9,14 +9,12 @@ import seaborn as sns
 from tqdm import tqdm
 import os
 
-class McDonaldsReviewAnalyzer(nn.Module):
-    """
-    BERT-based multi-task model for simultaneously classifying McDonald's review attributes
-    and sentiment.
-    """
+class StarbucksReviewAnalyzer(nn.Module):
+    """BERT-based multi-task model for simultaneously classifying Starbucks review attributes
+    and sentiment."""
     def __init__(self, bert_model_name='bert-base-uncased', num_attributes=6, num_sentiments=3, 
                  dropout_rate=0.1, freeze_bert=False):
-        super(McDonaldsReviewAnalyzer, self).__init__()
+        super(StarbucksReviewAnalyzer, self).__init__()
         
         # Load BERT model
         self.bert = BertModel.from_pretrained(bert_model_name)
@@ -61,6 +59,7 @@ class McDonaldsReviewAnalyzer(nn.Module):
         sentiment_logits = self.sentiment_classifier(pooled_output)
         
         return attribute_logits, sentiment_logits
+
     
     def unfreeze_bert_layers(self, num_layers=3):
         """Gradually unfreeze the last n BERT layers for fine-tuning.
@@ -205,7 +204,7 @@ def train_and_evaluate(model, train_loader, val_loader, epochs=3, lr=2e-5,
         if val_avg_f1 > best_val_f1:
             best_val_f1 = val_avg_f1
             best_epoch = epoch
-            torch.save(model.state_dict(), f"{model_save_path}/mcd_mtl_best.pt")
+            torch.save(model.state_dict(), f"{model_save_path}/starbucks_mtl_best.pt")
             print(f"New best model saved with average F1: {val_avg_f1:.4f}")
         
         # Always save the latest model
@@ -217,12 +216,12 @@ def train_and_evaluate(model, train_loader, val_loader, epochs=3, lr=2e-5,
             'train_history': training_history,
             'best_val_f1': best_val_f1,
             'best_epoch': best_epoch
-        }, f"{model_save_path}/mcd_mtl_latest.pt")
+        }, f"{model_save_path}/starbucks_mtl_latest.pt")
         
     print(f"\nTraining complete. Best model from epoch {best_epoch+1} with avg F1: {best_val_f1:.4f}")
     
     # Load the best model for return
-    model.load_state_dict(torch.load(f"{model_save_path}/mcd_mtl_best.pt"))
+    model.load_state_dict(torch.load(f"{model_save_path}/starbucks_mtl_best.pt"))
     
     return model, training_history
 

@@ -8,16 +8,16 @@ import os
 import json
 
 # Import our modules
-from model import McDonaldsReviewAnalyzer, train_and_evaluate, predict_review, plot_training_history
+from model import StarbucksReviewAnalyzer, train_and_evaluate, predict_review, plot_training_history
 from data import load_and_prepare_data
 
 def main():
     """Main function that handles the training and evaluation workflow."""
-    parser = argparse.ArgumentParser(description='Train a multi-task model for McDonald\'s reviews analysis')
+    parser = argparse.ArgumentParser(description='Train a multi-task model for Starbucks\'s reviews analysis')
     
     # Dataset parameters
-    parser.add_argument('--data_path', type=str, default='mcdonalds_reviews.csv', 
-                        help='Path to the McDonald\'s reviews CSV file')
+    parser.add_argument('--data_path', type=str, default='starbucks_reviews.csv', 
+                        help='Path to the Starbucks\'s reviews CSV file')
     parser.add_argument('--test_size', type=float, default=0.2, 
                         help='Proportion of data to use for testing')
     parser.add_argument('--val_size', type=float, default=0.1, 
@@ -57,7 +57,7 @@ def main():
                         help='Random seed for reproducibility')
     
     # Mode parameters
-    parser.add_argument('--mode', type=str, default='train', choices=['train', 'evaluate', 'predict'],
+    parser.add_argument('--mode', type=str, default='train', choices=['train', 'predict'],
                         help='Mode to run the script in')
     parser.add_argument('--model_path', type=str, default=None,
                         help='Path to a saved model, required for evaluate and predict modes')
@@ -111,7 +111,7 @@ def main():
     if args.mode == 'train':
         # Initialize model
         print("Initializing model...")
-        model = McDonaldsReviewAnalyzer(
+        model = StarbucksReviewAnalyzer(
             bert_model_name=args.bert_model,
             num_attributes=num_attributes,
             num_sentiments=num_sentiments,
@@ -144,60 +144,13 @@ def main():
         
         print("Training complete!")
         
-    elif args.mode == 'evaluate':
-        # Load pre-trained model
-        if not args.model_path:
-            args.model_path = f"{args.model_dir}/mcd_mtl_best.pt"
-        
-        print(f"Loading model from {args.model_path}...")
-        model = McDonaldsReviewAnalyzer(
-            bert_model_name=args.bert_model,
-            num_attributes=num_attributes,
-            num_sentiments=num_sentiments,
-            dropout_rate=args.dropout
-        )
-        model.load_state_dict(torch.load(args.model_path, map_location=device))
-        
-        # Evaluate on test set
-        print("Evaluating model on test set...")
-        model.eval()
-        _, test_metrics = _run_epoch(
-            model, test_loader, nn.CrossEntropyLoss(), nn.CrossEntropyLoss(),
-            None, None, None, device, is_training=False
-        )
-        
-        print("\nTest Set Results:")
-        print(f"Attribute Accuracy: {test_metrics['attribute_accuracy']:.4f}")
-        print(f"Attribute F1 Score: {test_metrics['attribute_f1']:.4f}")
-        print(f"Sentiment Accuracy: {test_metrics['sentiment_accuracy']:.4f}")
-        print(f"Sentiment F1 Score: {test_metrics['sentiment_f1']:.4f}")
-        
-        # Save confusion matrices
-        plt.figure(figsize=(12, 5))
-        
-        plt.subplot(1, 2, 1)
-        sns.heatmap(test_metrics['attribute_confusion'], annot=True, fmt='d', cmap='Blues')
-        plt.title('Attribute Classification Confusion Matrix')
-        plt.ylabel('True Label')
-        plt.xlabel('Predicted Label')
-        
-        plt.subplot(1, 2, 2)
-        sns.heatmap(test_metrics['sentiment_confusion'], annot=True, fmt='d', cmap='Blues')
-        plt.title('Sentiment Analysis Confusion Matrix')
-        plt.ylabel('True Label')
-        plt.xlabel('Predicted Label')
-        
-        plt.tight_layout()
-        plt.savefig(f"{args.output_dir}/confusion_matrices.png")
-        plt.close()
-        
     elif args.mode == 'predict':
         # Load pre-trained model
         if not args.model_path:
-            args.model_path = f"{args.model_dir}/mcd_mtl_best.pt"
+            args.model_path = f"{args.model_dir}/starbucks_mtl_best.pt"
         
         print(f"Loading model from {args.model_path}...")
-        model = McDonaldsReviewAnalyzer(
+        model = StarbucksReviewAnalyzer(
             bert_model_name=args.bert_model,
             num_attributes=num_attributes,
             num_sentiments=num_sentiments,

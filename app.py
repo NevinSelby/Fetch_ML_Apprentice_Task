@@ -7,12 +7,11 @@ import seaborn as sns
 from transformers import BertTokenizer
 import json
 import os
-from model import McDonaldsReviewAnalyzer, predict_review
+from model import StarbucksReviewAnalyzer, predict_review
 
-# Set page title and icon
 st.set_page_config(
-    page_title="McDonald's Reviews Analysis",
-    page_icon="🍔",
+    page_title="Starbucks Reviews Analysis",
+    page_icon="☕",
     layout="wide"
 )
 
@@ -21,7 +20,7 @@ def load_model_and_tokenizer(model_path, bert_model_name, num_attributes, num_se
     """Load model and tokenizer (cached to avoid reloading)."""
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
-    model = McDonaldsReviewAnalyzer(
+    model = StarbucksReviewAnalyzer(
         bert_model_name=bert_model_name,
         num_attributes=num_attributes,
         num_sentiments=num_sentiments
@@ -68,18 +67,18 @@ def load_sample_reviews(csv_path, n=5):
 
 def main():
     # Title and introduction
-    st.title("☕ McDonald's Reviews Analysis")
+    st.title("☕ Starbucks's Reviews Analysis")
     st.markdown("""
-    This application demonstrates a **Multi-Task Learning** approach to analyze McDonald's customer reviews.
+    This application demonstrates a **Multi-Task Learning** approach to analyze Starbucks's customer reviews.
     The model simultaneously classifies:
-    - **Attribute**: What aspect of McDonald's the review discusses (service, food, etc.)  
+    - **Attribute**: What aspect of Starbucks's the review discusses (service, food, etc.)  
     - **Sentiment**: The emotional tone of the review (positive, negative, neutral)
     """)
     
     # Load configurations
-    model_path = "models/mcd_mtl_best.pt"
+    model_path = "models/starbucks_mtl_best.pt"
     bert_model_name = "bert-base-uncased"
-    data_path = "mcd_reviews.csv"
+    data_path = "starbucks_reviews.csv"
     attribute_map_path = "results/attribute_map.json"
     sentiment_map_path = "results/sentiment_map.json"
     
@@ -133,7 +132,7 @@ def main():
     with tab1:
         st.header("Analyze Your Own Review")
         review_text = st.text_area(
-            "Enter a McD review:",
+            "Enter a Starbucks review:",
             "The barista was very friendly and made a perfect caramel macchiato, but the store was too crowded and noisy.",
             height=100
         )
@@ -322,7 +321,7 @@ def main():
 
     # Footer
     st.divider()
-    st.caption("Created as part of a ML Apprentice take-home exercise. BERT-based multi-task learning model for McDonald's reviews analysis.")
+    st.caption("Created as part of a ML Apprentice take-home exercise. BERT-based multi-task learning model for Starbucks's reviews analysis.")
 
 if __name__ == "__main__":
     main()

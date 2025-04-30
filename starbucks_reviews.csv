@@ -1,0 +1,1802 @@
+sen_ID,sentence,attribute,sub_attr,attr_class,# attributes,sent_class_og,sent_class
+1,FEW TELEVISIONS = AWESOME!,ambiance,atmosphere,0,1,4,2
+2,"Sauce wasn't that good, meat was dry and they give you some crappy wonderbread for the sandwich.",food,taste,1,2,0,0
+3,They accept credit cards.,price,payment,4,1,3,2
+4,"I was intrigued by the menu, so I decided to dine here for a pre-flight lunch.",food,taste,1,1,3,2
+5,Flavor is there and dark meat is tender.,food,taste,1,1,3,2
+6,Went with a friend for lunch before a holiday performance.,general,general,5,1,2,1
+7,"The sauce is way too sweet (like, Papa Johns sweet) and there isn't enough cheese.",food,taste,1,1,1,0
+8,We've tried many of their different kinds of meat and we keep coming back for more!,food,taste,1,1,3,2
+9,"Next time, I won't be so cheap and search for a better place.",price,value,4,1,1,0
+10,If you're going to get a cookie you might as well make it a combo as it's only a little more to get a cookie AND a drink.,price,value,4,1,3,2
+11,"This park has a little something for everyone - from ball fields to kayaking to a place for lunch, people of all ages and abilities will be pleased.",ambiance,atmosphere,0,1,3,2
+12,She is energetic and friendly without being annoying.,service,employee,3,1,3,2
+13,"Fresh, flavorful, not-too-sweet... just the right touch of flavor to leave a vibrant aftertaste.",food,taste,1,1,4,2
+14,The staff hackles the customers but I think that adds to the charm?,service,employee,3,1,1,0
+15,"Seriously, getting a table on the patio can be cut-throat, as seating is first come first serve (or a competition of attention and aggression) and is not managed by staff.",service,employee,3,1,1,0
+16,"In addition to traditional Italian entrees they also had burgers, crab cakes and opened at 7 am for breakfast.",food,taste,1,2,3,2
+17,I decided to move out on my own.,general,general,5,1,2,1
+18,I'd take a bite and pull half the contents of the sandwich out with the onions.,food,taste,1,1,2,1
+19,"I know they have other food items too, and we want to try them as well, but the pizza is just so good that we always end up ordering that.",food,taste,1,1,3,2
+20,"I ordered an iced mocha, and I believe she ordered an espresso.",food,taste,1,1,2,1
+21,I'd say overall I liked this place and would certainly come again to try the other items on their menu.,general,general,5,1,3,2
+22,"A little loud, but deal-able.",ambiance,atmosphere,0,1,1,0
+23,We decided to stop by on a Saturday.,general,general,5,1,2,1
+24,"I was curious as to how it would compare to the other nearby slice shop, Cafe Milano, which left me underwhelmed.",general,general,5,1,0,0
+25,"Well I really like guacamole so it was ok, just thought there would be more to it.",food,taste,1,1,2,1
+26,Any 3D movies are a $3 surcharge.,price,value,4,1,1,0
+27,I went to Sienna Mercato on my birthday last week.,general,general,5,1,2,1
+28,Their selection is clearly enormous and I loved that I could pick a relatively new/obscure album and the staff helped me find it.,service,employee,3,1,4,2
+29,The park is home to Pittsburgh's famous fountain (that just got turned back on) that erupts up at the point where the three rivers meet.,ambiance,atmosphere,0,1,3,2
+30,I got the wheelhouse burger with BBQ  pork and pickles and it was very good.,food,taste,1,1,4,2
+31,Many less traveled folks would probably say five stars but I'm going for 4.,general,general,5,1,3,2
+32,"I wasn't quite as stoked about that as there is a Giant Eagle Market District, a Whole Foods, AND a Trader Joe's all within a stone's throw.",location,convenience,2,1,3,2
+33,The wait staff are a bit uneven in their attentiveness but it only reached the level of amusing rather than annoying.,service,employee,3,1,1,0
+34,It was so good that a few days later I took my wife and daughter to get a sub as well.,food,taste,1,1,3,2
+35,I highly recommend this place if you live nearby or are in the area.,location,convenience,2,1,4,2
+36,The new rooms are very nicely done.,ambiance,atmosphere,0,1,4,2
+37,This is the sort of bar where neighbors bring over christmas lights to decorate for the holidays.,ambiance,atmosphere,0,1,3,2
+38,"This food was horrific.""",food,taste,1,1,0,0
+39,The quesadillas and the burritos are HUGE and very well stuffed.,food,quantity,1,1,4,2
+40,"People sit around and chat down here, something that you can't do upstairs very well.",ambiance,atmosphere,0,1,2,1
+41,The Film & Video area was particularly arresting to me.,ambiance,atmosphere,0,1,3,2
+42,I was immediately impressed with the quantity and quality of the selection on-hand.,food,taste,1,1,3,2
+43,But I'll try the other ones the next time.,food,taste,1,1,3,2
+44,The pasta is ok.,food,taste,1,1,2,1
+45,Bring $10 in cash because you won't want to walk out of here without buying one for yourself.,price,value,4,1,3,2
+46,"Monday is wing night with $.40 wings which are great, I usually just go with the hot buffalo.",price,value,4,1,4,2
+47,"If you're looking to grab a few drinks or get an education in tequila, and get some excellent modern mexican-inspired snacks(And maybe dinner, but I haven't tried in a while), Verde is probably the best place to stop.",food,taste,1,1,4,2
+48,Then also at Bar Marco on Fridays from 11-3pm and Sunday nights at Shadow Lounge.,ambiance,atmosphere,0,1,2,1
+49,I'll spare you the 'intro' & 'outro' comps and get straight to their appetizer samplings.,food,taste,1,1,2,1
+50,"It's clean, has most everything I need and it's at the right price.",ambiance,cleanliness,0,1,3,2
+51,That means you have to order bottled beer from the waitress but can go downstairs and order draft beers.,service,employee,3,1,2,1
+52,Free wifi with some flights.,ambiance,atmosphere,0,1,3,2
+53,Hummus.,food,taste,1,1,2,1
+54,Dessert was a flavorless chocolate cake.,food,taste,1,1,0,0
+55,Pizza is like $1.80 plus 30 cents for toppings.,price,value,4,1,2,1
+56,We ordered the Pasta Carmela and it was enough to take home.,food,quantity,1,1,3,2
+57,I finally tried B52 with a friend after having it on my list forever.,general,general,5,1,3,2
+58,"I would go back, but only for the happy hour deals.",price,deals,4,1,3,2
+59,Small dining area can create wait times and the space tends to be loud.,ambiance,atmosphere,0,1,1,0
+60,I'd be lying if I said I wasn't preoccupied taking pictures and posting them on Instagram at one point.,general,general,5,1,3,2
+61,No food yet.,service,wait,3,1,1,0
+62,Top it with blue cheese and you Chicken Valdez Oil spill dish.,food,taste,1,1,3,2
+63,"I love the red velvet cupcakes, and the burnt almond torte is to die for.",food,taste,1,1,4,2
+64,Our server was great.,service,employee,3,1,4,2
+65,I want to go some night I don't have to be the driver and try a spiked shake.,general,general,5,1,2,1
+66,"This is a true coffee shop, with baristas whose passion is serving up only the best, high quality coffee.",service,employee,3,1,4,2
+67,And a quick note: Make sure to bring cash for tip.,price,payment,4,1,2,1
+68,"The bread was extremely hard and almost difficult to chew, although I could tell it was not stale tasting.",food,taste,1,1,0,0
+69,We will definitely be back.,general,general,5,1,4,2
+70,"On a side note, the staff could spend less time talking hockey, politics, and general bull jive and look after the customers.",service,employee,3,1,1,0
+71,I don't usually get drunk.,food,taste,1,1,2,1
+72,"Instead, I got the corned beef hash.",food,taste,1,1,2,1
+73,But nothing was extraordinary: the food as a whole was bland; the mussel meat was quite small and didn't really have any taste; the tuna was probably cooked too much that it was quite floppy.,food,taste,1,1,1,0
+74,Service was great.,service,employee,3,1,4,2
+75,"Nothing spectacular, nothing that I can't find online.",general,general,5,1,1,0
+76,Also I am not a big fan of the bar - I ordered a drink here once and the bartender took what was nearly double the price of the drink and didn't give me any change assuming it was a tip!,price,value,4,1,0,0
+77,"Big Sicilian slices, individually topped, and freshly made!",food,quantity,1,1,3,2
+78,They sprint to 3rd Ave to get your car!,service,employee,3,1,3,2
+79,=[ Perhaps quality has declined over the years.,general,general,5,1,1,0
+80,The eggplant was very tasty and well prepared.,food,taste,1,1,3,2
+81,I also left my card to pay for the meal with the hostess as it was a big party.,general,general,5,1,2,1
+82,The flavor in those thing's is unbelievable.,food,taste,1,1,4,2
+83,"Tiny Italian place in Shadyside, Girasole has a tiny menu with a few notable items.",food,taste,1,1,3,2
+84,"Although I grew up in Idaho, I'm used to karaoke box style karaoke, as my husband and I lived in Tokyo for three years.",ambiance,atmosphere,0,1,3,2
+85,The staff was so helpful and nice.,service,employee,3,1,3,2
+86,The scallops were seared nicely and well-seasoned.,food,taste,1,1,3,2
+87,I asked for quotes with and without a trade-in.,price,deals,4,1,2,1
+88,Every time I come to Pittsburgh I have to go to Point Brugge.,general,general,5,1,4,2
+89,It was...not for me.,general,general,5,1,0,0
+90,"The sushi chef is actually Japanese, and you can really tell from the quality and authenticity of the food.",food,taste,1,1,3,2
+91,Freshness of food really is hit or miss.,food,freshness,1,1,3,2
+92,But to be bombarded before you even sit down with questions from the servers is a bit irritating.,service,employee,3,1,1,0
+93,"One item of note, if you are in a group of 6 or more, gratuity is automatically included in your bill.",price,value,4,1,2,1
+94,"Kay, however, is guilty as well for she partook of a Coconut Macaroon on the way over.",food,taste,1,1,3,2
+95,Definitely stop by and check it out- you won't be sorry!,general,general,5,1,4,2
+96,Just tough to recall all the details!,general,general,5,1,2,1
+97,This is like the subway of sushi...,ambiance,atmosphere,0,1,3,2
+98,I thought it was going to be good with some of the reviews I read.,general,general,5,1,3,2
+99,One of the best pork chops if not the best I've ever had.,food,taste,1,1,3,2
+100,"Been there twice so far the first (early in the a.m.) was friendly, fast, efficient.",service,employee,3,,3,2
+101,Oh we split a small spinach salad to start.,food,taste,1,,2,1
+102,"The price isn't bad, either.",price,value,4,,3,2
+103,I regret telling my bestie to get their homemade chips b/c they def weren't as yummers.,food,taste,1,,1,0
+104,There was no wait so we were seated right away.,service,wait,3,,3,2
+105,I got one of each of the four on display. and a baguette.,food,taste,1,,2,1
+106,I still can't figure out how they sliced it.,food,taste,1,,3,2
+107,"For example, the Vietnamese crepe was an interesting new thing to try and was delicious.",food,taste,1,,4,2
+108,We waited...and waited...and waited some more.,service,wait,3,,0,0
+109,"For some reason, I have been to every restaurant at the casino EXCEPT for the buffet, and I definitely wasn't disappointed.",general,general,5,,3,2
+110,"The last couple of times I have asked anything like that the associates have looked at me like ""Gee thanks for wasting my time jack-wagon!""",service,employee,3,,1,0
+111,"When she did, we asked about a price on the check.",price,value,4,,2,1
+112,The service here is decent and friendly.,service,employee,3,,3,2
+113,The service was very good also.,service,employee,3,,4,2
+114,Its prices are generally higher than Aldi's on most items.,price,value,4,,1,0
+115,"The seasonings are beautiful, and the chicken really is a delight from aroma to mouthful.",food,taste,1,,3,2
+116,I have yet to buy the fish so for $150 you can get everything you need for your 10 gallon tank.,price,value,4,,3,2
+117,After a few hours and cold the burrito still help up.,food,taste,1,,0,0
+118,"The sushi creations were pretty imaginative and unconventional, very fusion-like with the flavors.",food,taste,1,,3,2
+119,"It was a good deal without the coupon though, so I give it a 4 star rating on price.",price,deals,4,,3,2
+120,I won't be back.,general,general,5,,0,0
+121,"I feel like so many breakfast spots serve benedicts of all sorts that are usually quite small, have very little hollandaise and are served with a salad.",food,quantity,1,,1,0
+122,"It was as described, peppered and thick cut.",food,taste,1,,3,2
+123,The street noodle dishes are amazing!,food,taste,1,,3,2
+124,There also isn't much seating area and there is no atmosphere at all.,ambiance,atmosphere,0,,0,0
+125,Since they don't have a menu available online there was no ordering ahead.,service,add,3,,1,0
+126,"In fact, it was awful.",general,general,5,,0,0
+127,"Prices are on the higher side for ice cream, but if you bring your own cup you get a discount, and they also have a frequent visitor promo where you can get stamps for free ice cream down the road.",price,deals,4,,1,0
+128,Mmmm.,general,general,5,,2,1
+129,"Well, when we walked in we weren't sure if we should seat ourselves or wait for someone.",service,employee,3,,2,1
+130,"I waved over another waiter, and he quickly gave us drink refills.",service,employee,3,,3,2
+131,It fit my desire for something sweet so I went inside.,general,general,5,,2,1
+132,"They'll help, and it's easy to interact with them like good humans as opposed to a 'hi can I help you' staff.",service,employee,3,,3,2
+133,"On any given Sunday, you'll find fans of just about every team in the NFL taking in a game, so the atmosphere is a positive one.",ambiance,atmosphere,0,,3,2
+134,We order from here for lunch occasionally and the food is top notch.,food,taste,1,,4,2
+135,Both went out of their way to test your acceptance levels.,service,employee,3,,0,0
+136,"Cevapi is a sandwich that utilizes somun, a cross between pita and flatbread.",food,taste,1,,2,1
+137,This makes Steel Cactus ideal for a slightly-younger crowd than myself.,ambiance,atmosphere,0,,3,2
+138,The staff was very nice.,service,employee,3,,4,2
+139,2) You will not find the Campbell Soup Can paintings here.,ambiance,atmosphere,0,,2,1
+140,God love her.,service,employee,3,,4,2
+141,It was so rich and fudgy delicious I wish I would have bought more than one.,food,taste,1,,4,2
+142,"Outside you can usually find people offering jitney services, selling food stamps or selling bootleg dvds lol!",location,neighborhood,2,,1,0
+143,Needing to be warmed up I ordered a flower tea and a bowl of Tom Kha soup with chicken while I waited for my friend to arrive.,food,taste,1,,2,1
+144,"The ambience is awesome, the food is just OK.",ambiance,atmosphere,0,,4,2
+145,The service was nice and not slow.,service,employee,3,,3,2
+146,"I always struggle trying to push my heaping cart,  heavy with asian mushrooms, tofu, noodles and dumplings up to the register, yet I've never had the total exceed $50, ever.",price,value,4,,3,2
+147,I understand that they recently relocated and that perhaps they didn't get a chance to fully setup their signs yet.,location,convenience,2,,1,0
+148,My husband's dish was covered in delicious garlic and beautiful peppers--both green and hot.,food,taste,1,,3,2
+149,"While dining in, other California natives came in and were happy to find the place.",ambiance,atmosphere,0,,3,2
+150,"In the combo, there were breaded shrimp and unbreaded shrimp with a pesto-based sauce.",food,taste,1,,2,1
+151,Perfecto!,general,general,5,,4,2
+152,I would recommend eating here for any kind of Asian cuisine you're craving since their menu includes a lot of options.,food,taste,1,,3,2
+153,Don't dismiss Ditka's because of the celebrity nametag attached to it or because it's a chain (there are only 3 of them in the entire United States) in an area full of them.,general,general,5,,3,2
+154,"They have lots of ""Sex in the City""-wannabe martinis to go w/ the ""Sex in the City""-wannabe crowd.",ambiance,atmosphere,0,,1,0
+155,I also really like the avocado and crab appetizer.,food,taste,1,,3,2
+156,After we were seated it took a few more minutes even to have our drink orders taken.,service,wait,3,,1,0
+157,I'm with Dan--I don't understand all the haterade either.,general,general,5,,3,2
+158,It was beautiful!,general,general,5,,4,2
+159,"HB and I were talking to these older guys about popular new restaurants popping up all over the city when this really ""special"" dude sat next to me and proceeded to tell me that ""I was the most beautiful girl"" and to go have a drink with him, AS IF!",general,general,5,,3,2
+160,"While I was a fan of the blue plate special, the salads I've had from here have been just okay.",food,taste,1,,2,1
+161,Overall we left extremely satisfied - it helped that we had a $25 restaurant.com certificate (otherwise it would have been too pricey to try the place).,price,deals,4,,3,2
+162,Food is ok (the regular tex-mex stuff).,food,taste,1,,2,1
+163,"Not that everyone needs to order an appetizer, salad, and an entree, but it added up to about $50 bucks after tip, which is just a bit too rich for me for one person.",price,,4,,1,0
+164,"But, anyway.",general,,5,,1,0
+165,"S Bar is a cool martini bar in the South Side that is clean and modern, but lacks the trophy wives (or trophy wives in training) of say the Elixir Ultra Lounge (also in the SS).",ambiance,,0,,4,2
+166,"She did forget to put the marshmallows on top, which I realized after I'd sat down and took a bite, but I went back in and reminded her, and she put them on with no complaints (except for asking her coworker accusingly if he'd put the marshmallows back!).",service,,3,,1,0
+167,Really?!,general,,5,,1,0
+168,I like that they try to be pretentious.,service,,3,,1,0
+169,Note #1: Castle Place Chinese Cuisine sits in the small Castle Place shopping plaza.,location,,2,,2,1
+170,I recommend it constantly to friends and acquaintances.,general,,5,,4,2
+171,"It was a bit too fatty and greasy for me, and I wasn't a particular fan, but I had to try it since I was there.",food,,1,,1,0
+172,I would also like it if they offered at least one childrens tv station or coloring books for when kids have to wait too.,service,,3,,1,0
+173,"Even so, the corn was a bit mushy, which detracted from the overall effect.",food,,1,,1,0
+174,"While it's challenging to park downtown on the weekends, I still think it's worth having this membership.",location,,2,,1,0
+175,This is my favorite place for Indian food.,food,,1,,4,2
+176,Also better lighting would improve this place.,ambiance,,0,,1,0
+177,"Once outside, we found an intimate, surprisingly warm and cozy space (on an otherwise cold and rainy evening), filled with patrons.",ambiance,,0,,4,2
+178,"Every time i attempt to go here again and relive the love I once had for it, I am disappointed.",general,,5,,0,0
+179,This is my pregame Pitt basketball stop.,location,,2,,3,2
+180,My husband took me here for our first anniversary and everything was perfect.,general,,5,,4,2
+181,"I got the turkey sub, due to diet restrictions (no mayo, no cheese) it was bland, but that's all on me.",food,,1,,0,0
+182,Didn't know they only gave out smalls or extra larges....,service,,3,,1,0
+183,"Of course, if I want to splurge, Panera is good for that, too!",price,,4,,3,2
+184,"I ordered a half dozen oysters, which were surprisingly good.",food,,1,,3,2
+185,The amount of light that this place gets is equal the amount that batman gets in his cave.,ambiance,,0,,1,0
+186,"I would love to try this chili on something because it can hold its own and not make a huge sloppy mess (Ideas pop into head, burger, nachos oh the list could go on).",food,,1,,3,2
+187,"I don't know how long his policy will last, and if it's something all the locations do.",service,,3,,2,1
+188,The manager was stopping at all the tables to check on how everything was.,service,,3,,3,2
+189,Don't think because the Lville spot is open that Franktuary has abandoned downtown.,location,,2,,2,1
+190,"Happy hour (5pm-7pm) is the best time to go, in my humble opinion.",price,,4,,3,2
+191,Having flown through 20 different US airports so far in my life I feel pretty comfortable rating PGH INTL four stars.,general,,5,,3,2
+192,I'm sure they will raise the price as it's popularity grows but at least for now try all you can.,price,,4,,3,2
+193,When I'm going to have a cheat day with pizza it's Beto's for me.,food,,1,,3,2
+194,"It gets busy, so be prepared to wait.",service,,3,,1,0
+195,The eat-in atmosphere is not great (very small and basic) but honestly the food is so tasty you won't even care.,ambiance,,0,,1,0
+196,Parking:  We parked in a garage across the street from Heinz Hall.,location,,2,,3,2
+197,"Also, when making that comparison, the crowd here is a more on the professional side and 30+ compared to the 20+ and moms w/babies & strollers.",ambiance,,0,,3,2
+198,"This one, in the Cultural Distract, is open a little later.",location,,2,,2,1
+199,"Their coleslaw is possibly the best I've had anywhere, ever.",food,,1,,4,2
+200,"she had asked us, in a tone of half disgust and half dismissal.",service,,3,,1,0
+201,I plan to return for French toast and then another time for dinner.,food,,1,,3,2
+202,The sauce they were in was the true star of the dish.,food,,1,,3,2
+203,Our waitress was very nice and she was training a nice young man.,service,,3,,4,2
+204,Both were delicious and helped to scoop up the delicious food.,food,,1,,4,2
+205,I'm telling all of my friends!,general,,5,,3,2
+206,WOAH we were wrong.,general,,5,,0,0
+207,Just go.,general,,5,,3,2
+208,Outdoor seating is available now.,ambiance,,0,,3,2
+209,They are also what made me give this place 4 stars.,service,,3,,4,2
+210,"How to review the Walnut Grill?--a place that served us quality food on a standard menu, but at prices where some imagination would have gone a long way, especially since we paid a lot for it?",price,,4,,1,0
+211,It charges $2.,price,,4,,2,1
+212,Good portions and very good.,food,,1,,4,2
+213,I love ordering from them because they're super fast and so inexpensive!,service,,3,,3,2
+214,We had cauliflower and brussel sprout appetizers.,food,,1,,2,1
+215,"Things happen and I get that, but I noted above how service always seems to be questionable here.",service,,3,,1,0
+216,Flavor is there but needs to have a crispy coating and somehow doesn't.,food,,1,,2,1
+217,I'd like to come back here and try some other menu items.,food,,1,,3,2
+218,"I think if the prices were lower, and that fact were advertised or known, it could be packed since it is really close to bakery square and target etc. in general, in order for this city to have a true food revolution, prices need to be cheaper so that everyone can participate, especially when you have a potentially high traffic spot like this place does.",price,,4,,1,0
+219,Don't order the nachos!,food,,1,,0,0
+220,Die.,general,,5,,0,0
+221,This restaurant s just ok.,general,,5,,2,1
+222,"The toppings bar is totally what makes it--pico de gallo, salsa verde, a variety of hot salsas, guacamole sauce, and basically ever other topping you can imagine (except cotija--didn't see any cheeses but that was fine by me!).",food,,1,,4,2
+223,One thing I was not prepared for was how upscale it was.,ambiance,,0,,3,2
+224,The prices are a bit on the higher side so we always try to go to matinees.,price,,4,,1,0
+225,Delicious pork belly buns and sizable portions for decent price.,food,,1,,4,2
+226,"Plus they have an awesomely shitty pool table where your cues won't be straight and the table is probably uneven, and it's impossible to line up a shot without hitting the wall.",ambiance,,0,,0,0
+227,The waitress kept the cups full and the puppy water bowl full...we didn't want for nothing!,service,,3,,3,2
+228,I ve almost tried everything on their menu and i have never regreted.,food,,1,,3,2
+229,The cookies ($1.75) looked really good.,food,,1,,4,2
+230,The server did bring beer when we asked and a box but apparently could not be bothered with bringing more water.,service,,3,,1,0
+231,"Not greasy, but a tad too spicy.",food,,1,,1,0
+232,The cost for 2 craft beers was only $9.50!,price,,4,,4,2
+233,"I can deal with bacon instead of pepperoni, onions instead of mushrooms, etc.",food,,1,,1,0
+234,In this little nice restaurant they have some good real authentic dishes.,food,,1,,4,2
+235,I must be jaded since I came from Boston where the Bakeries are excellent.,location,,2,,3,2
+236,"Their collection of funny and local (Kennywood and RMU) coffee mugs that look like they were randomly pulled out of your grandmother's cabinet will make you feel right at home, especially because of the friendly locals serving you.",ambiance,,0,,4,2
+237,I've sat in the back and my eyes can't take the darkness that well.,ambiance,,0,,1,0
+238,They had been open about an hour but there was stuff that belonged in a store room on some of the tables.,ambiance,,0,,1,0
+239,"Delicious marinaded grilled chicken stuffed in a sub that has perfectly pickled onions, jalapenos, and other toppings.",food,,1,,4,2
+240,It's hard to find a family as nice as the Aloe family.,service,,3,,3,2
+241,"We were looking for a place to share some coffee, conversation, and card games, and Commonplace fit the description.",ambiance,,0,,3,2
+242,They are a chain.,ambiance,,0,,2,1
+243,Nothing in this store is easy.,general,,5,,0,0
+244,The place is always clean with a friendly staff that's always willing to help you find your seats or any other thing you might be in need of.,service,,3,,3,2
+245,"The ac is lined on one side of the upstairs room, and is not so easily felt on the other side.",ambiance,,0,,1,0
+246,It's absolutely all over the place and strangely difficult to read.,service,,3,,1,0
+247,We were waiting for the bus to board when we received a phone call back...at shortly before 1:00pm.,general,,5,,2,1
+248,Their fresh fish and frozen shrimp and lobster products are very good too.,food,,1,,4,2
+249,She was knowledgable about the food and alcohol.,service,,3,,3,2
+250,The avocado adds a creamy texture since it is blended after the rest of the ingredients are juiced.,food,,1,,3,2
+251,O' but I did partake of some Rita's Italian Ice.,food,,1,,2,1
+252,The fried potatoes are awesome.,food,,1,,4,2
+253,Today was the first time I have ever gone to Paris 66.,location,,2,,2,1
+254,"I typically reserve their ""Wild Car"", which is usually the cheapest deal and will secure a Mid-Size or larger car.",price,,4,,3,2
+255,"They were kinda bland and dry, except where the fruit topping had been, where they were soggy.",food,,1,,1,0
+256,"I immediately went to the cashier, explained what just transpired, and insisted to her that it's no big deal, seeing as my friend decided to eat it so it doesn't go to waste.",service,,3,,2,1
+257,"Being a vegetarian, I was really surprised by how much I enjoyed Bakn.",food,,1,,3,2
+258,It wasn't really possible for me to be more excited about M&P when I'd heard about it.,general,,5,,4,2
+259,They eye you a bit funny when you first walk in the door.,service,,3,,1,0
+260,"For $15, I'm sure there are other nail places that does a much better job.",price,,4,,1,0
+261,Its rough around the edges but that doesnt even bother me.,food,,1,,3,2
+262,It was uncomfortable and unnecessary.,general,,5,,0,0
+263,I would definitely go back here though.,general,,5,,4,2
+264,The only other downside is the space is small and there are not many places to sit down.,ambiance,,0,,1,0
+265,Wish I could give it a 4.5-star.,general,,5,,4,2
+266,This outdoor bar and seating is a rare treat in this sea of chain restaurants and gas stations.,ambiance,,0,,3,2
+267,"They are a touch on the pricey side, but I think their food is generally high quality.",price,,4,,1,0
+268,"The prices were reasonable, and I can't wait to go back.  p.s. - you can also allegedly bring your own wine and pay a small corkage fee.",price,,4,,3,2
+269,"We didn't have a reservation, but it was Sunday night so we thought we'd take our chances.",service,,3,,2,1
+270,The same server forgot to bring beer orders as well.,service,,3,,1,0
+271,A 28.6% markup is a bit steep considering inflation was about 2% last year.,price,,4,,1,0
+272,What a great addition to the south side.,location,,2,,4,2
+273,Prices are reasonable so you can get a decent meal for a decent price.,price,,4,,3,2
+274,From the sea rose the second appetizer in Polipo.,food,,1,,3,2
+275,Its not that bad when I can't understand the server that well.,service,,3,,1,0
+276,This hotel was great!,general,,5,,4,2
+277,overpriced california/italian food.,price,,4,,0,0
+278,"In fact, if it did, I may not have bought the Groupon in the first place.",price,,4,,1,0
+279,"Apparently I was lucky, because it's not unusual for them to run out of popular flavors.",service,,3,,1,0
+280,It's still art.,ambiance,,0,,3,2
+281,The pharmacist was really helpful telling us all about the different discounts we could get to pay for her medicine.,price,,4,,3,2
+282,"MANGO CARDAMON - interesting.. not bad, but not my fav.",food,,1,,3,2
+283,"Lastly, I hate that this store doesnt have free parking.",location,,2,,1,0
+284,"Also, after a certain hour, the lights are dimmed to the point where you can barely see your date (a potential plus if you have some evil friends who like blind dates), let alone read the menu.",ambiance,,0,,0,0
+285,"The gravy was good, a little salty, as gravies are.",food,,1,,3,2
+286,"I wasn't able to take advantage of them due to concentrating on group discussion with my table mates, but the bits and pieces that I saw and overheard were amusing.",ambiance,,0,,4,2
+287,"Cons: Our single sammich cost $7, which I find to be fairly steep.",price,,4,,1,0
+288,Some of our party had to go up to the bar for drinks.,food,,1,,2,1
+289,"I also tried their rage - a very large pierogie sandwich - interesting concept, and it was not my favorite, but it was flavorful and rich.",food,,1,,3,2
+290,"The crab pieces were huge, easily the size of garlic bulbs.",food,,1,,3,2
+291,But -- surprise -- it IS in fact a delicious restaurant!,food,,1,,4,2
+292,I was greeted warmly when I arrived and offered a beverage.,service,,3,,3,2
+293,I went there because the big cheesecake restaurant next door had a 1.5 hr wait.,service,,3,,1,0
+294,They cook the pizza pull it out of the oven then throw cheese and toppings on it then cover it up in a box.,service,,3,,2,1
+295,A 1/2 slab (six bones) with two sides cost $13.00.,price,,4,,3,2
+296,Worthy of another 5 star review and update.,general,,5,,4,2
+297,There was an additional charge of $1.00 for pepper jack cheese that one of my co workers actually got on their burger.,price,,4,,1,0
+298,Service was good.,service,,3,,3,2
+299,"Their beef noodle soup did not disappoint, although I felt it could use a better balance of flavors.",food,,1,,3,2
+300,"Although I wouldn't call this ""traditional mexican"" they take street food and elevate it.",food,,1,,3,2
+301,"Zenith is where hipster goes to die (I mean- it's connected to an antique store, there are Christmas lights all year round, local artists decorate the walls with their art, etc.)",ambiance,,0,,3,2
+302,"I forget which tacos we had, but it was the pork one, the ""eel taco"", and the bean/chick peas taco.",food,,1,,2,1
+303,"Not the best Indian food in town, but definitely quite edible and even yummy on occasion.",food,,1,,3,2
+304,"They cook on a griddle that is heated by burning hard woods, an interesting concept but to be honest I could not taste any smokiness to the meat.",ambiance,,0,,3,2
+305,The drinks are cheap.,price,,4,,3,2
+306,Less cheese and more sauce would be nice also.,food,,1,,1,0
+307,"But a rare burger should leave some juices running down your fingers or chin (ok, it's a nice restaurant, maybe the chin thing would be too much).",food,,1,,3,2
+308,"Maybe, overall, the branch staff was a little less helpful, for my needs.",service,,3,,1,0
+309,Had the cookie plate for dessert--everything was fantastic.,food,,1,,4,2
+310,There are three buffet like stations.,food,,1,,3,2
+311,"""I've fought better.",service,,3,,1,0
+312,I would definitely stop here again if I needed to hit a mall in Pittsburgh.,location,,2,,3,2
+313,"Yes, I know this isn't health food, and Lord knows I'm not a plant fanatic, but none of my favorite burger joints ever made me feel like Five Guys did, and I arrived with an empty stomach.",food,,1,,4,2
+314,"And when it came to pay they informed me that even if someone has a separate deal on a separate bill,  no two people at one table can use a coupon.",price,,4,,1,0
+315,"We also ordered the baklava, which was flaky, sweet, and slightly sticky, as baklava should be.",food,,1,,3,2
+316,It's especially nice in the winter time... it has this old romantic-classic bar/grill vibe that's hard to find.,ambiance,,0,,4,2
+317,"Not great, not totally awful.",general,,5,,2,1
+318,Decent indian grocery store close to CMU.,location,,2,,3,2
+319,"The restaurant itself, like it's sister location, is adorable.",general,,5,,3,2
+320,Five Guys does a fine job as far as chains are concerned.,service,,3,,3,2
+321,It will easily be 3 meals for me.,food,,1,,3,2
+322,Upstairs room was good for the quiet.,ambiance,,0,,3,2
+323,"I like them because of their customer service style, these guys are Pittsburghers and are very straight forward no- nonsense professional mechanics.",service,,3,,3,2
+324,It was the type you get In a package at the grocery store.,food,,1,,2,1
+325,This is the Pep Boys you want to go to if you're in the area.,location,,2,,3,2
+326,I love the beautiful backlit stained glass panels that open the space up.,ambiance,,0,,4,2
+327,"This place is hard for me to talk about because I go there so much, there are a few employees I'm really fond of.",service,,3,,3,2
+328,Service was acceptable.,service,,3,,2,1
+329,"I didn't even call until I knew they were delivered, and they were able put them on with such notice.",service,,3,,3,2
+330,Delicious!,food,,1,,4,2
+331,"Its especially cool on a Fireworks Night (but... considering that we're talking about Pittsburgh, I do realize that fireworks aren't that much of a novelty in the summertime).",ambiance,,0,,3,2
+332,"Ordered the Button Buster with braised beef short ribs, white cheddar, bearnaise ailol, onion rings.",food,,1,,2,1
+333,The buffalo chicken pierogi- This was delicious.,food,,1,,4,2
+334,"The band seemed to take a lot of breaks, but they were entertaining when they were performing.",ambiance,,0,,3,2
+335,"We had the haemul pajeon (seafood pancake), soondubu (spicy soft tofu stew), and wooguhji galbi tang (spicy short rib stew).",food,,1,,2,1
+336,I can't wait to try more.,food,,1,,3,2
+337,"Wish they were a little less expensive: A lot of Indian buffet restaurants around the area are at the 10$ price range, so it makes it harder to choose Coriander over them.",price,,4,,0,0
+338,I had boondas today: pizza with bacon.,food,,1,,2,1
+339,The nice thing is that these subs are so big that usually I only eat half the sub.,food,,1,,3,2
+340,"Although the storefront is a bit drab, don't let that deter you from stopping in and picking up some food.",ambiance,,0,,3,2
+341,"What about that suggests cheesesteaks, other than it has ""Cheesesteak Co."" tagged onto the end of it?",general,,5,,2,1
+342,This is by far my favorite Thai Place to dine in.,general,,5,,4,2
+343,Not a fan at all.,general,,5,,1,0
+344,"My friend wanted to try out this place, and after first scoping it out with yelp, I agreed to go too.",general,,5,,3,2
+345,The food sold in the front of the store is just as tasty.,food,,1,,3,2
+346,They weren't kidding about the spice.,food,,1,,1,0
+347,I like good food that is somewhat healthy and sustainable.,food,,1,,3,2
+348,This place is BEAUTIFUL!,ambiance,,0,,4,2
+349,"I have never eaten in at Lucci's, but I have ordered delivery and takeout from them on numerous occasions.",ambiance,,0,,2,1
+350,"I'm no mathematician, but really dude?!",price,,4,,0,0
+351,My only reservation about the place is their pricing - it seems somewhat out of line with other Thai places in the area.,price,,4,,1,0
+352,I have tried a couple of pies and they are also good.,food,,1,,3,2
+353,"Delivery is fast, service is friendly, food is cheap/yummy!",service,,3,,3,2
+354,"We ordered from some ""special deal"" menu.",price,,4,,3,2
+355,I was asked if I wanted to eat in or take out.,service,,3,,2,1
+356,I actually crave them on a regular basis.,food,,1,,2,1
+357,"It's a conspiracy, I know.",service,,3,,1,0
+358,There is nothing on the menu that is disappointing.,food,,1,,3,2
+359,Or you can order one of 12 lunch boxes.,food,,1,,2,1
+360,I had the caparhinia and my friends got margaritas.,food,,1,,2,1
+361,"The interior is nicely decorated, lots of industrial metals are used to create a clean, contemporary atmosphere.",ambiance,,0,,3,2
+362,P.s- Don't hold it to your silly New York pizza standards.,food,,1,,3,2
+363,The sauce was luxurious and packed with savory goodness.,food,,1,,3,2
+364,"Meat and potatoes, den-like atmosphere.",ambiance,,0,,1,0
+365,"It wasn't bad, it wasn't particularly good.",general,,5,,2,1
+366,A three bone dinner with two sides costs $9.00.,price,,4,,3,2
+367,"But oh my, it may have been the smaller version but it was good.",food,,1,,3,2
+368,"However, lately the quality of the food hasn't been up to par.",food,,1,,1,0
+369,2,general,,5,,1,0
+370,The bar area was clean and well taken of.,ambiance,,0,,4,2
+371,Everything is fresh and flavored and spiced wonderfully.,food,,1,,3,2
+372,"I can spend the same at, say Dinette, and get a MUCH better meal.",service,,3,,1,0
+373,Not too too crowded where you have to wait your turn to get food or when the food runs out and you have to wait for it to be replaced.,service,,3,,3,2
+374,When we finally left the line waiting for seating was literally out the door.,service,,3,,1,0
+375,Though I had a better experience having the food delivered (I live in mt. wash) rather than eating in.,ambiance,,0,,1,0
+376,"But, I also dig the cheese sticks, melts, breakfast items and cherry limeaids.",food,,1,,3,2
+377,"There weren't many people there, but everything reverberated.",ambiance,,0,,3,2
+378,Many menu items are cooked in a brick oven in the corner of the restaurant - from the pizzas to the crab cakes - so if you like that style this is your spot.,ambiance,,0,,3,2
+379,"Mallorca is great the first time you go, after that it is just ok.",general,,5,,3,2
+380,It was great to meet him and hear his past and future improvements to the dealership.,service,,3,,3,2
+381,"The service was very nice and it is a very clean place, with lots of topping choices.",service,,3,,3,2
+382,"It might have been packaged, it might not have been.. who knows) The refried beans were yummy!!",food,,1,,3,2
+383,The fried wontons are good and the beef on the stick is amazing.,food,,1,,4,2
+384,The nachos were cheap and unimpressionable.,price,,4,,3,2
+385,"Two things that I miss since turning veg in  January, BBQ and BBQ.",food,,1,,3,2
+386,"It is my birthday month and Big Burrito offers a great deal for anyone who is on their mailing list, providing their patrons with a free entrée up to $30.00 at any of their locations beside Umi.",price,,4,,3,2
+387,Just looks like your typical place where the bartenders run the show with no management overseeing them.,service,,3,,1,0
+388,"The pizza was pretty good, with a paper-thin crust and plenty of tomatoes and pungent garlic.",food,,1,,3,2
+389,"Last few times I've had it, it really wasn't very good.",food,,1,,1,0
+390,"Knowing this we might call next time, versus using the online ordering system.",service,,3,,1,0
+391,I was thrilled to find that most of their Christmas items were 60% off.,price,,4,,3,2
+392,"When dining out, I expect service to be on par with the price tag, and this service was in no way worth the $180 price tag of the meal.",service,,3,,1,0
+393,I've heard that parking is uhhh...tickets galore at the Oakland locale.,location,,2,,0,0
+394,I liked both of these...,general,,5,,3,2
+395,At this point the drink I ordered was still not delivered.,service,,3,,1,0
+396,I've also enjoyed the Mongolian Beef and the Broccoli Beef.,food,,1,,3,2
+397,"All I can tell you is that if you want to know why you can message me, and I will tell you the whole story.",general,,5,,2,1
+398,Unless your idea of a view is Target (which I've been caught dreamily staring at from time to time anyway).,ambiance,,0,,0,0
+399,"Plus, the staff is always friendly and helpful.",service,,3,,3,2
+400,"I'm not a burger fan and yes, their salads are good.",food,,1,,3,2
+401,Fagan Overlook located just steps from the incline station.,location,,2,,3,2
+402,Or maybe they don't want everyone walking in the door with their own parts?,service,,3,,1,0
+403,"It's a shortbread cake, not a cake cake.",food,,1,,2,1
+404,All Hail Gooski's!,general,,5,,3,2
+405,They have amazing dan dan noodles.,food,,1,,4,2
+406,The restaurant is typical American Mexican in decor and menu.,ambiance,,0,,3,2
+407,LOoove me some Amazing Wok.,food,,1,,4,2
+408,Our server was the owners son.,service,,3,,3,2
+409,"The eel was the highlight for me; so rich, so savory, so beautifully alien, Atlantean.",food,,1,,3,2
+410,"portobello mushroom with an onion dust, tomato, onion, cucumber, avocado, and a Sriracha glaze.",food,,1,,3,2
+411,And she was so rude; abrasive and impatient.,service,,3,,0,0
+412,Heads up: they charge you a fee if you use a credit card (I think it was 25 cents??).,price,,4,,1,0
+413,It's a great place for families and large groups w plenty of free parking and enough menu options to please everyone.,general,,5,,4,2
+414,And this was at 12 noon; they were pretty busy.,service,,3,,3,2
+415,"For obvious reasons I didn't taste it, but the colors were pleasing, the ciabatta looked very fresh and delicious, and she really enjoyed her choice.",food,,1,,3,2
+416,The service lackluster.,service,,3,,0,0
+417,We decided to start off our meal with some coffees.,food,,1,,2,1
+418,"I swear I can see a B-movie on the horizon: ""Andy Warhol: Bane of the Bloodsuckers"".",service,,3,,1,0
+419,"Overall, the food was good.",food,,1,,3,2
+420,He was useless.,service,,3,,0,0
+421,My husband ordered a personalized burger which he loved and I had the crab cake.,food,,1,,4,2
+422,"The ""Northsliders"" from the app. menu are now also gone.",food,,1,,1,0
+423,We were a tad too early for lunch so I'll definitely give it a go around the next time around.,general,,5,,3,2
+424,"Of the two new burger spots now at Monroeville Mall, Red Robin caters more towards families.",ambiance,,0,,3,2
+425,"The creamy filling tasted more of lemon than pistachio to me, and it had a crunch from pistachio bits.",food,,1,,2,1
+426,Very fastidious work and they try very hard to make sure it is as clean as possible.,service,,3,,4,2
+427,You'll be glad you did...at least once.,general,,5,,3,2
+428,The place is real classy and seemed to be popular for dinner on a Sunday evening.,ambiance,,0,,4,2
+429,"Even though I had been absent from this Downtown Pittsburgh Practice for over a year, they showed genuine elation when I entered the 3rd floor office suite.",service,,3,,3,2
+430,It was thinly sliced and atop of pile of fresh veg.,food,,1,,3,2
+431,Service has been hit or miss for me.,service,,3,,1,0
+432,I lived in Vegas for two years and never walked into a casino as anal about checking ID's right at the door and grilling you about the info on your license to see if it is accurate or not.,service,,3,,0,0
+433,"This is one of the best deals I've seen for the amount of food you get, and I was really happy with the quality.",price,,4,,4,2
+434,"For entrees, I had the gnocchi alla Norma with eggplant, nice red sauce, local's cow milk ricotta, and fresh basil.",food,,1,,2,1
+435,Could be that I was coming at the end of the shift.,service,,3,,1,0
+436,There's also a small private room with a conference table in it.,ambiance,,0,,3,2
+437,The drinks here are over priced and this bar gets soooo crowded in a way that is unpleasant and not fun.,price,,4,,1,0
+438,Located on the opposite side of the street from Village Square parking can be a bit of a problem but usually I don't have any trouble.,location,,2,,1,0
+439,"They sell $5 beers until game time, saving you $2.75 per beer inside Console.",price,,4,,3,2
+440,"My friends and I sat at the bar until we finished our first beer, talking with the bartender who was very knowledgeable and able to help with choosing a beer based on our likes.",service,,3,,4,2
+441,Upon getting our plates the meat parade began.,food,,1,,3,2
+442,"bad staff...well, one staff member in particular .the woman in front of me in line totally polite to her. me totally opposite. rude .big attitude and not even a thanks. i really don't care one way or the other about your sexuality but don't take it out on me because im a guy.",service,,3,,0,0
+443,"Only one person was ahead of me, and it took about five minutes total to get my drink and be on my merry way.",service,,3,,3,2
+444,First visit was interesting.,general,,5,,3,2
+445,If you blink you will miss it.. its small but still good.,ambiance,,0,,3,2
+446,Very friendly and I will definitely be back!,service,,3,,4,2
+447,"I've stopped by here each morning for my daily dose of java and the lady working here solo is not only efficient, but always very friendly and polite.",service,,3,,3,2
+448,The only downer was that I called the day of to see if they could accommodate two more people and the person on the phone seemed rude about my question but it might have been that there was a lot going on.,service,,3,,1,0
+449,"The newsletter signup gives you the occasional coupon, so it's worth it to get the deals.",price,,4,,3,2
+450,This will probably turn out to be one of my shortest reviews; here goes:  I love this Pamela's.,food,,1,,4,2
+451,Get there around 5:30 or 8:30.,general,,5,,2,1
+452,"On our first visit, we had to wait for over an hour to be seated and could barely find a place to stand while we waited.",service,,3,,1,0
+453,The Bloody Mary has just the right amount of spice and it always hits the spot.,food,,1,,3,2
+454,I also appreciate that tracking is now available at no charge.,price,,4,,3,2
+455,"These boast a crisp exterior (like they've actually been fried), a tender interior, and plenty of filling.",food,,1,,3,2
+456,"Everything was perfectly smoked, tender, and flavorful.",food,,1,,4,2
+457,Forget it!,general,,5,,0,0
+458,Signs are somewhat lacking and really don't directly tell you where you need to go.,location,,2,,1,0
+459,"Both of them were good, I wish I would have had more time to enjoy the food!",food,,1,,3,2
+460,"The burger just didn't taste very good, kind of bland, and the ""set-up"" of lettuce and tomato was of very poor quality.",food,,1,,1,0
+461,"Not much meat or cheese, few veggies and EEK a baguette?",food,,1,,1,0
+462,"The pepperoni is smoked, tender, fresh, and the mushrooms are finely cured.",food,,1,,3,2
+463,because no place offers Tortilla Soup that can compare.,food,,1,,3,2
+464,I've had Sunday brunch here a few times with my friend and her son and we always have a good time.,food,,1,,3,2
+465,They are really quick and efficient and that's appreciated from everyone within our group.,service,,3,,3,2
+466,I do love the art in here.,ambiance,,0,,4,2
+467,I was also thankful that the available spaces weren't blocked by a chair or flower pot (the Pittsburgh way of reserving spaces as a resident.),ambiance,,0,,3,2
+468,I had the peanut butter cup with sea salt.,food,,1,,2,1
+469,The Groupon was good for two sandwiches/wraps and two sides.,price,,4,,3,2
+470,It was shocking to say the least.,general,,5,,0,0
+471,The steak seemed to be really tough to bite through chew.,food,,1,,1,0
+472,The homemade tiramisu worked and the coffee was  a nice mild Italian roast.,food,,1,,3,2
+473,"My only complaint, Maria is in serious need of a clone.",service,,3,,1,0
+474,"Okay, not the worst pizza ever, but it's pretty far down my list of pizzerias...and that's sad, considering I quite literally live across the street from it.",food,,1,,0,0
+475,The service is always prompt and friendly.,service,,3,,3,2
+476,The sauce and rub are the best and the meat was lean and the bones pull out clean.,food,,1,,3,2
+477,I especially like the enchiladas suizas.,food,,1,,3,2
+478,It is very odd.,ambiance,,0,,0,0
+479,Another thing that bothered me was that the waitresses idly stood by the counter and stared at my friends and I the whole time we were there.,service,,3,,1,0
+480,So I'm upgrading this to 5 stars.,general,,5,,4,2
+481,Pluses: Bloody Mary was ok.,food,,1,,2,1
+482,Loaded with cheese that had pools of grease swimming on it.,food,,1,,1,0
+483,They take Plaid Cash and Panther Funds and Credit Cards.,price,,4,,3,2
+484,This is apparently quite a difficult concept for other Pittsburgh restaurants to grasp.,service,,3,,0,0
+485,Adorable because they have dancers!!!!,ambiance,,0,,3,2
+486,But they are helpful and efficient.,service,,3,,3,2
+487,Belly up and stay a while.,food,,1,,2,1
+488,Highland where you can sit outside and drink.,ambiance,,0,,4,2
+489,"But no one at the bar even came up to us, so we just sat down outside.",service,,3,,1,0
+490,"""We thought this was the only one,"" an elderly gentleman said before heaping praises on BHDS's quality, variety, and low prices.",price,,4,,3,2
+491,Our servers were friendly and attentive.,service,,3,,3,2
+492,I got one refill on my lemonade.,food,,1,,2,1
+493,A bunch of our crew is planning on hitting this place up for dinner with their families now because it was so good.,general,,5,,3,2
+494,He even sent over a delicious bruschetta he made for us on the house!,food,,1,,4,2
+495,Good pizza even if the place is beginning to look a little dated.,ambiance,,0,,1,0
+496,"I also had a Fizz, which was lemony and a little frothy, compliments of the agitated egg white.",food,,1,,3,2
+497,I got a baba ganoush wrap.,food,,1,,2,1
+498,"This brewery is 2 blocks from my house....so I might be biased, but I love it in here!",location,,2,,4,2
+499,"The portions were just the right size to end the meal feeling full, but not overly so.",food,,1,,3,2
+500,The menu is varied.,food,,1,,3,2
+501,"My favorite was the prosciutto with the baby pickles, but honestly I don't think you can go wrong with any of them.",food,,1,,4,2
+502,This store has given me a new appreciation of a tool (stainless steel razor) instead of the knock offs (plastic with cartridges) and are saving me money in process.,price,,4,,3,2
+503,Or buy your baked goods here and go down the street to Aldo for your coffee.,location,,2,,3,2
+504,"I had eggs, bacon and home fries today.",food,,1,,2,1
+505,I got chicken tacos which were made quickly and came in double corn tortillas with a small bag of delicious tortilla chips.,food,,1,,4,2
+506,If you are in a hurry grab the lunch buffet in a takeout box for even less.,price,,4,,3,2
+507,It was nice they accepted credit cards.,price,,4,,3,2
+508,"And honestly, for the most part the food was good.",food,,1,,3,2
+509,Where's the health department when you need them?,service,,3,,1,0
+510,"But come on, the owners speak French!",service,,3,,3,2
+511,"Unfortunately, Maria is booked through the end of 2014!",general,,5,,0,0
+512,Eat here if you are a masochist.,food,,1,,1,0
+513,"I do not know what type of beans they use but the resulting flavor is smooth, not acidic but still robust enough for those who need a caffeine jolt.",food,,1,,3,2
+514,"I was visiting Pittsburgh for a weekend and was wondering around, looking at downtown and my future school, CMU, when it started raining.",general,,5,,2,1
+515,I think Brgr would have held up in the bigger better burger contest if I had tried this burger first.,food,,1,,3,2
+516,There were many people and pups on the trail also enjoying the nice day.,ambiance,,0,,3,2
+517,All in all I love NH.,general,,5,,4,2
+518,The place is very busy on weekends but they seem to have learned to handle the crowd.,ambiance,,0,,3,2
+519,What do they use to get the wine stains off the couch??,ambiance,,0,,2,1
+520,"Our waiter Daniel was extremely courteous, informative, nice, and helped make our night one to remember.",service,,3,,4,2
+521,We took ours to go and then ate over by the Porch.,ambiance,,0,,3,2
+522,"Not my favorite, but the lovely mixture of greens, fresh herbs, and hearts of palm made me forget that I was n otin love with the dressing.",food,,1,,3,2
+523,Enter: Marianne DelPizzo.,general,,5,,2,1
+524,"The kitchen did rectify this mistake quickly, however--I didn't have to wait any longer than 5 min.",service,,3,,3,2
+525,For most places that's half the battle.,general,,5,,2,1
+526,First trip to Lucy's and I managed to eat two pork Banh Mi sandwiches.,food,,1,,3,2
+527,I was trying to find a place to eat and decided to check out this place since it was close.,location,,2,,4,2
+528,Entries run from $9 to $14.,price,,4,,3,2
+529,I hadn't been in about two years but suggested it for a friend's bday.,general,,5,,3,2
+530,"A bit greasy, but greasy in a good way and not a gross way, I promise!",food,,1,,3,2
+531,Customer service was great as well!,service,,3,,4,2
+532,"I finally settled on the French Onion Soup with the Caprese Salad, my mother chose the Spinach and chicken Flatbread with cottage frieds, and my grandmother chose the tilapia with a baked potato.",food,,1,,2,1
+533,"Well, it was actually  good but it was certainly not the best ever.",general,,5,,3,2
+534,You serve this with some sausage or even better a pork chop and I am ready!,food,,1,,2,1
+535,"They have a breakfast section, lunch, salad, seafood, carving station, omelette station, dessert with bananas fosters station!",food,,1,,2,1
+536,I came here with a friend who had been wanting to try it with me.,general,,5,,3,2
+537,Some of the prices are high but the owner negotiates occasionally.,price,,4,,3,2
+538,"Overall, the food was decent, but the prices - very high for Pittsburgh - call for something better and more interesting.",price,,4,,0,0
+539,That's ridic!,general,,5,,0,0
+540,"At happy hour all Mojitos are only $5, and there were maybe 8 flavors to choose from.",price,,4,,3,2
+541,"I met a friend here between my rehearsals one day, and we each had an hour and a half for lunch.",general,,5,,2,1
+542,It definitely reminds me of my undergrad days when $5 was what we could spend for dinner.,price,,4,,3,2
+543,We each exchanged a taco with one another so that we could both try both different types of tacos.,food,,1,,2,1
+544,"For food, we took advantage of the HH special for half price selected apps by ordering the fried and breaded cauliflower, which came with a maple mustard dipping sauce ($3.50).",price,,4,,3,2
+545,"They serve 30 craft beers from local and regional breweries, a list that is forever changing.",food,,1,,3,2
+546,"The pizza was on the doughy side, I think it may have been really fresh dough that didn't quite have time to bloom yet because it lacked the air that it needed to become totally crispy.",food,,1,,1,0
+547,Great selection of tea (which is hard to find in a Pittsburgh restaurant) and good selection of vegetarian dishes.,food,,1,,4,2
+548,"Great place for tea, coffee, and conversation!",food,,1,,4,2
+549,The last item we ordered was poutine.,food,,1,,2,1
+550,"As you can tell, I think my favorite part of the restaurant was the atmosphere & decor.",ambiance,,0,,3,2
+551,The food is also pretty good!,food,,1,,3,2
+552,God I love technology.,general,,5,,4,2
+553,I wish I knew what Guy recommended so I could decided what to try from the massive selection!,food,,1,,3,2
+554,They use Prima coffee and the crema is excellent.,food,,1,,4,2
+555,They used to have coolers lining the walls full of an amazing selection.,ambiance,,0,,3,2
+556,This is not your typical collegiate hipster coffee shop.,ambiance,,0,,3,2
+557,Cash only.,price,,4,,1,0
+558,"While at Starbucks (am I that predictable?), I decided to ask some of the locals where they would go to eat.",ambiance,,0,,2,1
+559,My dad got this burger that had a piece of kielbasi on it.,food,,1,,2,1
+560,"You get the rice, noodles, and veggies all cooked in front of you.",food,,1,,3,2
+561,There were so many items that I felt like I hadn't seen in other places and the prices were moderate considering that these are items you can't get everywhere.,price,,4,,3,2
+562,"I've been here twice now, and have had fabulous meals both times.",food,,1,,4,2
+563,"Objectively, the food here is good and the dinner decor has a lot of character.",ambiance,,0,,4,2
+564,The pizza wasn't heated up totally even though it had looked like it had been hanging around behind that sneeze-glass for awhile.,service,,3,,1,0
+565,"But after the hostess took off to find the manager because she didn't know the law, suddenly she became an expert and started trying to tell me what was required and what was not.",service,,3,,1,0
+566,Sadly the food here is a little disappointing.,food,,1,,0,0
+567,Definitely lived up to their hype.,general,,5,,3,2
+568,You feel as if you've known them for most of your life even though you've never seen them before.,service,,3,,3,2
+569,The steak was juicy and tender and full of flavor.,food,,1,,4,2
+570,The atmosphere was crowded but hip.,ambiance,,0,,3,2
+571,"Mexican, or at the very least of some Hispanic extraction.",ambiance,,0,,2,1
+572,I miss eating and chatting up my neighbors and then sharing a Grappa or Limoncello with them.,ambiance,,0,,3,2
+573,Gyros the way I like them.,food,,1,,3,2
+574,I have heard a lot about Verde so when we were hungry after our event at the Pittsburgh Glass Center it was the perfect opportunity to finally try it out.,location,,2,,3,2
+575,It's a bit pricey for mussels.,price,,4,,3,2
+576,"The rice is generally better than the fries, if you can't decide between the two.",food,,1,,3,2
+577,Friendly people (on both sides of the bar) and a menu that's above your average bar food.,service,,3,,3,2
+578,I have rarely been disappointed.,general,,5,,3,2
+579,Perfect crisp to the pickled vegetables and I loved the fresh jalepenos and french bread.,food,,1,,4,2
+580,The portion was huge for under $7.,food,,1,,3,2
+581,"Y'know, for a chain, Vocelli puts forth a perfectly fine pie.",food,,1,,3,2
+582,"It's basically exactly what you would expect from a ""Mexican"" restaurant located where it is.",ambiance,,0,,3,2
+583,"My hair was a project, but she was easy going about it and made me feel comfortable.",service,,3,,3,2
+584,"About the food, the quality is good, but they give you so little for so much.",price,,4,,1,0
+585,it's refreshing to visit a spot where everything is healthy and delicious.,food,,1,,3,2
+586,Call me insane but I have never been to chipotle before until yesterday.,ambiance,,0,,2,1
+587,"Well, one does, and his shop deserves the respect it's earned over many decades.",general,,5,,3,2
+588,5,general,,5,,4,2
+589,The sides were good but not spectacular - the star was the chimi.,food,,1,,3,2
+590,So much food but I somehow finished it all!,food,,1,,3,2
+591,It was so so so good.,general,,5,,4,2
+592,You can tell this is a regulars spot for a lot of people for dinner and I don't blame them.,food,,1,,3,2
+593,The fish we served was rarely ever more than 24 hours away from swimming in the water.,food,,1,,3,2
+594,"They're not your usual teas, but things like Earl Grey, which I wouldn't think to normally turn into an iced version--but do yourself a favor and try it out!",food,,1,,3,2
+595,"We had a couple drinks that were tasty and innovative, and the appetizers of roasted brussel sprouts and flatbread pizza were also really delish.",food,,1,,3,2
+596,"Here you order, pay, take a number and head for a table.",service,,3,,2,1
+597,The deal is that you buy one burger and 2 soft drinks and get a Tavern Burger free (or a $6.99 discount if you order a more expensive burger).,price,,4,,3,2
+598,I do love a good bargain so.,price,,4,,3,2
+599,"But, like I said it's a quibble.",general,,5,,1,0
+600,The atmosphere is uplifting and a good place to hang out with your MBA classmates after a 3.5 hours night class.,ambiance,,0,,4,2
+601,"Fries cold and delivered by a waitress, was treated to witnessing a meltdown when the bartender ran out of glasses and was not checked on from the minute I got my food to the moment I type this ...",service,,3,,0,0
+602,Can't really say much else about this place other than with the self checkout lanes it's a breeze to run in and then out without having to deal with a single associate.,service,,3,,3,2
+603,We made a note to go visit next time around.,general,,5,,4,2
+604,All I can say is that the casino was nice and clean.,ambiance,,0,,3,2
+605,"Seeing as to how the kitchen is open glass for the public to see, I thought we were accidentally walking into the kitchen, as the people at the hostess stand had their backs to us.",ambiance,,0,,3,2
+606,I'm not a fan of the food here.,food,,1,,1,0
+607,"For those of you who don't know what it is - basically, it's Subway on Pitas.",food,,1,,2,1
+608,None of that would matter if the service wasn't spectacular.,service,,3,,4,2
+609,I arrived a bit earlier than she did and was greeted by the lovely woman behind the counter.,service,,3,,3,2
+610,"Their cold buffet has shrimp, salad, mussels, clams, ahi tuna, artichoke hearts, cheese, salami type meats, and a bunch of other food.",food,,1,,3,2
+611,I stopped into Cafe Raymond with my parents for breakfast when they visited town last Sat.,general,,5,,2,1
+612,"I'd heard so much about Nicky's Thai Kitchen, but never got to the Northside location, that I jumped on the opportunity to hit their new downtown location.",location,,2,,3,2
+613,"If you're looking for a cheap spot to grab a quick morning meal, this might not be the place.",price,,4,,1,0
+614,I'd do some price checking in the HD TVs and watches.,price,,4,,2,1
+615,I will say I did not try the food today.,food,,1,,2,1
+616,I can't really remember much of the decor of this place although the restaurant was broken up into two distinct dining areas.,ambiance,,0,,1,0
+617,"It's like asking ""where's the  best pizza?"", right?",food,,1,,3,2
+618,"Open early, even on Sunday!",service,,3,,1,0
+619,"I'm not a big fan of Italian food, but we came to celebrate.",food,,1,,2,1
+620,"So, it's a great place to hang out with friends, just don't go hungry and bring your own bottle of water.",food,,1,,4,2
+621,This is now my go-to Indian restaurant.,food,,1,,3,2
+622,"While we were ordering I noticed a rather clever tip jar sign that had something to do with ""pita"" spelled backwards.",ambiance,,0,,3,2
+623,Party...all...night.,ambiance,,0,,3,2
+624,"The whole hotel, including my room, was very clean.",ambiance,,0,,3,2
+625,Sals also services wine and beers.,food,,1,,2,1
+626,They also always have daily specials and daily soup specials.,food,,1,,3,2
+627,The prices are great and it is also a BYOB.,price,,4,,4,2
+628,I ordered the chicken adana wrap which was really reasonably priced (7.5$).,price,,4,,3,2
+629,We started with the make your own bloody Mary bar which blew my mind.,ambiance,,0,,4,2
+630,"This is not a typical city restaurant and is certainly not competing with Alihan's, next door, or any of the other white linen establishments.",general,,5,,2,1
+631,"The clientele at this location is understandably more adult-oriented, as it's smack in the middle of downtown Pittsburgh's business district.",location,,2,,3,2
+632,The other side boasts a comfy sofa with side chairs and tables.,ambiance,,0,,3,2
+633,Lol.,general,,5,,2,1
+634,"Obviously, the gourmet burger joint concept has taken hold in Pittsburgh.",food,,1,,3,2
+635,"I AM SO SORRY, THIS IS NOT ELITE YELP BEHAVIOR.",general,,5,,0,0
+636,Note #1-This place is strictly TAKEOUT ONLY.,ambiance,,0,,2,1
+637,There is more to Grandview Park than the three concrete and asphalt paths or the concrete hut that overlooks downtown.,ambiance,,0,,3,2
+638,Inexcusable.,general,,5,,0,0
+639,I'd come in just for that!,general,,5,,3,2
+640,Here at Gaynor's they hit the spot.,general,,5,,3,2
+641,"Overall a fun time, but I would suggest just going there for a few drinks and saving your appetite for some of the other downtown restaurants like Nine on Nine a block down the street.",location,,2,,3,2
+642,Super senior hangout.,ambiance,,0,,1,0
+643,Here is the primary issue with Mon Aimee Chocolat:  The owner is rude.,service,,3,,0,0
+644,The person clearing our salads put our dirty knives straight on the table.,service,,3,,1,0
+645,I couldn't finish it.,food,,1,,2,1
+646,"Like the crab cakes, I doubt I'll find a better example elsewhere.",food,,1,,3,2
+647,"I totally get that they are fried foods, but i mean these were drenched it grease.",food,,1,,1,0
+648,They have a good selection for the size and even have organic foods.,food,,1,,3,2
+649,Lebo to pick up some treats and he thoroughly enjoyed the chocolate eclair while I indulged in the pistachio eclair.,food,,1,,3,2
+650,But the guac was fresh and extremely flavorful.,food,,1,,4,2
+651,"CM and I started off by ordering the momo dumplings (chicken filled), which were okay but just your typical steamed dumpling with a spicy kick.",food,,1,,2,1
+652,My first complaint about this restaurant was the way that it was designed.,ambiance,,0,,1,0
+653,ANYWAY - Mad Mex is just fabulous...even moreso in the fall when the all-important Gobblerito takes centerstage and fills my belly with an entire Thanksgiving meal swaddled in a delightful flourly shell.,general,,5,,4,2
+654,"I think we Yinzers often take for granted what a magnificent resource we have at Phipps, and that's why I love my membership so much.",location,,2,,3,2
+655,"After starters we both ordered the chicken chickpea burritos, which were big and boring.",food,,1,,1,0
+656,Fast service.,service,,3,,3,2
+657,It came out and the cheeses were already starting to cool back down and congeal.,food,,1,,1,0
+658,"I definitely want to try a few other tacos, but I think I will see if I can order take-out next time.",service,,3,,1,0
+659,The house dressing was the best part of this course.,food,,1,,3,2
+660,Flights to Philly were over $200 dollars.,price,,4,,1,0
+661,"Thus, we made a reservation at Grit and Grace, a restaurant I'd been wanting to check out for a long while.",general,,5,,3,2
+662,We requested the check.,service,,3,,2,1
+663,Good but didn't blow my mind.,price,,4,,2,1
+664,Is Nicky's or Smiling Banana the best thai restaurant in Pittsburgh?,food,,1,,4,2
+665,My friends rave about the mussels.,food,,1,,3,2
+666,"Granted you can see the chefs making your food and noodles, but still.",ambiance,,0,,3,2
+667,(We had dinner at the Shiloh Grill on the 4th of July--see separate review for my evaluation.),general,,5,,2,1
+668,"The cashier (Amber) was very friendly and hardworking, handling the long line with grace, even when customers kept coming up to her and interrupting her work.",service,,3,,4,2
+669,Oh let's go out and try somewhere local.,ambiance,,0,,3,2
+670,"I ordered the Caffe Crepe with chicken, apples, avocado and melted brie.",food,,1,,2,1
+671,"I love Ginza, its my go to sushi place in Pittsburgh.",general,,5,,4,2
+672,"Then when you exit, you have about 300 feet to merge from one of your two lanes into one of four that you need - god forbid if you need the one on the far left or right and you're on the other side!",location,,2,,1,0
+673,"This review is not judgement on the quality of their cakes, but instead the horrific customer service I received while trying to commission a wedding cake.",service,,3,,0,0
+674,I had the shrimp po boy and it was messy and forgettable.,food,,1,,0,0
+675,He asked me if I have any allergies and proceeded to fill my tray with items he recommended.,service,,3,,3,2
+676,Oh wait yes I do.,general,,5,,3,2
+677,"It is now more spacious, attractive, and comfortable.",ambiance,,0,,4,2
+678,ANYWAY...,general,,5,,0,0
+679,Argh yelp when will you give us the half star because legume so deserves 4 1/2!,food,,1,,4,2
+680,They make sure you go home with a full belly on the chef's tastings.,food,,1,,3,2
+681,I only was inside for a couple minutes to pick up takeout but the inside appeared to be nice and clean.,ambiance,,0,,3,2
+682,Cleary this woman has issues.,service,,3,,1,0
+683,"Also, the banana split i noticed someone having was gigantic.",food,,1,,3,2
+684,The staff was friendly and the service was prompt.,service,,3,,3,2
+685,"My friend had a ""special"" mojito of some sort for her first round, which was good, but she switched immediately to our margaritas after a single sip.",food,,1,,3,2
+686,"The fruit was fresh sliced, mostly melon, nice and fresh.",food,,1,,3,2
+687,"The Moose is just a bar, like many others on the Southside, but the crowd (in my opinion) is more interesting and eclectic.",ambiance,,0,,4,2
+688,Really excellent space with large deck out front.,ambiance,,0,,4,2
+689,"The place is huge, cool, and very clean.",ambiance,,0,,4,2
+690,Live music with chanting and cheers!,ambiance,,0,,3,2
+691,What stands out the most about this location is that they have a lot of outdoor seating.,ambiance,,0,,3,2
+692,We ordered mozzarella sticks and fried zucchini for apps.,food,,1,,2,1
+693,I'll obv be back.,general,,5,,4,2
+694,"Then I find myself hungry, wanting a place with published nutritional information, and in Pittsburgh.",location,,2,,2,1
+695,It's next to a small shopping plaza and the sign isn't very noticeable.,location,,2,,1,0
+696,"I ordered the make your own burger with chicken, gorgonzola, mixed greens and tomato on focaccia.",food,,1,,3,2
+697,I am taking one star off because once I ordered tuna and it was dry and over cooked.,food,,1,,1,0
+698,It's loud and crazy but that's what is to be expected.,ambiance,,0,,3,2
+699,"And whatever you do, do NOT order the pho unless you want to get sick.",food,,1,,0,0
+700,"Looks like there's parking in the back, which I may check out next time.",location,,2,,3,2
+701,The staff is very friendly and helpful.,service,,3,,4,2
+702,The layout and atmosphere are very relaxing.,ambiance,,0,,4,2
+703,"The best part of this airport is that it's not really confusing to get around (in my opinion, as a former Pittsburgh resident) and there are decent places to eat and shop, although I am bummed about them not having Victoria's Secret anymore.",general,,5,,4,2
+704,Thom gave me a quick reasonable estimate and told me to bring it by anytime.,price,,4,,3,2
+705,It was awful and they put it on absolutely everything.,service,,3,,0,0
+706,All flash and no bang.,general,,5,,1,0
+707,I called the salon to let them know of my disappointment in being left high and dry.,service,,3,,1,0
+708,(The only odd thing is that there's no pork on the lunch menu.,food,,1,,1,0
+709,Mike was the one who did it- he also pierced my tongue about a year later- both were done professionally.,service,,3,,3,2
+710,"We had the guacamole, Yuca Fries, and split an order of the Chicken Enchiladas...alll yummy!",food,,1,,3,2
+711,"soup and salad, Frozen Yogurt bar, fresh produce, and lots more.",food,,1,,3,2
+712,Based on the bacon reviews below - i think the general rule is they are good at frying the hell out of something...sometimes for good - sometimes for bad.,food,,1,,2,1
+713,She asks first but will also do physical adjustments.,service,,3,,3,2
+714,"They stock organic wines, domestic red/white, Italian, French and Australian wines, a very small selection of Asian spirits (sake, plum wine), your usual liquors, local wines made in Pennsylvania, boxed wines, and dessert wines.",food,,1,,2,1
+715,Another charming place with unique twists everywhere from the small menu to how they serve you water.,general,,5,,4,2
+716,"Service: Not good, we had to beg the waitress two different times for drink refills.",service,,3,,0,0
+717,"There is a Starbucks slash bakery but it doesn't accept SBUX branded Gold Cards, which is a big bummer.",price,,4,,1,0
+718,The wings are decently sized - better than Bdubs but smaller than Wings Over but still not as plump and juicy as they could be.,food,,1,,3,2
+719,"The owner/manager insisted it was fine, even though it was slightly off when you would hit an icon.",service,,3,,1,0
+720,It was served with plenty of soft pita bread and a variety of crudites for dipping (although frankly I would've just eaten it with a spoon!,service,,3,,2,1
+721,The street noodles were the exact textured Hong Kong style thin egg noodles that I crave 24/7.,food,,1,,4,2
+722,The service is better than average.,service,,3,,3,2
+723,I wouldn't go as far as call it the hipster bar of Pittsburgh but it does draw a crowd of funny-dressed people who like to talk about their latest art piece they made while going through a breakup with yet another boyfriend.,ambiance,,0,,1,0
+724,Cash only and byob.,ambiance,,0,,2,1
+725,The insanely fast service?,service,,3,,1,0
+726,A group  of friends and I chose this restaurant after the place we wanted to go was closed--for good.,general,,5,,3,2
+727,I've been here twice and ordered to-go once.,general,,5,,3,2
+728,We were seated fairly quickly but I did not realize how small it is inside.,ambiance,,0,,1,0
+729,"Some misses was the chile mashed potatoes, I wasn't forced to order it, but it just doesn't go with the theme.",food,,1,,0,0
+730,The floor level has significantly more leg room than the balcony.,ambiance,,0,,3,2
+731,"We are greeted by a nice young server wth a big smile who starts by saying ""can I grab you a beer?"".",service,,3,,3,2
+732,"Sad as it is to say this, the best part about the meal was the wheat toast with butter and jelly - the least salty item on my plate.",food,,1,,1,0
+733,The waitress was very kind and attentive.,service,,3,,3,2
+734,We've been meaning to check out the new casino and figured on a Tuesday night it shoudn't be too busy and it wasn't.,ambiance,,0,,3,2
+735,Coffee prices are average and you booze too if that's your thing.,price,,4,,2,1
+736,"I busted the behemoth from it's foil and paper prison and was shocked, first, by the aroma.",food,,1,,3,2
+737,Add in the fact this place is BYOB and you have the recipe for greatness.,ambiance,,0,,4,2
+738,then don't come here!,general,,5,,0,0
+739,"Instead the person filling my order tried to just swap out all the open flowers that I had selected for a bunch of closed flowers, did not say anything or ask me if I was ok with it and basically just tried to pull a fast one.",service,,3,,1,0
+740,"Inside there are high ceilings, ornate lighting, big bar with a friendly bartender and plenty of tables/booths.",ambiance,,0,,4,2
+741,"We're not usually up in that area, so we turned to yelp and found this place.",location,,2,,2,1
+742,I ordered the pork and crab soup dumplings.,food,,1,,2,1
+743,"I hope they can get the kinks worked out, because this will be a killer spot if they can pull it together.",ambiance,,0,,2,1
+744,So the view is unmatched and the drinks are decent.,ambiance,,0,,4,2
+745,They were not so overweight that you would think this would be a concern they would normally have.,service,,3,,3,2
+746,"I had heard rave reviews from my girlfriend after she visited Bakersfield in Nashville, and we were so excited to learn that Bakersfield opened their sixth location in Pittsburgh!",location,,2,,3,2
+747,The staff was also very friendly and courteous.,service,,3,,3,2
+748,The bread basket here is good!,food,,1,,3,2
+749,But until then I'd rather go to Primanti's.,general,,5,,3,2
+750,A cherry blintz and cup of fresh fruit.,food,,1,,2,1
+751,Even better - it wasn't crazily overpriced either like a lot of other vintage stores.,price,,4,,0,0
+752,"My least favorite was the bbq chicken, which replaced tomato sauce with straight up bbq sauce.",food,,1,,1,0
+753,I love Vietnamese food and was really excited to try out this place when I saw all the great reviews.,general,,5,,3,2
+754,Waiter was excellent; coffee unending.,service,,3,,4,2
+755,"The bar area was moderately crowded, with a few j crew dressed ex frat boy tables and some retail walnut street workers lunching, but nothing that would warrant the 20 minute wait we had before our adorable little server finally came over.",service,,3,,1,0
+756,"The schwarma had a mouth-watering smell-- definitely made with curry and other Indian spices and fresh, warm bread, I couldn't wait to dig in.",food,,1,,4,2
+757,"My husband and I are what I like to call fake-sushi fans, so we got a California Roll and a Spicy California Roll cuz we were feeling craaaazy that day.",food,,1,,1,0
+758,"I've also tried the sweet crepes -- they're also good, but for me, they don't compare to the savory ones.",food,,1,,1,0
+759,Love love love this small place.,general,,5,,4,2
+760,"The plus side to the pricey beer is that it will slow down your need to use the Consol's, long, patron lined, facilities (think 15 minute wait).",price,,4,,1,0
+761,There is always someone winning in that room.,general,,5,,3,2
+762,I ate here this past Thursday night with my girlfriend for dinner.,food,,1,,2,1
+763,"So worth the price, not that they are even that expensive.",price,,4,,4,2
+764,A new BBQ opened by Kevin Sousa.,food,,1,,2,1
+765,"The waitress told our group that one of the other waitresses had called off, so she apologized in advance for slow service. . . but she wasn't particularly slow.",service,,3,,3,2
+766,The first time Emily made me an awesome mocha while Robin was perfect.,service,,3,,4,2
+767,"They do have some limited Vegas only charms, which I like.",location,,2,,4,2
+768,"I sat at the bar/counter area on a Saturday morning and was feeling a little indecisive on just how to construct my breakfast, so I left it up to my server...and he nailed it.",service,,3,,4,2
+769,I will give your neighbors the business because they were not rude to me on the phone.,service,,3,,1,0
+770,There's only so many bites of this combination you can have until you're over it.,food,,1,,2,1
+771,"To start, we had the Torrejas de Choclo.",food,,1,,2,1
+772,"The markup is a bit much, but again, you're paying for atmosphere and experience in addition to good California wines (I'd love to see a bit more Central Coast, as that's my favorite wine region, but the name is 'Sonoma,' so I give them a pass).",price,,4,,1,0
+773,Makes sense since the staff/owners are exceptionally friendly down to earth peeps!,service,,3,,4,2
+774,Let's put it this way.,general,,5,,2,1
+775,Service was good and the salsa was spicy.,service,,3,,3,2
+776,Washington is one of--if not the--must see attraction in the city.,location,,2,,3,2
+777,$15 3.,price,,4,,2,1
+778,"The pasta was also cooked to a perfect al dente firmness, which held up well in the microwave several days later when I ate the leftovers.",food,,1,,4,2
+779,Atmosphere and bathrooms are as bad as you would expect in a dive bar.,ambiance,,0,,1,0
+780,"The desserts are ok, personally, I feel that you would be better advised to stick to filling up on the entrees.",food,,1,,2,1
+781,"The food is all very good, though some of it is on the blander side and could maybe use a little spicing up.",food,,1,,2,1
+782,Back when I knew absolutely nothing about cuisine I loved Sesame and returning now as a hypercritical jerk I still like it.,food,,1,,3,2
+783,The bar does not have a foot rest for the high bar stools so the whole dinner I'm sqirming in my seat trying to keep myself propped up with only the foot support on the bar stool.,ambiance,,0,,1,0
+784,The people at the restaurant were very nice and they were very busy.,service,,3,,3,2
+785,"This Starbucks is conveniently located in a strip mall, so it's nice to be able to grab a cuppa while running errands.",location,,2,,3,2
+786,All were cooked perfectly - not undercooked or overdone.,food,,1,,4,2
+787,"The ribs are basic baby back ribs that come in a choice of mild, medium, and hot bbq sauce.",food,,1,,2,1
+788,"Bottom line, expect to wait a good bit of time and have to flag down a server for most things you need.",service,,3,,1,0
+789,Highly recommended.,general,,5,,4,2
+790,The decor is very classy; it almost feels you stepped into a NY deli or something.,ambiance,,0,,4,2
+791,Even the complimentary rolls were peerless.,food,,1,,3,2
+792,The good thing is the food is coming from the attached Rock Bottom Brewery.,food,,1,,3,2
+793,The family that runs the restaurant is very friendly.,service,,3,,4,2
+794,"Even after sitting for a couple of minutes, the middle of the pie held up and did not get soggy.",food,,1,,3,2
+795,"It was good, but could've used some more flavor.",food,,1,,3,2
+796,They give a student discount which is nice.,price,,4,,3,2
+797,The are efficient here !,service,,3,,3,2
+798,"A small gelato could be around $3, medium around $5.",price,,4,,3,2
+799,"this is a cool retro bowling alley.  a major complaint is the cash-only policy (i find cash only places extremely annoying) and didn't spend as much as a result.  i would rather not spend money than get ripped off by exorbitant atm fees, so businesses suffer as a result.  also, i wish the weight of the balls was labeled - i know exactly what i need but couldn't find it so had to just guess.",price,,4,,1,0
+800,"Down home spot that is cash only, but a real local's place.",price,,4,,1,0
+801,Buy 8 get one free!,price,,4,,3,2
+802,"Okay, onto the food.",food,,1,,2,1
+803,It's definately worth a visit. :),general,,5,,3,2
+804,BUT one meal could feed 2 + people!,food,,1,,3,2
+805,The very friendly manager noticed how long we were sitting and came by and took our drink orders.,service,,3,,3,2
+806,"But, the food coming out of that kitchen is just bland, bland, bland.",food,,1,,1,0
+807,Excellent.,general,,5,,4,2
+808,Even on a Friday night at 2:15am with crowds of people.,general,,5,,3,2
+809,I have only ever ordered the duck and and it fantastic.,food,,1,,4,2
+810,This is a very fine local alternative.,general,,5,,4,2
+811,They moved through the patients quickly and my wait was not bad considering I came late.,service,,3,,3,2
+812,"So for my dad and the cheap prices, three stars.",price,,4,,3,2
+813,I had good service and my tire is still up and running.,service,,3,,3,2
+814,"This is a real place, making real beer.",food,,1,,3,2
+815,"Overall, we were really pleased with every aspect of our experience, and will likely be back soon.",general,,5,,4,2
+816,The beer is from August.,food,,1,,2,1
+817,I loved the swing dancers as well.,ambiance,,0,,4,2
+818,They had several hatchbacks in my price range available.,price,,4,,3,2
+819,It is so cute inside and there are delicious snacks all over the tables.,ambiance,,0,,4,2
+820,Delivery was REALLY fast- less than 20 minutes.,service,,3,,4,2
+821,A-OK restaurant.,general,,5,,1,0
+822,The older lady with a short hair cut is the one who doesn't open on time when she is scheduled.,service,,3,,1,0
+823,"The first part in realizing that you have a problem is to admit it, well I have a coffee addiction.",food,,1,,3,2
+824,I ended up ordering the strawberry cocktail which came with fresh strawberries and a mint leaves.,food,,1,,3,2
+825,They provide rain coats and little crocs.,service,,3,,2,1
+826,I would definitely order from here again... good basics with good service in a timely fashion makes it worth trying.,service,,3,,3,2
+827,we will definitely be back!,general,,5,,4,2
+828,May have something to do with its proximity to the colleges.,location,,2,,3,2
+829,"I wasn't sure what to expect, but when asking the ladies in Sephora about it, they raved and said they ate there every day.",location,,2,,3,2
+830,We were lucky enough to find a spot in one of the nooks after only a short wait.,service,,3,,3,2
+831,Half of each enchilada had the red sauce and the other half had the green sauce.,food,,1,,2,1
+832,"One last note- they do not accept credit cards, but they have an ATM in the restaurant.",price,,4,,2,1
+833,Rick and I are gonna have to come back here for dinner sometime.,food,,1,,4,2
+834,"Oh, and they aren't open on Sundays so steer clear of that day.",general,,5,,2,1
+835,Pierogies are ALWAYS good but there were only two of them.,food,,1,,3,2
+836,"The food does take about 10 to 15 minutes, so you may want to call ahead.",service,,3,,1,0
+837,"My boyfriend got the chimichanga, which he enjoyed.",food,,1,,3,2
+838,"If the associates do not have basic logic comprehension, how do they survive?",service,,3,,0,0
+839,"I think we were in the $35-40 range between the two of us, and we got the appetizers, fountain drinks, and burgers with lots of extras.",price,,4,,3,2
+840,"J&T's also sells burgers, pizzas, hoagies, and...what's that?",food,,1,,3,2
+841,"Great ribs, pulled pork, smoked chicken.",food,,1,,3,2
+842,Beers here are cheap!,price,,4,,3,2
+843,"Then there are the fun toppings (that cost $1 extra) like onion straws, cage free eggs, maple cured ham, and applewood smoked bacon to name a few.",food,,1,,3,2
+844,"It's fried tortilla chips dusted with cinnamon sugar, and yes, they too were appetizing in a state fair kinda way.",food,,1,,3,2
+845,"That, too, came out with half of the ingredients listed on the menu.",food,,1,,1,0
+846,"It was totally affordable for the four of us (with 4 dinners, apps, and desserts: under 70 bucks).",price,,4,,3,2
+847,"Also, the owner of Paris 66 came up and introduced herself, which I thought was really sweet.",service,,3,,3,2
+848,Whew!,general,,5,,1,0
+849,"So this incident is considered resolved, and I've upped their star counts by one, but I am not exactly running back to claim those credits.",service,,3,,1,0
+850,It was just so spicy even water wasn't helping.,food,,1,,0,0
+851,"I deducted a star for ambiance, which is a little old-fashioned for my taste.",ambiance,,0,,1,0
+852,Such a neat conversion...old factory to new loft style apartments.,ambiance,,0,,3,2
+853,OMG - I loved this sandwich.,food,,1,,4,2
+854,This tropical themed B&B was a winner for sure.,ambiance,,0,,4,2
+855,I like Tuesday half off apps and the weekends r fun with the dj!,ambiance,,0,,3,2
+856,My husband had the tomato soup with his sandwich and he said it was nothing special.,food,,1,,1,0
+857,Overall this place is consistently good and would look forward to returning.,general,,5,,3,2
+858,I've been to this location several times so far and have yet to see more than a dozen people in there at once.,ambiance,,0,,3,2
+859,"They also have happy hour from 4-6, with half off specials.",price,,4,,3,2
+860,"As others said, Armstrong's is like Eat n Park but a little classier and a little pricier and with a bar.",ambiance,,0,,3,2
+861,They still have the vintage sign up in the front of the business above the door.,ambiance,,0,,3,2
+862,(I hit up the nearby fresh squeezed lemonade stand.),ambiance,,0,,3,2
+863,"A friend and I purchased the Groupon for mani, pedi, facial, and massage.",price,,4,,3,2
+864,Definitely lives up to the hype!,general,,5,,3,2
+865,"The service was service, waters were refilled in a timely manner and dishes were promptly removed from the table, which is always appreciated.",service,,3,,3,2
+866,Addictive.,general,,5,,3,2
+867,"We had a rib taco, a chicken taco, and two breakfast tacos.",food,,1,,2,1
+868,"They altered the brake lines a bit, pumped up the tires, gave me an oral diagnostic, and didn't charge me a dime.",price,,4,,3,2
+869,Hidden gem!,general,,5,,4,2
+870,Does this place not care about quality anymore?,general,,5,,0,0
+871,"For an extra dollar, you can get fries included.",price,,4,,3,2
+872,It's georgeous and relaxing despite being rather large.,ambiance,,0,,4,2
+873,Very attentive service.,service,,3,,3,2
+874,"The chicken was very flavorful, although a bit dry.",food,,1,,3,2
+875,Where they lose points is on prices.,price,,4,,0,0
+876,"The tour lasts 1 hour, is very informative, and you get to see a lot of the rooms inside and have the opportunity to ask questions.",service,,3,,3,2
+877,"Three generations [including myself] take our cars here for tire service, whether it's a standard rotation or purchasing new tires.",service,,3,,3,2
+878,"When they came, they were even better than I remember them being.",service,,3,,3,2
+879,I'm a little frustrated that The Golden Bone is my best choice in kennels here in Pittsburgh.,service,,3,,0,0
+880,The sushi here is amazing.,food,,1,,4,2
+881,"Yeah, PF is the epitome of diverse and I absolutely dig it.",ambiance,,0,,3,2
+882,I can see why it was pricey - it was HUGE.,price,,4,,1,0
+883,"The hostess says hi, hands me a menu and walks away.",service,,3,,3,2
+884,"The rib taco, GET IT.",food,,1,,3,2
+885,"Sandwiches were good, but not unlike those we all make at home.",food,,1,,3,2
+886,"It's ""a little bit of NYC in Pittsburgh,"" and we all sort of cringe when we think of that description ( I Hope!).",ambiance,,0,,1,0
+887,"Now cue the sad trombone...because the service was pretty terrible. :(  From start to finish, wildly inattentive is the only way I can describe the service.",service,,3,,0,0
+888,The sandwich was delicious.,food,,1,,4,2
+889,"The menu is ""limited"" due to kitchen renovations.",food,,1,,1,0
+890,Redbeard's on Sixth is one of my favorite downtown bars.,general,,5,,4,2
+891,"Yeah, it's a chain.",ambiance,,0,,2,1
+892,Holy crap!,general,,5,,0,0
+893,"They have about 10 mead options on rotation: you can buy a glass, a sample flight, or a bottle.",food,,1,,3,2
+894,"It's BYOB, so be prepared.",ambiance,,0,,2,1
+895,"This store was remodeled several years ago, and at that time they especially improved and expanded the parking lot.",ambiance,,0,,3,2
+896,Teddy's needs to begin thinking these venues need routine maintenance.,ambiance,,0,,1,0
+897,They have a large selection of food and I went with the pretzel and wing combo yeah that's right big fluffy salty pretzels and wings.,food,,1,,3,2
+898,My husband and another person in our party chose the Raise The Jolly Reuben.,food,,1,,2,1
+899,You're going there to look for deals - and deals you will find!,price,,4,,3,2
+900,There was absolutely nothing not to like.,general,,5,,3,2
+901,"If you're a fan of a dirty martini, you just may enjoy a little twist with a Holy Cow using Boyd & Blair vodka, pickle juice, beef boullion, caper berries (mmmmm...) and pepper...nicely spicy!",food,,1,,3,2
+902,Clearly these cheap sandwiches have stood the test of time.,price,,4,,3,2
+903,"The reality is, it's not as big of a deal as the cashiers' reactions may have alluded to, and I don't make a stink over these things seeing as mistakes happen, but there is no excuse for a vegan chile relleno managing to present itself to the consumer in the form of a chicken burrito.",service,,3,,0,0
+904,"Seriously, a boy Beta, named Vivian!",service,,3,,1,0
+905,My interest in this establishment started with the name.,general,,5,,3,2
+906,"The food is so flavorful, and the room is so pleasant.",ambiance,,0,,4,2
+907,I'm pretty sure I've reviewed this regular spot before.,general,,5,,3,2
+908,"However, the main drawback of this place is the service.",service,,3,,1,0
+909,"The meal was good, good price and a nice size.",price,,4,,3,2
+910,"The could have seated us immediately, but we choose to sit at the bar.",service,,3,,3,2
+911,"I am reduced to a greedy, sweet-seeking Veruca Salt wannabe when I'm here, and the cheap $2.50 price only encourages said behavior.",price,,4,,3,2
+912,Apologies.,general,,5,,0,0
+913,I'm wondering how soon is too soon to go back.,general,,5,,3,2
+914,"The meat was flavorful and the grilled onions were included, which is awesome.",food,,1,,4,2
+915,We will eat here when we go to the Waterfront or Kennywood or even just as a destination to eat period.,location,,2,,3,2
+916,I had their duck wrap and sliders one time.,food,,1,,2,1
+917,"It was comforting, cheesy and just downright good!",ambiance,,0,,4,2
+918,The staff are incredibly friendly and I'll continue to go here after a hard workout.,service,,3,,4,2
+919,What I don't know is if this was a mistake or normal.,service,,3,,1,0
+920,"There are lots of cheap places downtown, but they usually leave something to be desired.",price,,4,,1,0
+921,"All in all a great little place that not only got me to ""travel"" but it made me want to come back and stroll the streets of Dormont and discover what else I'm missing in the area.",location,,2,,3,2
+922,The coffee was really good and made well.,food,,1,,3,2
+923,And there was such a big portion I could have taken the rest to go and had left overs with rice.,food,,1,,3,2
+924,I'm so glad that Pittsburgh has added yet another great dining experience to the mix.,general,,5,,4,2
+925,"Shamefully, two of the waitresses came off like Lars and James, tyrannizing another poor server as if she was Kirk.",service,,3,,0,0
+926,There's also a backroom that's well lit and has more space and 2 pool tables and pingpong.,ambiance,,0,,3,2
+927,"I'm no cooking expert, but I think the dish was baked in a pan with too big of a diameter leading the macaroni to be overcooked rather than receiving a crispy top-layer finish when baked in a bowl with a smaller radius.",food,,1,,1,0
+928,It's hit or miss no matter what you are looking for.,general,,5,,2,1
+929,"Me: ""What?""",general,,5,,2,1
+930,"Well almost, that is until you discover now you have to dodge pedestrians on the sidewalk and then pray to god that you can get back onto Carson St.",location,,2,,0,0
+931,Decent sandwich.,food,,1,,2,1
+932,The naan is divine and comes out crisped and perfect every time.,food,,1,,4,2
+933,"Our burgers come out about 10 minutes later, accompanied by their 'bottomless fries' which amount to 9 fries on my wife's plate (in a silly cone) and 11 on mine.",service,,3,,1,0
+934,Where else can you go for breakfast and eat for around $5 per person including a drink?,price,,4,,3,2
+935,I am assuming they make it but don't care because it's (sometimes) really perfect.,food,,1,,4,2
+936,"The decor is immaculate, and they have a cool open kitchen bar area where you can watch some of the food prep.",ambiance,,0,,4,2
+937,"It's like a large square, without anything special.",location,,2,,1,0
+938,The service is excellent .,service,,3,,4,2
+939,The icing was so sweat and thick!,food,,1,,3,2
+940,"GEMD is also known for their bakery department, this store is no different.",food,,1,,3,2
+941,It comes premixed so you don't have to toss the salad at your table.,service,,3,,3,2
+942,I had become familiar with the managers and this day I think it was Chris who was working the bar.,service,,3,,3,2
+943,"I hate being ""that customer"", and so does my husband... which is why, despite hating it, he continued to eat his for some reason... and got REALLY sick later on that night.",food,,1,,0,0
+944,Got dragged out to the monroeville area to pursue a table on Craigslist- looking for a place to eat due to starvation we find Dad's...,location,,2,,2,1
+945,I was not disappointed!,general,,5,,3,2
+946,But I think the catch is that you have to purchase X ounces for it to apply - buy this canister if you go through tea realllllly fast.,price,,4,,1,0
+947,"A lot of the customers seemed to be regulars, but as a first-timer, I felt just as welcomed.",service,,3,,3,2
+948,Over priced if you get anything from the self-serve hot bar.,price,,4,,1,0
+949,Dependent upon the night the clientele can be a little grabby.,ambiance,,0,,0,0
+950,The large space is softened by lots of green houseplants and tables for 2 accented by art deco lamps.,ambiance,,0,,3,2
+951,He cleaned up the water and wiped down my sink before leaving.,service,,3,,3,2
+952,"And that your sweet tooth also supports someone's dream, makes it all just perfect.",general,,5,,4,2
+953,"I didn't eat the sausage, but the olive oil seemed unnecessary and left an oily feel in my mouth for 30 minutes or so.",food,,1,,1,0
+954,"We're not really gamblers, but had dinner at Andrews to celebrate a family member's birthday.",ambiance,,0,,2,1
+955,"""Do you want another drink yet"" started our interaction and was quickly followed by ""are you ready for food?""",food,,1,,2,1
+956,"However, we have been going there for over a year and have always had a positive experience.",general,,5,,3,2
+957,If you look around you can find more of Kennywood's history such as the historic windmill.,ambiance,,0,,3,2
+958,I decided to use their services solely because of their hours.,service,,3,,3,2
+959,"The flavor was delicious, and it was fresh.",food,,1,,3,2
+960,"I didn't taste the 3rd spread, because I'm not fond of bananas in certain dishes.",food,,1,,1,0
+961,"The plate is less expensive than the meat platters that come with salad--but I'd think that the meat, not lettuce, accounts for the price difference.",price,,4,,3,2
+962,"It's been replaced by ""coasting on our merits"" and ""oh, you need another water fill up?""",service,,3,,1,0
+963,Music is kind of loud but fun nostalgia for us 50 some thing's.,ambiance,,0,,3,2
+964,They have chocolate from a local place and some other amazing deliciousness displayed right in front of your face.,food,,1,,4,2
+965,I went to Europe for the first time last year and I was in love.,location,,2,,4,2
+966,"Occasionally the offer ""Kohl's cash"" for every $50.00 spent but it is usually for a later period of time and easy to forget you have it.",price,,4,,1,0
+967,Keep up the good work.,service,,3,,4,2
+968,"So, we're picky.",general,,5,,2,1
+969,So... what did we order?,general,,5,,2,1
+970,"Plenty of pakora, chicken tikka, goat curry, lots of dal, chana masala, and not one but two paneer dishes.",food,,1,,4,2
+971,So I guess  for now until my next visit...,general,,5,,3,2
+972,I'm sure they'd break it out if you were rally interested though.,general,,5,,2,1
+973,The eggs and omelettes are fluffy and filed with fresh ingredients including ham off the bone.,food,,1,,3,2
+974,"Sushi, and 3.",food,,1,,2,1
+975,I have had several of the seviche options which have been full of flavor and tasted extremely fresh.,food,,1,,4,2
+976,The history of the tavern and the friendly makes this wish me that I lived closer to Max's.,location,,2,,3,2
+977,"The service especially by our server, the wonderful Jen who had spot-on recommendations was awesome and I felt the front of house managed our ever-growing unexpected party very professionally and with grace.",service,,3,,4,2
+978,"The tacos were yummy, just wished they used fresh pineapple instead of canned.",food,,1,,3,2
+979,"And the best part of it all, the juices all taste phenomenal.",food,,1,,4,2
+980,Just don't do them at the same time.,general,,5,,2,1
+981,"Already, that makes me sick to my stomach.",food,,1,,0,0
+982,"During this visit,  I realized that the menu changes seasonally.",food,,1,,3,2
+983,Yum!,food,,1,,4,2
+984,"It has great food offerings, a great atmosphere and most of all great coffee (or chai in my instance!).",food,,1,,4,2
+985,"She said they were out of the materials to make it, which was a bummer, since mint chocolate chip is my absolute favorite type of ice cream.",service,,3,,0,0
+986,"If my dog gets sick, you can bet I'll be revising this review.",service,,3,,2,1
+987,The service is spot on.,service,,3,,3,2
+988,Waitress was sweet and got the job done.,service,,3,,3,2
+989,He's fallowing me around sitting and then laying at my feet.,service,,3,,1,0
+990,Great shot and beer place - great people and nice bartenders!,ambiance,,0,,3,2
+991,"I think I'll stick to places like Cafe Davio, where I know the food is homemade, and not served in bucket bulk.",food,,1,,3,2
+992,I have been going here for years and have always had an incredible meal.,food,,1,,4,2
+993,"Green Sinner was eager to help me with making a flowered pin, although I clearly didn't have the skills for it.",service,,3,,3,2
+994,Then head upstairs where the second floors is equipped with enough seating for about 24 people.,ambiance,,0,,3,2
+995,Definitely divey.,ambiance,,0,,1,0
+996,The ingredients in the salad were fresh.,food,,1,,3,2
+997,A fun evening for all.  f8 and be there.  ---------------------------------------------------------------------------------------------  One visit thus far; tomorrow 7 us are going back for a comedy act that will perform.,general,,5,,3,2
+998,"Maybe it's the jet lag, maybe it's because neither Mom nor I liked what we ordered.",food,,1,,1,0
+999,"But there was so much going on, I barely realized this happened!",general,,5,,2,1
+1000,Not one salesmen said a word to me.,service,,3,,1,0
+1001,That reminds me - the security staff is professional as hell here.,service,,3,,3,2
+1002,This is absolutely the best pizza you can get in downtown.,food,,1,,4,2
+1003,At any restaurant I go to!,general,,5,,2,1
+1004,Nothing exciting there.,general,,5,,0,0
+1005,They could make it with shrimp.,food,,1,,2,1
+1006,"However, I'll be back for sure.",general,,5,,4,2
+1007,The fried fish sandwich was just OK.,food,,1,,2,1
+1008,I told him that this was the worst Eat n Park experience I've ever had.,general,,5,,0,0
+1009,So we had to move everything to a bigger table.,service,,3,,2,1
+1010,There is a food truck with limited changing options.,food,,1,,1,0
+1011,The desserts and wine-list as equally as good as the food.,food,,1,,3,2
+1012,The marinara sauce tastes like a less flavorful version of Ragu.,food,,1,,1,0
+1013,I love this place....just wish they didn't remove the T-stop there.,general,,5,,3,2
+1014,They bake their bread fresh daily and do not include any preservative so eat it quick!,food,,1,,3,2
+1015,"Seats are fairly limited, however the food is phenomenal.",food,,1,,4,2
+1016,Gurshecky/Springsteen 2011 was every bit as good as the 2010 version!,general,,5,,3,2
+1017,"I might go here again, but I'd probably choose Saga or Shogun (or Nakama of course) first.",food,,1,,3,2
+1018,Waiters were quick and helpful.,service,,3,,3,2
+1019,They were good but not worth the price tag.,price,,4,,1,0
+1020,Ambiance (8.0/10.0) = Great cozy restaurant tucked away in a quiet neighborhood.,ambiance,,0,,3,2
+1021,This design was just plopped in place and the only local flavor is the bridge that was present.,ambiance,,0,,2,1
+1022,"I generally shy away from reviewing chains, because, well, it just seems kind of pointless.",general,,5,,1,0
+1023,We finished the meal with house made tiramisu and a 1/2 press of coffee.,food,,1,,2,1
+1024,"The other place, however, should stop selling them immediately, since it's ruined their credibility in my mind.",general,,5,,0,0
+1025,Who does not love a DQ Blizzard?,food,,1,,4,2
+1026,"For drinks, we tried the tamarind juice, mango juice, and Thai iced tea.",food,,1,,2,1
+1027,"Good, cheap American Chinese food served by a super nice lady, can't get much better than that, can it?",general,,5,,4,2
+1028,"Milargro Blanco Tequila, Lime, Cherry heering, Lustau Amontillado Sherry, Cream Soda $13  I also got the Green Flash Passion Fruit Kicker (wheat ale)... fruity, refreshing, so flavorful I need to find out where I can get a case of this.",food,,1,,3,2
+1029,"You can feel comfy in Jeans, flip flops, or a suit and I noticed all forms of attire and all ages.",ambiance,,0,,3,2
+1030,This one was okay but I tend not to eat there -- just coffee and a place to work occassionally.,ambiance,,0,,2,1
+1031,The service is impeccable!,service,,3,,4,2
+1032,"One time I mentioned in passing I needed to leave to pay the meter, and someone there went and did it for me!",service,,3,,3,2
+1033,Surprising that they give you a 12 oz cup and to get refills you have to wait in line since only the order taker/cashier will get it for you.,service,,3,,1,0
+1034,"Not exceptionally big burgers, but they can be loaded with all your favorites!",food,,1,,3,2
+1035,"Next I tried the classic pepperoni and mushroom variety and once again it was just under $5, a little greasy and tasted fine.",price,,4,,3,2
+1036,"As far as the convenience part, it's spot on.",service,,3,,3,2
+1037,Only in America!,location,,2,,2,1
+1038,I will never conduct business with this company again.,general,,5,,0,0
+1039,I enjoyed the food.,food,,1,,3,2
+1040,"I saw the other low ratings, but I was feeling brave and hungry from an intense Krav Maga session at Wright's Gym down the street.",general,,5,,1,0
+1041,"I enjoyed the appetizer, although my date was looking for a more traditional serving a grits (here, it is a fried grit patty).",food,,1,,3,2
+1042,Our friends got us a gift card to Longhorn and we've been putting off stopping at one.,price,,4,,2,1
+1043,"Atmosphere is a bit dated and very Pittsburgh, but if you are looking for decent American Italian at good prices with good service, highly recommend.",ambiance,,0,,1,0
+1044,"The musicians are talented, friendly and keep the whole room alive with dirty jokes, call-and-response classics and just general good time shouting.",ambiance,,0,,3,2
+1045,"My favorite is the panang curry with tofu, spicy and the pad see ew with tofu, also spicy!",food,,1,,4,2
+1046,"After going back and forth, she finally understood that I wanted to pay with plastic.",service,,3,,1,0
+1047,"The weather was unseasonably balmy, and a mist hung heavy in the darkness just before dawn.",general,,5,,1,0
+1048,"Regardless of the fairness of the store policy, it seems to me like it's not a good idea to subject your other customers to this somewhat unpleasant and lengthy scene.",service,,3,,1,0
+1049,My husband tried the burrito special.,food,,1,,2,1
+1050,"We have not yet tried the food, but it definitely smelled good in there, so we'll give it a go next time.",food,,1,,3,2
+1051,Best burger in the Burgh!,food,,1,,4,2
+1052,The cheese was decent and the sauce was a little on the sweet side.,food,,1,,3,2
+1053,The second time I had a BBQ chicken pizza which was overcooked and not well designed to begin with (I could write an entire separate review on what was wrong with it and how to fix it).,food,,1,,0,0
+1054,The only complaint from my friend was that the grilled bread that came with the dish was too hard for her to use to soak about the sauce.,food,,1,,1,0
+1055,"The staff remembered my requests, which is a good thing.",service,,3,,3,2
+1056,"Because of these elements, as well as the quality of the wine, I'm bumping up what would normally be a 3-3.5 star rating, based on our experience, to 4 stars.",food,,1,,3,2
+1057,I've learned to steer clear of the burgers because of the inconsistency with which they're prepared.,food,,1,,1,0
+1058,"But for $12, I felt like it was overpriced and I could have made something just as good or better at home.",price,,4,,1,0
+1059,4,general,,5,,3,2
+1060,The cost is less than $8 for the lunch buffet.,price,,4,,3,2
+1061,It's possible that they haven't gotten everything streamlined yet to handle a big crowd but service was very slow.,service,,3,,1,0
+1062,"Sadly, I didn't not love this place.",general,,5,,1,0
+1063,"Great juke box, lots of laughs, you will feel right at home.",ambiance,,0,,4,2
+1064,Older people love it because you get a soup and salad w every entree.,food,,1,,3,2
+1065,The staff here is great at finding ways to pass time between double headers or during rain delays.,service,,3,,3,2
+1066,You have to buy a drink (I got a 2.50 pop) and 10 wings of one flavor (3.50).,food,,1,,3,2
+1067,The inside of the restaurant is actually much tinier than I had expected with as many people crammed in as possible.,ambiance,,0,,1,0
+1068,The bread and olive oil was OK.,food,,1,,2,1
+1069,The bananas further enhances the sweet ensemble.,food,,1,,3,2
+1070,This is a hidden gem in downtown breakfast options.,general,,5,,3,2
+1071,We had a 6:00 reservation and were seated immediately.,service,,3,,3,2
+1072,The pico de gallo is to die for.,food,,1,,4,2
+1073,They have brought in some new stores like Michael Kors which is wonderful.,general,,5,,4,2
+1074,"Apparently, Gaucho Parrilla Argentina fits the definition of a runaway sensation while still measuring up to the buzz it has unassumingly created.",general,,5,,4,2
+1075,"I was rather impressed by their lunch menu, while in the upper reaches of the lunch pricing they do have a lot of affordable options for those that don't want the traditional full blown entrees.",food,,1,,3,2
+1076,"The dispatcher sometimes claims that they won't service my neighborhood (Friendship/Bloomfield), but other times they have been fast about picking people up late in the evening.",service,,3,,2,1
+1077,"Yes, I'll continue to stop by there once in a while- but I don't know what all of the fuss is about.",general,,5,,1,0
+1078,"It's totally bizarre to me that people can now get a buzz on at the grocery store, but again, I won't question it.",service,,3,,2,1
+1079,"She's not mean, but in 10 years having not been to a vet, and being sick and scared, well, the first visit they treated her like she would be violent and immediately scruffed her (I know it doesn't hurt her, but it put her on edge) just because she still has her claws.",service,,3,,0,0
+1080,"Seriously the WORST chicken I've ever had anywhere, and I've eaten chicken tenders from gas stations before (yeah, I'm not proud of that, but I'm willing to share that embarrassing fact with you just to drive home how horrible this chicken was!)",food,,1,,0,0
+1081,"Sam was amazing, she is super knowledgeable, nice and helpful.",service,,3,,3,2
+1082,"The waitress we had was adequate...apathetic, but did what she needed to do.",service,,3,,1,0
+1083,Everyone loved the way my makeup looked.,general,,5,,3,2
+1084,"Doesn't say on the coupon, nor does it state it in the store.",price,,4,,1,0
+1085,An another coffee shop close to Squirrel hill.,location,,2,,1,0
+1086,She was so direct and to the point as she gave knowledge about my haircare regimen.,service,,3,,3,2
+1087,"Burgers, meatloaf, pot roast, fish sammiches, salads, pastas...a varied but adequate menu.",food,,1,,3,2
+1088,"All together we each spent $60 including tip, which was just the right amount of money to prove to my friends that it's absolutely worth doping a little cash once and a while for a memorable meal.",price,,4,,3,2
+1089,"I suggest going early, so the line it's too bad.",service,,3,,1,0
+1090,"They offered up a sampling of appetizers including burger sliders, roasted beets, jalepeno poppers and bacon.",food,,1,,3,2
+1091,My two favorite flavors are the Juicy Pear and the Georgia Peach.,food,,1,,3,2
+1092,"First of all the lunch specials are not honored on the weekends, which even confused my waiter.",price,,4,,1,0
+1093,For $8.25 it is a steal.,price,,4,,4,2
+1094,I really enjoyed the taste of this dish.,food,,1,,4,2
+1095,I had the Champs- Elysees which is champagne with strawberry puree...there was a glob of strawberry puree settling on the bottom and top of the glass which made it challenging to drink the actual liquid in the middle.,food,,1,,1,0
+1096,"If they got a nervous homebuying newbie like myself through the process, they'll do the same for you.",service,,3,,3,2
+1097,The manager even came over and asked if we had seen our waitress recently because we still had our menus.,service,,3,,3,2
+1098,I understand the the concept of a buffet and you basically serve yourself.,service,,3,,2,1
+1099,"As to delivery time, I generally order a little later than standard dinner time and I've rarely waited more than 45 minutes for my order.",service,,3,,3,2
+1100,"But, more importantly than the food, we just really liked the atmosphere.",ambiance,,0,,4,2
+1101,I think it bothered me more than it bothered my boyfriend.,general,,5,,1,0
+1102,Their selection of pizzas is wide and what they do make is among the best I've had in the monroeville area.,food,,1,,4,2
+1103,"I love the Chicken Teriyaki, myself.",food,,1,,4,2
+1104,We skipped appetizers and went directly to dinner.,food,,1,,2,1
+1105,"I did, however, enjoy the French Toast and pastries.",food,,1,,3,2
+1106,Let me just describe them like this:  tasteless and slightly overcooked; good but a little too salty; nothing special (I've had much much better); ehh; overcooked and tasteless and frankly much too overpriced for what you got.,food,,1,,0,0
+1107,She was running around like a chicken without a head but there were only three tables in the restaurant.,ambiance,,0,,2,1
+1108,"I had never even heard of gelato before, but now I love it.",food,,1,,4,2
+1109,Prices are the usual for a drug store.,price,,4,,2,1
+1110,"The place is BYOB, but there aren't a dearth of bars just around the corner.",location,,2,,3,2
+1111,"Although I work on the south side and love sushi, I will never go back into this place.",general,,5,,0,0
+1112,"I love mediterranean food and was hoping to have an enjoyable meal, but whay wasn't anyone there?",service,,3,,1,0
+1113,"It made it feel too ""chainlike"" instead of special which is what you want to feel when you are shelling out $250 for dinner for two.",ambiance,,0,,0,0
+1114,"The panang curry is my favorite, but I've had most of the dishes on the menu and they are all pretty good, interesting, and not too expensive.",food,,1,,4,2
+1115,I will definitely make this a regular destination on the weekends!,general,,5,,4,2
+1116,"Unlike most dim sum places, not served with any sauces.",food,,1,,1,0
+1117,This is one NYE tradition we plan on keeping for many years to come!,general,,5,,2,1
+1118,"The restaurant was rather empty, with most customers ordering to go.",ambiance,,0,,1,0
+1119,The worst parts about Pamela's are the long wait on weekends (I recommend going early) and that its cash only.,service,,3,,1,0
+1120,"As this is a new addition to the Irwin area, I understand that it'll take some time to work out the hiccups.",location,,2,,2,1
+1121,"Alas I'll try Pure Barre next, but I still can't understand the crazy prices.",price,,4,,0,0
+1122,Our favorite of the night was the Thunderhop which had a wonderful hoppy flavor.,food,,1,,3,2
+1123,My General Tso's Chicken and my hot & sour soup was as good as any I've had.,food,,1,,4,2
+1124,"Service was nice, if not a touch slow, you know when it's so slow in a restaurant that service is slow?",service,,3,,2,1
+1125,And it was a good thing I long ago bought two tickets cheap on Stubhub.,price,,4,,3,2
+1126,"They are on the pricey side, but you are permanently altering your body- it's worth the price a professional charges.",price,,4,,3,2
+1127,The speakeasy in the basement can get a little crowded and it can take a while to get a drink.,service,,3,,1,0
+1128,"My friends and I got it thinking that eight slices wouldn't be enough for us, but we were surprised that the pizza was both massive and filling.",food,,1,,3,2
+1129,"Do they not understand that we'll be spending a lot of money, especially with the part of the crew that likes to overindulge on the booze.",price,,4,,1,0
+1130,"The staff is professional, personable, and most importantly good at what they do.",service,,3,,3,2
+1131,Update: 12/05/15  Ok so there's no pour-overs actually.,service,,3,,1,0
+1132,Despite requesting more of the appetizers and promising more - we gave up and thought we'll just wait for the main course.,service,,3,,1,0
+1133,"I ordered pancakes, egg whites and bacon.",food,,1,,2,1
+1134,"Prices are reasonable, especially if you go in a pie with someone else.",price,,4,,3,2
+1135,"There are roll specials, too for $10.",price,,4,,3,2
+1136,The employees at this store are very helpful and patient.,service,,3,,3,2
+1137,Good spring rolls.,food,,1,,3,2
+1138,"On one occasion, I came 27 minutes before closing and was turned away.",service,,3,,0,0
+1139,And did I mention this was all free?,price,,4,,4,2
+1140,You are greated by a hostess who can't seat you downstairs in the main diningroom.,service,,3,,1,0
+1141,"Try $5, for real.",price,,4,,3,2
+1142,The park also has a lot of other activities too.,location,,2,,3,2
+1143,Fried zucchini and fried pickles.,food,,1,,2,1
+1144,Ramen Bar offers an array of noodle soups for those not particularly into ramen.,food,,1,,3,2
+1145,Meatball was REALLY disappointing.,food,,1,,0,0
+1146,"If loud noise bothers you, you might not want to walk in.",ambiance,,0,,1,0
+1147,C was VERY nice.,service,,3,,3,2
+1148,Franco's is a decent establishment and it is clear that they take extreme pride in their craft although their product misses the mark a little bit.,service,,3,,3,2
+1149,Definitely avoid the bag of chips with your sandwich as they cost $1.35 and contain about 8 chips.,price,,4,,0,0
+1150,Skip the deviled eggs (you've had better at a work luncheon) and the oysters (couldn't taste the mignonette at all?).,food,,1,,0,0
+1151,I didnt want to put in review that I waited forever for my food because I knew eventually it would be fine.,service,,3,,1,0
+1152,It was a match made in kimchi heaven.,food,,1,,4,2
+1153,I was so pleased with their service I used them for a bigger job later on.,service,,3,,4,2
+1154,I pine for the days of a nice rugged heap of sandwich the way it used to be.,food,,1,,1,0
+1155,"So instead of burgers we had porkchops, steak salad, and chicken.",food,,1,,2,1
+1156,"I'm also a bit of a ""wing nut"" and I have to say that the wings at Ann's are top-shelf.",food,,1,,4,2
+1157,Neither of us ended up getting the tasting dessert and getting two on the menu - one was a flourless chocolate cake and the other a creme brulee.,food,,1,,0,0
+1158,Food is great but you wait almost an hour for your food every time.....,service,,3,,0,0
+1159,"Instead of tomato sauce, there is Thousand Island Dressing.",food,,1,,2,1
+1160,"The food: The salads are large, excellent, and beautiful.",food,,1,,4,2
+1161,Came here for Sunday brunch with some friends.,general,,5,,2,1
+1162,Came here for dinner and drinks with two friends.,general,,5,,2,1
+1163,Willow is way overpriced for what you get and the food is terrible!,price,,4,,0,0
+1164,"We had the vodka type with fresh roasted red peppers -- the peppers were fantastic , so sweet!-- the best I've ever had on a pizza!",food,,1,,4,2
+1165,"This is a saltier pizza with a tasty homemade herb tomato sauce, all cooked the way you want it.",food,,1,,4,2
+1166,"Upon entering, we were told seating was first come, first served so we grabbed a two top by the windows.",service,,3,,2,1
+1167,I have to say the practice itself far exceeded my expectations.,service,,3,,4,2
+1168,Our room was ready for us as soon as we arrived at the hotel at 10 in the morning and we got a free cookie.,service,,3,,4,2
+1169,"The stew was good, but even the server said he liked it better with the original lamb meat instead of the current beef.",food,,1,,3,2
+1170,"The sushi chef delivered my maki platter, which was a salmon roll (8 pcs), spicy tuna roll (6 pcs), and california roll (6 pcs) -- a pretty great deal for $13 and some change.",price,,4,,4,2
+1171,Lame!,general,,5,,0,0
+1172,"Our entrees came out quickly and were satisfactory though my vegetables were obviously a mix of frozen carrots, broccoli and cauliflower.",food,,1,,3,2
+1173,"Beer is super cheap, solid selection, and the specials during Pens and Steelers games on Miller Lite are great.",food,,1,,4,2
+1174,AND they have Lindemann's Lambic Framboise on tap!?,food,,1,,3,2
+1175,Whoa.,general,,5,,4,2
+1176,"Both dishes were OK, I'm spoiled and I was looking for a pumpkin or squash curry dish.",food,,1,,2,1
+1177,It's even good enough to eat without spaghetti sauce to soak up.,food,,1,,2,1
+1178,I could've bought all the ingredients for $7 and made this sandwich myself and had enough ingredients for a week.,price,,4,,1,0
+1179,I adore the veggie Kaya burgers and seriously try the cucumber vodka infused bloody mary!,food,,1,,4,2
+1180,It is a walk up establishment so it's not ideal to be waiting outside in adverse weather.,ambiance,,0,,1,0
+1181,Probably some of the worst Chinese and food in general I have had.,food,,1,,0,0
+1182,The food is grossly OVERPRICED for what you get.,price,,4,,0,0
+1183,Two stars for service.,service,,3,,1,0
+1184,Nice happy hour specials.,food,,1,,3,2
+1185,"Nothing fancy, just simply delicious pizza.",food,,1,,4,2
+1186,The edges were crispy and they were served with a sweet & spicy sauce to dip them in.,food,,1,,3,2
+1187,All desserts are $6.50.,price,,4,,2,1
+1188,"I highly recommend looking for the ""Emiliano's Specialties"" which are marked on the menu and ordering one of those and skipping the standard Mexican Restaurant fare if you want something different or really authentic.",food,,1,,4,2
+1189,It's ridiculous and thoughtless.,general,,5,,0,0
+1190,Decent variety of ramen but the flavors could be better.,food,,1,,3,2
+1191,"If you are in homestead and are looking for a burger and a beer it might be a good choice for a bite, or at least until the Burgatory opens!",food,,1,,3,2
+1192,I find myself forgetting how special some of Pittsburgh neighborhoods are and how many hidden gems can be found in each.,location,,2,,4,2
+1193,"Chill vibe, fun old-fashioned drinks, and great service.",ambiance,,0,,3,2
+1194,We started with the Yucatan Hot Bean Dip and the Mussels.,food,,1,,2,1
+1195,I would definitely go back and order the sandwich myself or even pick up some to take home or to a picnic.,food,,1,,4,2
+1196,The place is perfectly maintained.,ambiance,,0,,4,2
+1197,You just can't get it right... 3 visits...,general,,5,,0,0
+1198,I'm sure this isn't as much of a problem in the summer when there's the space outside.,ambiance,,0,,1,0
+1199,Great sauce.,food,,1,,4,2
+1200,"The line is never long, and the service is good.",service,,3,,3,2
+1201,The first time I went to Nicky's (with my fellow Yelp buddies Linda W.,general,,5,,2,1
+1202,"Crunchy, buttery pecans enveloped in smooth pumpkin-y cinnamon-y, gingery, clove-y rich creamy goodness.",food,,1,,4,2
+1203,Great seats.,ambiance,,0,,4,2
+1204,"So if you are expecting them to be open for a late night meal, you probably should call first before you make the trip!",service,,3,,1,0
+1205,We went to Arlecchino with friends last weekend.,general,,5,,2,1
+1206,"But the food, the most important aspect of a dining experience for me, was pretty much a case of Asian fusion gone wrong.",food,,1,,0,0
+1207,Lin's food is made to order and you can taste the care they put into preparing their dishes.,food,,1,,4,2
+1208,There is no corporate feeling here.,ambiance,,0,,2,1
+1209,The staff is usually friendly and drinks are kept full.,service,,3,,3,2
+1210,"But the point is that we waited the whole time, not willing to miss the chance to eat here!",service,,3,,1,0
+1211,Great food.,food,,1,,4,2
+1212,Current prices are a bit cheaper as well!,price,,4,,4,2
+1213,It was delcious.,food,,1,,4,2
+1214,Wasn't planning to go out but received the Open Table Pittsburgh Dining week email and became intrigued.,price,,4,,4,2
+1215,It was packed with pepperoni and amazing cheese.,food,,1,,4,2
+1216,"I moved to the North Side in July, and this has since become my ""place"" in the area.",general,,5,,4,2
+1217,"Before indulging in some pumpkin brews, my friends and I stopped in for a bite at Hough's.",general,,5,,2,1
+1218,Even better: the presentation was beautiful.,food,,1,,4,2
+1219,FYI: Cash only.,price,,4,,2,1
+1220,I must return to suck up additional food and ambiance.,ambiance,,0,,3,2
+1221,"Thought the pizza was average to good, but nothing spectacular.",food,,1,,3,2
+1222,you can buy the sacuses for the wings which is amazing!!,food,,1,,4,2
+1223,"I get that Dave and Buster's is an arcade and that you're going there to play some games, maybe eat, and kill some time.",ambiance,,0,,3,2
+1224,I got a vanilla soft served dipped in blue raspberry on a cone.,food,,1,,2,1
+1225,"As if reading my mind, Groupon suddenly drops a well-timed email into my inbox this weekend -- $9 for two cones and two fries at Pizza Cono.",price,,4,,3,2
+1226,"I got two flavors of their many sauces, Arizona Ranch and Triple Atomic  Arizona Ranch were cooked perfect, had tons of sauce all over each wing, lots of flavor, sufficient amount of meat on each wing, really  couldn't have asked for more.",food,,1,,4,2
+1227,We didn't know what to expect and we knew ahead of time that it's cash only which is no big deal since there's an ATM right around the corner from the restaurant and up and down the street basically.,price,,4,,3,2
+1228,"And they give you shit if you miss your reservation - I've NEVER had that experience at another restaurant before, and it's a testament to how good their food is that I'm willing to put up with that crap and go back.",service,,3,,1,0
+1229,The only bad thing is that it can feel crowded.,ambiance,,0,,1,0
+1230,"I have also had the Jules Vern, which is basically a philly cheese steak.",food,,1,,2,1
+1231,Great bread and fresh meats.,food,,1,,4,2
+1232,They were super friendly.,service,,3,,4,2
+1233,There have been times I would give it 3 stars.,general,,5,,2,1
+1234,I have been impressed with the height and attention to detail.,service,,3,,3,2
+1235,"On other occasions I've had the shrimp tacos and the potato and chorizo tacos, the chiles rellenos, and the gorditas.",food,,1,,2,1
+1236,It's hand-rolled and there were two dedicated cooks there rolling sushi the entire time.,food,,1,,3,2
+1237,I got a Kelsey burger which was topped with a pierogie and onions!,food,,1,,2,1
+1238,"It was just one little nibble, but it was an insane burst of flavor.",food,,1,,4,2
+1239,I am ashamed for bringing my dining companions here.,general,,5,,0,0
+1240,They also eschew large coolers of beer in favor of individual bottle chillers that work well for grab-and-go.,food,,1,,4,2
+1241,"There's always at least one or two non-traditional meat variety offered, which is nice for my vegetarian friend, or for me when I happened to come here on a Lenten Friday.",food,,1,,3,2
+1242,"The servers are attentive, know the menu well, and are willing to offer suggestions should you need any.",service,,3,,4,2
+1243,Can't wait to be back for my weekly hummus fill!,food,,1,,4,2
+1244,"It is BYOB, so don't go expecting to order a margarita.",service,,3,,2,1
+1245,"Disappointing is how I would describe it, I was hoping for good things here for food lovers and for the Winghart's family.",general,,5,,0,0
+1246,"Each time we've gone, the service has been great.",service,,3,,4,2
+1247,"When it came time to pay, the waitress seemed bothered that we didn't know how to use the 'table monster' and even more annoyed when 2 of us wanted to pay with cash.",service,,3,,1,0
+1248,Prices and portions were very reasonable and you get a lot for what you pay for.,price,,4,,4,2
+1249,It's a perfect spot for a date or nice friendly conversation with some friends.,ambiance,,0,,4,2
+1250,"They try to go cheap, whether it be employees or product quality, and you end up getting the short end of the stick.",general,,5,,0,0
+1251,More businesses should follow their lead.,general,,5,,4,2
+1252,"The pizza is average, but they truly do have the best hot dogs in the city.",food,,1,,3,2
+1253,"At an odd moment, the music started blaring, the Smiths, which I love, and strange dance party music.",ambiance,,0,,4,2
+1254,I love being right on the river and watching the people and boats go by.,ambiance,,0,,4,2
+1255,"Once inside the room, I noticed that there was no remote control for the TV, and there were no ashtrays (yes, it was a smoking room).",ambiance,,0,,1,0
+1256,"As I read through it, everything sounds delicious.",food,,1,,4,2
+1257,It's just LOUD but jovial nonetheless.,ambiance,,0,,3,2
+1258,"If I am ever in the strip District shopping, I will stop and get a whole rotisserie chicken to bring home.",food,,1,,3,2
+1259,"When I walked in, I was suprised by the ""cafeteria"" set-up, with a large open area to sit and eat, a very casual atmosphere indeed.",ambiance,,0,,3,2
+1260,"Next the waitress brings some miso soup which is good, but unmemorable.",food,,1,,2,1
+1261,"The bahn mi combined fatty pork belly with velvety chicken liver pate, then heated everything up with jalapeno and sweet chile sauce.",food,,1,,2,1
+1262,I thought the prices were reasonable.,price,,4,,3,2
+1263,It got rather crowded quickly with everyone standing around waiting to get their takeout.,service,,3,,1,0
+1264,"Two large framed prints of New York City scenes which would have been at LEAST $20 at Goodwill, were $5 each at ReStore.",price,,4,,3,2
+1265,"Perfect for Whishkey-lovers with a variety of Whiskey-based drinks, a tasty addition to the solid beer selection and nonalcoholic drinks.",food,,1,,4,2
+1266,The pictures are helpful for choosing dishes with Chinese vegetables.,service,,3,,3,2
+1267,"Even though it was after midnight, they were still serving take out... so hooray for their late night hours.",service,,3,,4,2
+1268,"Bar is very clean, has a small parking lot in the back.",ambiance,,0,,4,2
+1269,The place is definitely cozy.,ambiance,,0,,3,2
+1270,"It's also pricier for Pittsburgh, but you get what you pay for.",price,,4,,2,1
+1271,I think the food might've been ready about 10 minutes before we picked it up.,service,,3,,3,2
+1272,"I love the Fox's pizza chain, but this place just continuously screws up.",general,,5,,0,0
+1273,You can also bring adult beverages with you :-).,food,,1,,2,1
+1274,After we had ordered my girlfriend and I were discussing where she was going to head to brunch with some of her friends in the future and I looked up their menu on my phone.,general,,5,,2,1
+1275,"The service is ok sometimes, depending on which waiter you get.",service,,3,,2,1
+1276,"I really like their seasonals, for which I recommend the tasting sampler.",food,,1,,3,2
+1277,"Owner ""B"" is always very hospitable, checking on tables and remembering faces.",service,,3,,4,2
+1278,Dessert: Flan--so good here!,food,,1,,4,2
+1279,I enjoy the delivery service from time to time and the dining experience is bad either.,ambiance,,0,,1,0
+1280,Ok.,general,,5,,2,1
+1281,There was nothing bad about my meal.,food,,1,,2,1
+1282,They're still good...just different from what you'd find in a Mexican restaurant.,general,,5,,3,2
+1283,What kind of customer service is that?,service,,3,,0,0
+1284,I'ts close to CMU and its very cheap.,location,,2,,3,2
+1285,love the atmosphere,ambiance,,0,,4,2
+1286, the chips and dip which they start you with are not that great.,food,,1,,1,0
+1287,cool menu,food,,1,,3,2
+1288,This place is very creative,ambiance,,0,,4,2
+1289,"His favorite eats: Singapore Rice Noodles, Beef Chow Fun, Pad Thai.",food,,1,,4,2
+1290,The restaurant is a bit noisy ,ambiance,,0,,1,0
+1291,"and the neighborhood isn't improving, ",location,,2,,0,0
+1292,"but the food is worth a trip, I'm still not sold on the bakery.",food,,1,,3,2
+1293,My blow out only set me back $30 as well - awesome!,price,,4,,4,2
+1294,Friendly staff and never a long wait even with a line out the door.,service,,3,,4,2
+1295,I thought it was a nice gesture- until I tasted the mojito.,food,,1,,1,0
+1296,Delicious.,food,,1,,4,2
+1297,"I got the chips, he got the rosemary and sea salt French fries.",food,,1,,4,2
+1298,"The food was only OK, poutine and spicy tacos...tasty and good for soaking up all that alcohol in your stomach.",food,,1,,2,1
+1299,"Sometimes I get a great latte, sometimes a shitty, overly foamy latte (like today).",food,,1,,2,1
+1300,The decor inside is simple and modern.,ambiance,,0,,3,2
+1301,"And the staff is always very pleasant - overall, you can't go wrong here!",service,,3,,4,2
+1302,Service was fast.,service,,3,,3,2
+1303,Our servers were extremely attentive and friendly.,service,,3,,4,2
+1304,"We ate the calamari which was delicious, the mushroom bruschetta, the chimichurri meat plate, and the lobster ravioli.",food,,1,,4,2
+1305,"Overall, I'd say this is the best Thai cuisine I've had in PGH, and I'd highly recommend it for lunch or dinner should you happen to be downtown.",food,,1,,4,2
+1306,Almond croissant (no question!),food,,1,,4,2
+1307,The idea is a fixed price menu for as much meat as you can eat.,price,,4,,3,2
+1308,"We started off with the jumbo drumsticks which were just okay, as there was lots of breading.",food,,1,,2,1
+1309,I liked the sushi but everything that came with the sushi was deep fried.,food,,1,,2,1
+1310,So good.,general,,5,,4,2
+1311,I thought the broccoli was a bit odd...there are much better choices for veggies in soups like baby bok choy or something.,food,,1,,1,0
+1312,We also ordered the elote (Mexican street corn; $5) as a side item.,food,,1,,2,1
+1313,Really good fresh authentic tex mex.,food,,1,,4,2
+1314,"So, you can create your own flights of tequila to suit your tastes, or let the bartender know what you like and have them spin up their own.",service,,3,,3,2
+1315,I particularly love the clams here.,food,,1,,4,2
+1316,The pizza is really really good.,food,,1,,4,2
+1317,"He was disappointed during this trip, as well.",general,,5,,0,0
+1318,Finally JUST A LITTLE SALAD ( picture): that's exactly what it was just a little side salad.,food,,1,,1,0
+1319,There was a few restaurants on the one way street..sweet!,location,,2,,3,2
+1320,"I've heard the quality of the pizza at this place is inconsistent, and that some days it's better than others, so I'd be willing to try it again if I happen to be in the area, but I wouldn't go out of my way for it.",food,,1,,1,0
+1321,"Our server did not hold the food adequately, though, so our entrees came out looking like they had sat under heat lamps for 10+ minutes.",service,,3,,1,0
+1322,"Plus, for $9 I expected more.",price,,4,,1,0
+1323,A good $2.00 worth.,price,,4,,3,2
+1324,Last night we picked up some waffles.,food,,1,,2,1
+1325,I have been religiously coming here for months...simply stated everything is delicious.,food,,1,,4,2
+1326,We were given a plethora of sauces to try which was amazing because I can never have too much sauce on anything I eat ever.,food,,1,,3,2
+1327,I savored every last bite.,food,,1,,4,2
+1328,We explained to them that the prices online were different and asked if we could receive the cheaper price that we had found online.,price,,4,,1,0
+1329,I'm talking about the Station Sq location.,location,,2,,2,1
+1330,"I know it's not the easiest thing to come by in Pittsburgh, and even tougher if you're sticking to the city limits, but Cuzamil hasn't disappointed me yet.",location,,2,,1,0
+1331,"If you are a *strongly dark* chocolate fan like me, you might be skeptical of this at first, but give the dark truffles a try and you will probably enjoy them melting in your mouth (don't bite, of course, just let them slowly melt) as I did.",food,,1,,4,2
+1332,"Since all of us love spicy food, we were quite happy.",food,,1,,3,2
+1333,"And when I got a whiff of everyone else's food, I wished I had ordered some too because it smelled REALLY good.",food,,1,,4,2
+1334,"I think the owners are Cantonese, but everyone can speak Cantonese, Mandarin, and English, so language shouldn't be a problem.",service,,3,,3,2
+1335,"The produce is usually abysmal (rotten grapes FTW), and the bread selection is cleaned out a good portion of the time.",food,,1,,0,0
+1336,"Besides being my home away from home, it is an excellent hotel.",location,,2,,1,0
+1337,"We sat on the outdoor bar stools, which was  pleasant in this weather.",ambiance,,0,,3,2
+1338,You're gonna have a bad time.,general,,5,,1,0
+1339,"Go ahead and try a lamb gyro, beef gyro, or some chili chicken.",food,,1,,2,1
+1340,I also have to compliment the meat guys they were all so good with my son as well as the rest of the wait staff.,service,,3,,3,2
+1341,This place is small so it is easy to miss.,ambiance,,0,,1,0
+1342,It all depends what you are looking for.,general,,5,,2,1
+1343,Where is the design?,ambiance,,0,,0,0
+1344,"If someone asked me to pick my favorite restaurant in Pittsburgh, Avenue B would be my top choice.",general,,5,,4,2
+1345,I'm not even a whiskey (or hard liquor in general) drinker but I enjoyed learning about and sampling their products.,food,,1,,3,2
+1346,"The dining area is kinda small, only 6 booths and one table that shares the back booth wall.",ambiance,,0,,1,0
+1347,There was so much burger grease that the bottom half of the bun was saturated and nearly inedible.,food,,1,,0,0
+1348,It's kinda hard to screw that up.,general,,5,,0,0
+1349,Their menu is extensive of both ice cream flavors and other bites to eat.,food,,1,,3,2
+1350,"Sometimes it's great, but other times the curry would be watered down or something disappointing like that.",food,,1,,2,1
+1351,Aubergine: I love love love it!,general,,5,,4,2
+1352,*Seaweed Salad *Green Tea & Red Bean Ice cream - YUM!!!,food,,1,,4,2
+1353,They had run out of calamari so the gave us a bit more of everything else.,food,,1,,2,1
+1354,The menu is one page-- there are only about 30 items listed.,food,,1,,1,0
+1355,Definitely recommend saving room for dessert!,food,,1,,3,2
+1356,"I'm guessing that ordering channa masala, palak paneer, bhindi masala, and channa palak is cheating and missing out on the full Udipi experience.",food,,1,,2,1
+1357,It is cozy inside and there are comfy chairs/couches.,ambiance,,0,,3,2
+1358,Overall I was ok with this dish.,food,,1,,2,1
+1359,Made me feel like I was having dinner on the Jerry springer show set.,ambiance,,0,,3,2
+1360,"I ordered the mango and tofu, and I really enjoyed it.",food,,1,,4,2
+1361,We ordered the traditional Thanksgiving meal for 10 and a large side of pasta (when in Rome).,food,,1,,2,1
+1362,The extra salsa I requested turned out to be just a few flecks of tomato.,food,,1,,1,0
+1363,Don't forget they only take CASH.,price,,4,,2,1
+1364,"Also, the bacon and sausage were a step-up from traditional breakfast meats.",food,,1,,3,2
+1365,"The sandwich starts out with a layer of banana peppers then stacks of salami, ham, cappicola and pepperoni, melted cheese, sliced hard-boiled eggs, lettuce, tomato and onions and held together with a flavorful rosemary mayo!",food,,1,,4,2
+1366,The owner ( dude with a fro/think beard) is really nice.,service,,3,,3,2
+1367,Beechview is a very nice residential neighborhood but it's not exactly known for its fine dining and nightlife.,location,,2,,2,1
+1368,Presentation was horrible as it was just stuffed on a plate with fries and no garnishes.,food,,1,,1,0
+1369,Good cheap beer and spectacle that doesn't quit.,price,,4,,3,2
+1370,"Full disclosure, I've only ever eaten take-out, so I can't judge their in-dining service, just their take-out service.",service,,3,,2,1
+1371,We'd been to a couple of the popular local chains and they were OK.,general,,5,,2,1
+1372,"An Oakland Classic, I would recommend everyone try it at least once!",food,,1,,3,2
+1373,Papaya's owners to this day have yet to get in touch with me (it's been a month since I've been to their restaurant).,service,,3,,1,0
+1374,The service at Church Brew Works is like any other bar...it varies with the server you get.,service,,3,,2,1
+1375,Stop by next time you're craving cajun.,food,,1,,3,2
+1376,"As far as service is concerned, I've never had bad service at Fat Head's.",service,,3,,3,2
+1377,Beans and rice were phenomenal in comparison to the other Mexican places in the Burgh.,food,,1,,4,2
+1378,Could be cooked a little longer and in smaller pieces.,food,,1,,2,1
+1379,"This is the perfect stop for anyone who is open to contemporary, non-traditional art.",ambiance,,0,,4,2
+1380,The restaurant is very normal for Chinese style restaurants.,general,,5,,2,1
+1381,"Our service was a bit slow (or perhaps the kitchen was behind?), for which the waiter profusely apologized.",service,,3,,2,1
+1382,I think everything is shipped to them as-is and they thaw/assemble/cook it on demand.,food,,1,,2,1
+1383,Lots of beers if you are a beer drinker.,food,,1,,3,2
+1384,"After having seen the demise of two 'Soul Food' restaurants in this space over the course of four months, heartbroken that they couldn't make them go and missing the fried chicken like mad, I was happy to see something else 'small' open in this site.",general,,5,,3,2
+1385,"It seemed everyone else enjoyed their meals as well, although the buffalo burger seemed a tad small.",food,,1,,3,2
+1386,"A big part of what makes their steaks so good isn't just the premium beef they use, but the crusty chewy French bread the subs are served on.",food,,1,,3,2
+1387,"I hate to bag on a small family-run business like this, but that stuff has to be taken care of and the service needs to be faster.",service,,3,,1,0
+1388,"The space itself needs repair: broken floor tile, damaged veneer, a mopping.",ambiance,,0,,1,0
+1389,"I AM a sweet potato fan, so Verde's sweet potato-brisket hash was the perfect solution to my problem!",food,,1,,3,2
+1390,I added a combo of chips and a drink also.,price,,4,,3,2
+1391,"I didn't try my friend's burger but she ate it all, so she must've liked it fine (after she picked off the remaining onion bits).",food,,1,,3,2
+1392,Don't be swayed by the entrance or the shady North Side around it Nicky's is a diamond in the ruff.,general,,5,,4,2
+1393,This place is a gem!,general,,5,,4,2
+1394,"The cider was decent, not sweet but a bit tart and sour.",food,,1,,2,1
+1395,"While we had no problem this past Sunday, in the summer, I've seen fruit flies swarming around the salad bar.",ambiance,,0,,1,0
+1396,"I love the women who work there, too.",service,,3,,4,2
+1397,These folks are extremely popular so at peak times it's mobbed.,ambiance,,0,,1,0
+1398,"Thus, while I may stop by occasionally while I'm in Bloomfield, I wouldn't go out of my way to come here specifically.",location,,2,,3,2
+1399,"There are other quality sandwich shops downtown with better sandwiches, but not at this low a price and this fast service.",price,,4,,3,2
+1400,The downside is the price are a little high but not to bad though.,price,,4,,1,0
+1401,We got takeout here one recent Sunday and were impressed.,food,,1,,3,2
+1402,I ordered the Goat Cheese Salad with a side of Mac n' Cheese.,food,,1,,2,1
+1403,The eggs looked cold and foul.,food,,1,,0,0
+1404,"We had whole wheat pizza, quesadilla, crab macaroni and cheese, and a wedge salad.",food,,1,,2,1
+1405,I understood the name of the restaurant when we were seated at a long pub table where strangers can sit next to you.,ambiance,,0,,3,2
+1406,"Sometimes, the area was a little shady, especially at night since this was a huge party area so I wouldnt go alone during these times or make sure nothing shady is going on around the shop on Friday/Saturday night.",ambiance,,0,,1,0
+1407,Get with 2015 and allow people to buy online and skip the ticket counter.,service,,3,,1,0
+1408,The tables all have umbrellas so you aren't in the direct sun.,ambiance,,0,,3,2
+1409,"Small little space, the only thing that this restaurant has going for itself is that it's in Shadyside.",location,,2,,3,2
+1410,"Both wines were flavorful and unique, and it was a truly great experience to have excellent wine again, compared to our usual bottles purchased cheaply from the store.",food,,1,,4,2
+1411,They've got an interesting way to order.,service,,3,,3,2
+1412,Always changing the specials.,service,,3,,3,2
+1413,"The Anson Mills polenta, roasted tomato, garlic, crispy Brussels sprouts, and parmigiano-reggiano played very nicely together.",food,,1,,3,2
+1414,Shiloh Grill is always a solidly good meal.,food,,1,,4,2
+1415,"Half a star for that, and half a star for being cash only.",price,,4,,0,0
+1416,Like.,general,,5,,3,2
+1417,"I had the Mongolian beef, Beverly the Green Jade and our third member had the beef broccoli.",food,,1,,2,1
+1418,I was surprised by the selections that they had.,food,,1,,3,2
+1419,The reviewer who described the vibe of this place as a cross between a Starbucks and a high-end bakery was right on the money.,ambiance,,0,,3,2
+1420,I'm not sure why--you have to open the door and then brush open the curtain to get inside.,service,,3,,2,1
+1421,I've never had a disappointing burger.,food,,1,,3,2
+1422,Hence the name Gluttony.,food,,1,,3,2
+1423,"Though Primanti Brothers is really good, it is not as good at the stadium.",general,,5,,1,0
+1424,I dont remember the name of what I got but it was beef and vegetables stir fried and then placed into a ring of deep fried bean paste.,food,,1,,2,1
+1425,There are only 4 reviews so far and they are all good - and rightfully so.,food,,1,,3,2
+1426,"In my opinion, it is worth it.",price,,4,,3,2
+1427,But leek flan for sure which was surprisingly mild and quite good.),food,,1,,3,2
+1428,The decor is charming and the I had never been to this part of town so I would recommend that folks check this area/place out if you've never been.,ambiance,,0,,3,2
+1429,It was long egg noodles covered in a wonderful yellow curry sauce.,food,,1,,4,2
+1430,I personally dislike when servers are constantly asking if you need anything.,service,,3,,1,0
+1431,The cheese on my burrito had to be Velveeta... it tasted so wrong!,food,,1,,1,0
+1432,I should have left then.,general,,5,,0,0
+1433,That's ok.,general,,5,,2,1
+1434,"And what's more, I'm always stuffed to the gills by the end.",food,,1,,3,2
+1435,A few notes :   -They do allow smoking.,ambiance,,0,,1,0
+1436,It tastes like the milk after you finish a bowl of Cinnamon Toast Crunch.,food,,1,,3,2
+1437,"Then we split there pizza ""for one"" which was really good pizza.",food,,1,,4,2
+1438,"For this visit, I ordered the grilled chicken platter which is grilled chicken (obviously), fries, lettuce, tomato, pita, a side salad, and tzatziki.",food,,1,,2,1
+1439,The hamburgers are thrown in a bag and fall apart when you eat them.,food,,1,,1,0
+1440,This was my first time here for dinner (I've had brunch here twice) and I was excited for the opportunity since it is so busy here and you need reservations typically to get a table.,service,,3,,2,1
+1441,It amazes me how efficient they are to crank out breakfast and turnover tables as fast as they do.,service,,3,,4,2
+1442,"I'd read good things about it in the ""Post-Gazette"" and the ""Tribune-Review"".",general,,5,,3,2
+1443,"The complimentary ""breadsticks"" were more like crackers - no flavor or anything special about them.",food,,1,,1,0
+1444,"For dessert, we shared the ice cream sandwich trio.",food,,1,,2,1
+1445,These are tiny fried donut holes with chutney and sambar sauces.,food,,1,,2,1
+1446,Pair this with a side of the fries and it's a mighty good meal that will remind you of what good finger food is.,food,,1,,3,2
+1447,I've been craving a Carne Asada Burrito ever since I left home and you guys satisfy me.,food,,1,,3,2
+1448,"In one corner, there was a fondue fountain, but the only things you could use in it was some anemic pieces of pineapple and mini marshmallows- not very appetizing,  I did enjoy the hibachi, although the chef poured oil and soy sauce on everything, so it all had the same flavor.",food,,1,,1,0
+1449,I have given it three chances now and I'm done.,general,,5,,0,0
+1450,"The only thing that is sad is they don't have bigger space, since this is the sort of place you want to camp out with a cupa.",ambiance,,0,,1,0
+1451,Went to pick it up the girl at the front was very rude.,service,,3,,0,0
+1452,Recently just went here after a year of refusing to in hopes that the customer service as well as quality of food would be improved.,service,,3,,1,0
+1453,Upon arriving it took several minutes of giving our order multiple times for them to get it correct on the screen.,service,,3,,1,0
+1454,"When one worker finally came to the window, we were asked if we even ordered.",service,,3,,1,0
+1455,In which my husband had to then have our order taken again.,service,,3,,1,0
+1456,After ordering for what seemed the tenth time we then waited another 15 minutes to recieve a deal d and bean burrito.,service,,3,,1,0
+1457,All the while watching the workers make our food without gloves.,service,,3,,1,0
+1458,We were horrified.,general,,5,,0,0
+1459,To say the least if I could give this place any negative of a review I would.,general,,5,,0,0
+1460,We will not be returning to this location!,general,,5,,0,0
+1461,This place is a joke!,general,,5,,0,0
+1462,Pizza is never ready.,service,,3,,0,0
+1463,Saying I'm sorry for waiting for over two hours for a pizza isn't really asking to much is it ???,service,,3,,0,0
+1464,"Set the scene: We were the only guests in the restaurant, it was Christmas Eve about 10:30 am.",ambiance,,0,,2,1
+1465,Employees were slow and acted irritated that we came in.,service,,3,,1,0
+1466,RIDICULOUS!,general,,5,,0,0
+1467, Terrible service.,service,,3,,0,0
+1468,To me this is family atmosphere.,ambiance,,0,,3,2
+1469,Oh yeah...YUM!,food,,1,,4,2
+1470,"Consistent, but not all that great, as far as Italian food goes.",food,,1,,3,2
+1471,But it's the premier choice for Italian on a budget!,price,,4,,4,2
+1472,"If you are looking for a quiet atmosphere, then do not go to TGIF's, it is always loud.",ambiance,,0,,1,0
+1473,"The cilantro Margarita was also yummy, sounded odd, but refreshing.",food,,1,,4,2
+1474,Sweet potato fried were good too.,food,,1,,3,2
+1475,"Plenty of table seating inside or outside on The Park.",ambiance,,0,,3,2
+1476,"Great for people watching with the outside seating as it also sits on the Las Vegas Blvd, aka The Strip!",ambiance,,0,,4,2
+1477,The parking is plentiful and well lit.,location,,2,,4,2
+1478,"The dining area is fine.",ambiance,,0,,2,1
+1479,"However, there was a bad smell in the entire place.",ambiance,,0,,1,0
+1480,"Usually Olive Garden smells like rich sauces and fresh-baked bread and simmering goodness, but yesterday it smelled like vomit or a NYC Subway bathroom.",ambiance,,0,,0,0
+1481,"We got the chicken parmesan  sandwich and it was literally one of the complementary breadsticks cut in half with a piece of chicken, a little sauce and little bit of cheese on top of it.",food,,1,,1,0
+1482,but a smelly restaurant,ambiance,,0,,1,0
+1483," 
+It is with a heavy heart that I am unable to give Olive Garden more than two stars.",general,,5,,1,0
+1484,The food and prices are okay.,price,,4,,2,1
+1485," It's really the service at this location that isn't good.",service,,3,,1,0
+1486," Oh, and the Long Island Iced Tea was pretty potent too.",food,,1,,3,2
+1487, I keep coming back.,general,,5,,4,2
+1488,"I don't know what to say.",general,,5,,0,0
+1489,"They routinely run out of ingredients.",food,,1,,1,0
+1490, Help me.,general,,5,,0,0
+1491, The pace is excruciatingly glacial.,service,,3,,0,0
+1492,This is the slowest most unfriendly Starbucks I've ever been to.,service,,3,,0,0
+1493," Had not my steak went back, they would have received 4 stars.",food,,1,,3,2
+1494,Again they DONT CARE.,service,,3,,0,0
+1495,We are calling the head manager to tell our story as well......most likely won't care either.,service,,3,,0,0
+1496,She was explanatory and made sure I had a very pleasurable dining experience.,service,,3,,4,2
+1497,"Professional, neat , clean and organized .",general,,5,,4,2
+1498,Wow!,general,,5,,4,2
+1499,Workers seemed to be miserable to be there and there were some mistakes with the order.,service,,3,,0,0
+1500,The cashier put our buzzer number in wrong so we waited forever.,service,,3,,0,0
+1501,I was so pleased with the service tonight with it being so busy and they even gave us a free dessert!!,service,,3,,4,2
+1502,Our server was the absolute best !,service,,3,,4,2
+1503,But there's no reason to be rude without just cause.,service,,3,,3,2
+1504,"Very old school, vintage appeal.",ambiance,,0,,4,2
+1505,Great patio.,ambiance,,0,,4,2
+1506,This is an amazing little shop on 22nd St and McDowell.,general,,5,,1,0
+1507,"
+The staff was nice, but not friendly (no greetings, recommendations or ""Have you been here or at our other store?",service,,3,,3,2
+1508,"That being said, this pizza definitely had a good flavor.",food,,1,,4,2
+1509, The caramel latte is very good and the raspberry bar is simply delicious.,food,,1,,3,2
+1510,My friend and I enjoyed taking pictures and reading messages encrypted on the walls.,ambiance,,0,,4,2
+1511," I really had no expectations for this place other than seeing the pictures and hearing that the lounge next to it, had a spectacular view.",ambiance,,0,,4,2
+1512," One of the best views at night, as all the lights from strip is so hypnotizing.",ambiance,,0,,3,2
+1513, The foie gras was so tasty and soft.,food,,1,,3,2
+1514,"Expensive, but worth it.",price,,4,,3,2
+1515,"Be prepared to spend, but it is well worth it!",price,,4,,4,2
+1516,I recommend coming to BOA.,general,,5,,3,2
+1517, I like the ambience; you feel like you're in a tropical oasis.,ambiance,,0,,3,2
+1518," It was set up with chairs on either side, and there was a nice aisle down the middle for Aggie to walk down.",ambiance,,0,,3,2
+1519,"The room is dim and warm, and is decorated with all sorts of peculiarities.",ambiance,,0,,4,2
+1520,Just magnificent and romantic.,ambiance,,0,,4,2
+1521,The decor was so elegant and the ambiance was tranquil especially sitting out on the patio where the water was so were able to watch quite a few water shows during our two hour dinner.,ambiance,,0,,4,2
+1522,"the restaurant's interior is beautifully designed, with sleek dim blue lighting and gorgeous details such as the dividers of each section in the restaurant.",ambiance,,0,,3,2
+1523,I just don't get it.,general,,5,,1,0
+1524,"But I'm sorry, what it gains in design, it lacks in taste.",ambiance,,0,,2,1
+1525,"This has to be one of the most over-hyped, over priced restaurants I've ever dined at.",price,,4,,0,0
+1526,Still disappointing.,general,,5,,0,0
+1527,"Don't get the beef tenderloin ""Mongolian"" style.",food,,1,,0,0
+1528,It was tough slices of beef with a bunch of slices of bell peppers thrown in.,food,,1,,0,0
+1529,The hot & sour soup was okay...,food,,1,,2,1
+1530,The only other thing I can remember were the shrimp dumplings which were pretty good.,food,,1,,4,2
+1531,It doesn't justify the pricey bill you will receive at the end of your experience.,price,,1,,1,0
+1532,I really like the atmosphere in the South Beach location which is the only reason why I am giving this place 2 stars.,ambiance,,0,,4,2
+1533,save your money.,general,,5,,0,0
+1534,I've been to this Cafe Rio on numerous occasions and this last time really annoyed me.,general,,5,,0,0
+1535,So I ordered my salad and noticed that she put a plain tortilla (without it put on the grill with cheese) so I asked and she told me that they don't do that anymore because ppl have allergies.,service,,3,,1,0
+1536,Well every time I come in they did it without asking.,service,,3,,1,0
+1537,So she should have asked how I want it.,service,,3,,1,0
+1538,Then she rolled her eyes at one of her coworkers at something they did.,service,,3,,1,0
+1539,It took about 35 mins to get through the line of about 13 people in front of me.,service,,3,,1,0
+1540,Nobody was welcoming or friendly.,service,,3,,1,0
+1541,Service was spot on.,service,,3,,4,2
+1542,Placed our order and within 5 minutes we were chowing down.,service,,3,,3,2
+1543,I would highly recommend this to any sit down and it could top any buffet on the north rest part of the valley.,food,,1,,4,2
+1544,"I asked for egg whites in my Benedict eggs and they told me it was not possible, (first time in my life that they can't do it) I had to order something else!",service,,1,,1,0
+1545,Amazing food!,food,,1,,4,2
+1546,"We love Greek food and we love Milos, this restaurant menu is very similar but with even more options, it is less formal so even better for the kids and they have live Greek music (very loud by the way) witch makes it annoying, but fun and different.",ambiance,,0,,3,2
+1547,"10000000 stars but service, food is decent & overly priced.",service,,3,,4,2
+1548,The Pittsburgh location doesn't meet expectations.,general,,5,,1,0
+1549,"Delicious food, great presentation, huge wine selection,",food,,1,,4,2
+1550, service is outstanding.,service,,3,,4,2
+1551,So he literally ran across the street to another the restaurant (we watched from the window in awe) and brought back a new bottle of a1!,service,,3,,4,2
+1552,100000000 star props to the waiter!,service,,3,,4,2
+1553,He went above and beyond our expectations!,service,,3,,4,2
+1554,New & improved!,general,,5,,3,2
+1555,"Clean, good service, hilarious staff!",service,,3,,4,2
+1556,Food was fresh & done to perfection,food,,1,,4,2
+1557,We are sitting here for almost 2 hours with no food!,service,,3,,0,0
+1558, i guess something is amiss in the kitchen.,food,,1,,1,0
+1559, I would not recommend this restaurant currently.,general,,5,,0,0
+1560,Food - amazing.,food,,1,,4,2
+1561, Hands down the best pasta ever.,food,,1,,4,2
+1562,  I recommend going to the bar and ordering a glass of wine and some a la carte items.,food,,1,,4,2
+1563," If you sit down for dinner, you will spend hundreds of dollars, and I don't think the service levels at the restaurant justify the prices.",price,,4,,1,0
+1564," The restaurant is on the first floor in the back and is large and decorated in an expensive lodge motif, earthy and woody.",ambiance,,0,,3,2
+1565," The kitchen is long and open and you can see, smell and fell the heat of the spit pits and grills.",ambiance,,0,,3,2
+1566," Bitter green salad with a lemon vinegar dressing was outstanding, the grilled oysters were fresh but lacked any real grilled flavor so this was the only shortfall of the meal.",food,,1,,3,2
+1567, Their spin on Caesar Salad was ridiculously good.,food,,1,,4,2
+1568, My wife is a very picky eater and cooks crazy food at home so when she says this was the best salmon or fish dish ever it means something.,food,,1,,4,2
+1569,The cauliflower steak was the best I've had and this is one of my favorite veggies so we have often.,food,,1,,4,2
+1570," Silky, smooth and you can taste the potato with butter butter butter, crazy good.",food,,1,,4,2
+1571,"We sat for hours to catch up, and never felt like we were given the evil eye for taking up a table.",service,,3,,3,2
+1572,Delightful.,general,,5,,4,2
+1573,"They were already closed, but were kind enough to allow us to join them at the bar for dessert.",service,,3,,3,2
+1574,OUR JAWS DROPPED at the presentation!,food,,1,,4,2
+1575,"We immediately captured images of these gorgeously amazing, elaborate creations!",food,,1,,4,2
+1576,OMG SO GOOD!,general,,5,,4,2
+1577,"The staff were attentive, gregarious, generous, and welcoming.",service,,3,,4,2
+1578,The desserts and dessert wine were top notch.,food,,1,,4,2
+1579,I will never go to this location again.,general,,5,,0,0
+1580,"Went in at 9:50 am, 1 person was dining at a table, no line at all, I needed 2 platters for a customer training and the guy working was not at all wanting to help.",service,,3,,1,0
+1581,"There were 2 guys working and he said he couldn't guarantee it would be ready in an hour, would try, but no guarantees.",service,,3,,2,1
+1582,I came to Bice for a wedding reception and frankly it's a beautiful resto with a huge terrace that is quite aesthetically pleasing.,ambiance,,0,,4,2
+1583,The entrance was converted for the reception to a cocktail party and then afterwards into a dance floor.,ambiance,,0,,3,2
+1584,The music was great!,ambiance,,0,,4,2
+1585,My glass of water was never less than half full.,service,,3,,3,2
+1586,The waiters walked around at the start of the evening with glasses of champagne and a wide variety of goodies.,service,,3,,3,2
+1587,"If you're coming here for dinner, don't expect your traditional Italian experience with a small ""Casa Di Mama"" resto but rather the work of a renowned chef performing his trade.",food,,1,,4,2
+1588,"So, expect beautiful plates that are hopefully big on flavor and beauty but rather small on portion size.",food,,1,,2,1
+1589,"You can also expect this experience to make more of an impact to your wallet but as I was a guest, the only thing that came out of my wallet was the donation I made to the bride and groom.",price,,4,,1,0
+1590,"Overall, I was thought they were OK but nothing that would make me want to come back, particularly at the price-tag that they ask for.",price,,4,,1,0
+1591,Something was in it that didn't make me like it very much.,general,,5,,2,1
+1592,The sauce was in particular was average.,food,,1,,2,1
+1593,It was classic back in the day that sadly still lives to its reputation and obviously it's expensive due to it.,price,,4,,2,1
+1594,Insane!,price,,4,,0,0
+1595,"Fat is good people, especially on meats, try it!!!",food,,1,,1,0
+1596,Pros: Service was quick and attentive,service,,3,,3,2
+1597,Atmosphere felt warm and intimate.,ambiance,,0,,3,2
+1598,We were perfectly fine upstairs.,ambiance,,0,,3,2
+1599,"While I didn't dine downstairs (due to the fact we it may be loud and wish to have conversations with fellow diners like we do) it seems to be a lot of fun for those willing to dine in a festive ambiance with a live band, dance floor and bar.",ambiance,,0,,4,2
+1600,"Sadly, while it looked great, several selections of meats were very average and disappointing.",food,,1,,1,0
+1601,The meals in general are quite expensive...,price,,4,,0,0
+1602,The sausages didn't float my boat neither.,food,,1,,1,0
+1603,The greek salad was somewhat uninspired and didn't feel fresh.,food,,1,,1,0
+1604,The calamari plate was small and definitely no where close to the best I've eaten.,food,,1,,1,0
+1605,"However, many plates were hit and miss which isn't acceptable...",food,,1,,1,0
+1606,"Overall, it's a nice place, with slightly better than average food but mind your budget as a good meal can cost you well over 50$.",general,,4,,3,2
+1607, Seemed a little unorganized.,ambiance,,0,,1,0
+1608, The medium burger 1/3 lb is quite small.,food,,1,,0,0
+1609,I think in and out is a lot better but it is definitely worth trying so you can say 3am and just got to fat burger.,food,,1,,2,1
+1610, Consistently great food and service.,food,,1,,4,2
+1611, First impressions are the place looks absolutely lovely.,ambiance,,0,,4,2
+1612, Lots of details to the wide open space.,ambiance,,0,,4,2
+1613, And wide open indeed with a garage door style window in the front behind the bar.,ambiance,,0,,3,2
+1614, We were greeted quickly and given drink menus.,service,,3,,3,2
+1615," The drink, for us, beer prices were about standard for downtown.",price,,4,,2,1
+1616, Between $6-$8 for most.,price,,4,,2,1
+1617, Some were really high at $10.00.,price,,4,,0,0
+1618," We ordered quickly and asked for menus, but the bartender never brought them.",service,,3,,0,0
+1619, I am hoping we have a chance to come back soon and really get the overall experience.,general,,5,,4,2
+1620, But for now it's an A-okay place to enjoy an afternoon pint.,general,,5,,2,1
+1621,It was very expensive and a little disappointing for all the hype the place gets.,price,,4,,0,0
+1622,"Like I said, I had high expectations, and they weren't met...",general,,5,,1,0
+1623,"probably wouldn't go again, not with so many other good restaurants to try.",general,,5,,1,0
+1624,"I just stopped in for a quick bite and two hot dogs and a sod and fries for 6.00, that was the treat.",price,,4,,3,2
+1625,Everything tasted great.,food,,1,,4,2
+1626,"There was a huge puddle in the restaurant that had a cup floating in it , but other than I woudl have liked to see the place neater, it was good",ambiance,,0,,2,1
+1627,Set up an anniversary dinner during sunset.,ambiance,,0,,3,2
+1628,They seated us along the outer rim by the windows.,ambiance,,0,,3,2
+1629,The view was spectacular.,ambiance,,0,,4,2
+1630, Dinner takes about an hour which allows you to have one full 365 degree rotation.,ambiance,,0,,4,2
+1631,"Don't be afraid of the long line, this is a well oiled machine!",service,,3,,3,2
+1632,They pump out food faster and better than I've ever seen!,service,,3,,4,2
+1633,I've been eating here regularly at lunchtime for over 10 years - my order is always right and we all know how delicious chickfila waffle fries are - need you say more?,food,,1,,4,2
+1634,The chicken strips were good and nicely fried.,food,,1,,3,2
+1635,the baked mac and cheese was nothing special in my opinion.,food,,1,,2,1
+1636,I had one of the most amazing meals of my life here.,food,,1,,4,2
+1637, Not cheap.,price,,4,,1,0
+1638," Excellent menu, excellent wine list.",food,,1,,4,2
+1639," Like Sage, if you're looking for an 'experience', try Johnny's Bar--it's the blue-collar neighborhood brother of Johnny's Downtown.",ambiance,,0,,4,2
+1640,"Visited on our anniversary, both ordered chef's Choice.",food,,1,,2,1
+1641,"Both of us selected kurobuta (black pig) didn't ask where came from and serving was tad bit small, taste was no different than regular pork belly you find in grocery store.",food,,1,,1,0
+1642,"We only ordered sparkling water which Pablo, the best busser ever, never let me refill my glass on my own.",service,,3,,3,2
+1643,We were given share plates by a beautiful Czech man wearing a well fitted suit named Robert (the general manager).,service,,3,,3,2
+1644,I was very impressed by how hands-on he was and we both really enjoyed conversing with him.,service,,3,,4,2
+1645,"I thought the prices were very fair and to be expected with a beautiful restaurant like Sage, the level of service and the value of the food.",price,,4,,4,2
+1646,Pay up!,price,,4,,4,2
+1647,Wow.,general,,5,,4,2
+1648,I look forward to my next visit!,general,,5,,4,2
+1649, Sorry.,general,,5,,0,0
+1650,Really bad!,general,,5,,0,0
+1651,Only later to find out the chicken was jerky dry.,food,,1,,0,0
+1652,Such a disappointment!,general,,5,,0,0
+1653,At $23 for me and the wifey for subpar food I'd be loco to go there again.,food,,1,,1,0
+1654,I know the location is new but the company should have specs and standards.,general,,5,,0,0
+1655,Great amount of food for the money but the flavor wasn't there for me.,food,,1,,2,1
+1656,Everything came across as kinda spicy but then left a bland taste in my mouth.,food,,1,,1,0
+1657, Great Caesar salad.,food,,1,,4,2
+1658," Early bird specials are really well priced, I had twin petite fillets.",price,,4,,4,2
+1659, However the New York strip steaks were off the regular menu were quite impressive.,food,,1,,4,2
+1660,Let me begin to say how disappointed I am at this McDonalds drive thru employee and her Supervisor.,service,,3,,0,0
+1661, Lazy and unhappy could be a way to describe their attitude.,service,,3,,0,0
+1662," The Supervisor seemed overwhelmed doing her duties managing a McDonalds, nevertheless trying to communicate with customers.",service,,3,,1,0
+1663," Her actions seeing this APP was the most difficult thing she's seen, her dull-lazy ILL face expression it self was priceless.",service,,3,,0,0
+1664," She asked me what that was, I told her that it was their McDonalds APP that this McDonalds participates in promotions.",service,,3,,0,0
+1665, She said that they don't and that the code isn't working.,service,,3,,0,0
+1666,I told her that she needed to try again or get her Supervisor to help on this matter.,service,,3,,0,0
+1667,When the Supervisor saw that her employee was stalled at the drive thru she stepped into see what was happening.,service,,3,,2,1
+1668,"She didn't attempt to put the code in, ask me for it, she typed something else in the screen then told me that they don't honor that here.",service,,3,,0,0
+1669,With her strung out face she told me to pay the full price and I'll have to wait for five minutes for my order.,service,,3,,0,0
+1670,"Even after that their demeanor was even worst, showing them that receipt was their destruction; their face of being proved wrong was even worse, she punched more nonsense into that screen, mumbling something, she turns around and says that they couldn't honor that coupon.",service,,3,,0,0
+1671,They were beautifully and artfully created.,ambiance,,0,,3,2
+1672,"WTF, really!",general,,5,,0,0
+1673,"If you want IMPECCABLE service, GREAT wait staff, and AMAZING food....DON'T COME HERE.",general,,5,,0,0
+1674,YOU SAY HELLO NOT WAIT FOR US TO SAY HI CAN I HAVE A TABLE....OBVIOUSLY we were here to eat and not just stare at you while we WAIT for you to notice us...even though we WERE THE ONLY people in front of you.,service,,3,,0,0
+1675,"We had a friend waiting for us and he had stated that he was outside, well I informed the hostess since I didnt want to be rude and just walk in, that we were here to sit outside since a friend already had a table for us.",service,,3,,2,1
+1676,"Well, she pointed at the door and stated "" its that way"", then turned back to whatever she was doing....ok.....so we head out sit ourselves down.",service,,3,,1,0
+1677,"The waitress was no where to be seen, we even had to waive down another server for refills on drinks.",service,,3,,1,0
+1678,"Only other time she actually came was to give us the check....Note to servers, if you have people seated outside, check on them.",service,,3,,1,0
+1679,it was packed - mostly a business crowd.,ambiance,,0,,2,1
+1680,hostess was very nice and she seated us right next to the window.,service,,3,,4,2
+1681,Damn good.,general,,5,,4,2
+1682,We had dined at N9ne previously and were less than impressed so this was a great surprise.,general,,5,,4,2
+1683," He was polite, but could not keep our drinks in order and could not understand us.",service,,3,,1,0
+1684,Beautiful decor with a fantastic view of the fountains and the strip.,ambiance,,0,,4,2
+1685, Enjoy,general,,5,,4,2
+1686,Typical Wendy's would have been better if there was friendly staff however they were polite just no smiles,service,,3,,1,0
+1687,Let's just say my dreams of this place were crushed.,general,,5,,0,0
+1688,"So we came, and it wasn't up to par.",general,,5,,0,0
+1689,"Thanks waiter, for not caring, being fake and making our special dinner that much more special.",service,,3,,0,0
+1690,"End of the story, I complained to a manager as we left.",service,,3,,0,0
+1691,"He tried to make it better by offering a drink, or dessert.",service,,3,,2,1
+1692,"I'm willing to spend a lot for good meals, but the food and service here just don't justify the price.",price,,4,,1,0
+1693,If I could give this establishment 0 stars I would.,general,,5,,0,0
+1694,Everyone at this location is over their jobs and never heard of customer service.,service,,3,,0,0
+1695,I walked in to a line literally out the door.,service,,3,,0,0
+1696,I waited in line for 20 minutes.,service,,3,,0,0
+1697,I had to be at a presentation at the resort it was connected to but they decided to make 1 person run the whole fort down.,service,,3,,1,0
+1698,I asked for peppers and she said she didn't have any when clearly was in front of our faces.,service,,3,,0,0
+1699,The other two employees either hid in that back or sat down and looked miserable.,service,,3,,0,0
+1700,She also double charged us.,service,,3,,0,0
+1701,Worst establishment ever!,general,,5,,0,0
+1702,Get rid of cranky employees who don't enjoy being at a job.,service,,3,,0,0
+1703,"The restaurant setting is very elegant, classy, yet comfortable.",ambiance,,0,,4,2
+1704,We spent 2-3 hours there (and yet it didn't feel that long- to be honest we never spent that much time in a restaurant feeling that comfortable).,ambiance,,0,,4,2
+1705,Service is top- notch!,service,,3,,4,2
+1706,"I didn't see the yelpers mention this a lot when I read for reviews, but this is the best mashed potato I have had in my whole life!",food,,1,,4,2
+1707,"For me it was okay, but my bf loved it!",food,,1,,4,2
+1708,My experience at BOA was extraordinary.,general,,5,,4,2
+1709,"The ingredients may sounds strange- namely the balsamic vinegar, but they work so well together I could have had 6 of them (and almost did)!",food,,1,,4,2
+1710,Absolutely wonderful.,general,,5,,4,2
+1711,"Gawd.....Came in with high expectations, but was disappointed.",general,,5,,1,0
+1712,Love this location close to our house and always friendly and convenient.,location,,2,,4,2
+1713,"Definitely one of the best sushi places I've been to, anywhere - and definitely one of the spendiest too.",general,,5,,4,2
+1714,"But what the hell, when you're in Vegas you have to splurge at least ONE night, yes?",price,,4,,4,2
+1715,I've never encountered an unpleasant associate!,service,,3,,4,2
+1716,"It's hard to say that I now know what the ""worst McDonalds in the world"" is like but tonight I visited it.",general,,5,,0,0
+1717,There is no set menu until you arrive and they'll present you with the menu after you've experienced it.,food,,1,,3,2
+1718,"Their prices may have gone up a bit in the last few years, but the food and the experience is worth it.",price,,4,,3,2
+1719,Store is CLEAN too!,ambiance,,0,,3,2
+1720,The ambience was great,ambiance,,0,,4,2
+1721,The service was excellent  ,service,,3,,4,2
+1722,and the fish was quite good.,food,,1,,4,2
+1723, The servings are really chintzy.,food,,1,,0,0
+1724, Slices of the fish are so thin that you can see through them.,food,,1,,1,0
+1725," You order one thing, and the waiter will tell you, ""If you like THAT, then we've got THIS thing that's NOT on the menu--and you're gonna love it.""  What they fail to tell you is that the new thing that they're trying to hawk to you as at least double the price of what you originally had planned on ordering.",price,,4,,1,0
+1726,I liked the rich and nutty flavor of the hazelnut pastry cream but thought that the choux was a bit soggy.,food,,1,,2,1
+1727,I did notice that the restaurant was a bit humid (condensation clung to the windows) and wondered if that had an impact.,ambiance,,0,,1,0
+1728,I will leave you with this sentiment: the meal is an enchanting performance so sit back and take joy in it.,food,,1,,4,2
+1729,Relish every moment of the experience.,general,,5,,4,2
+1730,"Around the corner from Chateau Ramezay, Le Club Chasse et Peche is the epitome of rustic charm.",ambiance,,0,,4,2
+1731,"With dark walls and old brick columns, the restaurant had a man-cave vibe that contributed to the congenial and boisterous atmosphere.",ambiance,,0,,3,2
+1732,There was the pleasant undercurrent that shows up right before the holidays.,ambiance,,0,,3,2
+1733,We shared the piglet risotto which we were told it was a customer favorite.,food,,1,,4,2
+1734,The dish was well-prepared and flavorful - just not to my taste.,food,,1,,2,1
+1735,I usually don't comment on this aspect of a meal but the presentation was lovely.,food,,1,,4,2
+1736,The chocolate tart had a shortbread crust and a flowing caramel interior.,food,,1,,3,2
+1737,"I am giving this restaurant only four stars , not because of the food but the service.",service,,3,,1,0
+1738,The server was super slow and never came to fill my water !!!!!!,service,,3,,0,0
+1739,The noodles were home made and well that's a big seller for me.,food,,1,,3,2
+1740,We started off by sitting in the back room with the doors opened on a beautiful evening.,ambiance,,0,,3,2
+1741,"With that being said our server may have been overwhelmed with   The amount of big tables in the back but we would order our drinks and he would be back from 20-30 minutes and bring other things and we would repeatedly ask where are drinks were and he would say "" don't worry we are working on it."" Luckily our friends were are pretty relaxed and having a great time or they would have noticed more.",service,,3,,1,0
+1742,Both were great.,general,,5,,4,2
+1743,Everyone ordered salads and loved them.,food,,1,,4,2
+1744,"We had reservations and granted it was a snowstorm and I am sure People had canceled, we had on spot service !",service,,3,,4,2
+1745,We arrived and our table was ready for us right away.,service,,3,,4,2
+1746,We ordered the pita puff appetizer and it was amazing.,food,,1,,4,2
+1747,He was rather rude.,service,,3,,0,0
+1748,Doesn't offer to clean it up.,service,,3,,0,0
+1749,The waiter seemed confused so my brother in law repeated it twice.,service,,3,,1,0
+1750,"He said it was the worst filet he has had and would rather go to Hyde park, Red, Flemmings, and Morton's !",food,,1,,0,0
+1751,It is a shame that the area is taking so long to clean up.,location,,2,,0,0
+1752,I cannot believe people want to live in this area !,location,,2,,0,0
+1753,Most amazing dinner ever.,food,,1,,4,2
+1754,I got the lobster and my husband for a big fat juicy delicious steak.,food,,1,,3,2
+1755,"they came through more than any other restaurant, for example, on small details like scraping crumbs off the table.",service,,3,,4,2
+1756,"If I were given an opportunity to eat at E again for FREE, I would not take it.",food,,1,,0,0
+1757,"I have been to other ""pimped restaurants,"" that were WAY more interesting.",ambiance,,0,,1,0
+1758, WTF.,general,,5,,0,0
+1759, One of my two mussels was SPOILED.,food,,1,,0,0
+1760,"""This stuff""  --   Everything so SALT.",food,,1,,0,0
+1761, Everything so GREASY.,food,,1,,0,0
+1762," Those f'ing TWEEZERS they used throughout the entire ""presentation.""  Imagine  imagine watching smoeone play ""operation"" for 2 hours, but with food!",ambiance,,0,,0,0
+1763," Come on, you gotta visualize it.",ambiance,,0,,2,1
+1764," When I eat food, the price DOES NOT INFLUENCE MY TASTE FOR WHAT I'M EATING!",price,,4,,2,1
+1765," I don't care if it's $1.00, or free, or $200.",price,,4,,2,1
+1766," Food is food, and it's prepared either bad, mediocre, good, great, out-of-this-world...",food,,1,,2,1
+1767," If you are a snob, this concept won't even make sense to you, so ignore.",ambiance,,0,,3,2
+1768,"  At E, they keep telling you these dumb stories that are SUPPOSED to sound so rustic, romantic, and ???",ambiance,,0,,1,0
+1769," Like, before you get this little bite-of-a-sandwich, that you could easily (and have!) made in your own studio apartment, when you were like 18 years old, they say, ""Oh!",food,,1,,1,0
+1770,"Mothers in Spain make this traditional sandwich and pack it in their childrens' lunchboxes when they send them off to school.""  I think this story (dream) is supposed to appeal to the older mom with empty-nest syndrome.",service,,3,,2,1
+C1,Price good will come back,price,,4,,3,2
+C2,"Highly overpriced menu, beware!!",,,4,,1,0
+C3,"We got a discount, yay!!",,,4,,4,2
+C4,"Prices are reasonable, great for a small group",,,4,,4,2
+C5,I care for a value meal so this place is a good fit,,,4,,3,2
+C6,"The menu is on the costly side, watch out",,,4,,1,0
+C7,I would recommened this place for a really cheap value meal with no-frills ,,,4,,3,2
+C8,"This place delivers what it promises, reasonable rates and many coupons",,,4,,3,2
+C9,Location is scary and has history of street crime,,,2,,1,0
+C10,"Worst parking situation ever, no garage in next 10 miles",,,2,,0,0
+C11,"Horrible location, far away from the city center and no Uber for 30 mins",,,2,,0,0
+C12,Bad choice of location for a coffee shop,,,2,,1,0
+C13,"Feel free to walk, bike or park in the parking lot across the street.",,,2,,3,2
+C14," A tip here- they make really weak drinks, so if you're driving great, but otherwise, you're going to suck them down fast, and spend a lot more than you normally would.",,,4,,2,1
+C15,"If you go here, grab a few beers and sit outside for the great view and atmosphere.",,,0,,4,2
+C16,They had live music so steal my heart.,,,0,,4,2
+C17,Not a big fan of the seating arrangements or the decor/atmosphere on the inside and haven't had a chance to sit outside because of the crowds ,,,0,,1,0
+C18,This full service restauraunt has nothing on the menu over $10 and everything is wonderful including some of the best rice and beans in the valley.,,,4,,4,2
+C19,We are lucky enough that this is our neighborhood spot...it feels like half the people in there are regulars every time we go.,,,2,,4,2
+C20,This place is so close to my nursing school that I'm here almost weekly and whenever I'm craving a delicious smoothie or acai bowl.,,,2,,4,2
+C21, Our bill was $46 for two meals and two apps.,,,4,,2,1
+C22,10 dollars for a capuccino! Do you think we are crazy,,,4,,0,0
+C23,"Sides were extra, $2 for regular fries and $3 for Greek.",,,4,,2,1
+C24,I would have left a generous tip if you did not charge me for the extra puff,,,4,,1,0
+C25,"Ver expensive, big hole in my pocket!!",,,4,,0,0
+C26,"Quite close to my school, great location",,,2,,4,2
+C27,"Lovely shopping arcade next to the restaurant, always fun to go",,,2,,3,2
+C28,Not worth it!! Can't pay $20 for a side,,,4,,1,0
+C29,Expensive desserts,,,4,,1,0

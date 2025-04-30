@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY *.py .
-COPY McDonalds_Reviews.csv .
+COPY starbucks_reviews.csv .
 
 # Create directories for model artifacts
 RUN mkdir -p models results
