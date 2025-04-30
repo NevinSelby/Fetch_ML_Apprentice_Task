@@ -54,26 +54,40 @@ I implemented a sentence encoder like this:
 ```python
 from transformers import BertTokenizer, BertModel
 import torch
+import torch.nn.functional as F
+import numpy as np
 
-class BertSentenceTransformer:
-    def __init__(self, model_name='bert-base-uncased', pooling_strategy='mean'):
-        self.tokenizer = BertTokenizer.from_pretrained(model_name)
-        self.bert = BertModel.from_pretrained(model_name)
-        self.pooling = pooling_strategy
-        
-    def encode(self, sentences):
-        # My tokenization and encoding logic here
-        # Returns fixed-length embeddings
+# The mean pooling function for sentence embeddings
+def mean_pooling(model_output, attention_mask):
+    token_embeddings = model_output.last_hidden_state
+    input_mask_expanded = attention_mask.unsqueeze(-1).expand(token_embeddings.size()).float()
+    return torch.sum(token_embeddings * input_mask_expanded, 1) / torch.clamp(input_mask_expanded.sum(1), min=1e-9)
 ```
+I tested my implementation with seven diverse Starbucks review sentences:
+```python
+sample_sentences = [
+    "The coffee was excellent but the service was slow.",
+    "I love the ambience of this Starbucks location.",
+    "The barista was extremely friendly and helpful.",
+    "The barista took a lot of time to process my order, and still managed to get it wrong",
+    "The coffee tasted terrible, and the ambience and dull",
+    "I didn't like the overall experience",
+    "I love how they handled my over-complexified order"
+]
 
+```
+### Architectural Decisions
+I made several key architectural choices beyond just picking BERT:
 
-### My Architectural Decisions
+1. **Mean Pooling Strategy**: I implemented mean pooling that properly handles padding tokens by explicitly masking them out to prevent them from skewing the embeddings. The clamp function prevents division by zero for very short sequences.
 
-I had to make several key architectural choices beyond just picking BERT:
+2. **Padding Handling**: My implementation carefully accounts for padding tokens by using the attention mask to create a weighted sum that only includes actual tokens.
 
-1. **Pooling Strategy**: I actually tried both CLS token pooling and mean pooling approaches. I ended up defaulting to mean pooling because in my experience, it works better for sentence-level tasks when you're not doing specific fine-tuning for the CLS token.
-2. **Padding Handling**: One issue I ran into was that padding tokens would skew my embeddings. I fixed this by explicitly masking these tokens in the mean pooling calculation.
-3. **Normalization**: I added normalization to the embeddings to make sure they were consistently scaled, which I've found helps with downstream tasks.
+3. **Normalization**: I added L2 normalization to the embeddings using F.normalize(sentence_embeddings, p=2, dim=1) to ensure they're consistently scaled, which helps with downstream tasks.
+
+4. **Visualization**: The code outputs both the embedding shape (which confirms the 768-dimensional vectors) and displays the first 5 dimensions of each embedding to verify distinct representations.
+
+![alt text](screenshots/image-4.png)
 
 The main reasons I went with BERT were:
 
@@ -102,7 +116,7 @@ For sentiment, I went with three standard classes:
 
 ### My Architecture Extension Approach
 
-Extending to multi-task learning was an interesting challenge. I created a model with:
+#### Extending to multi-task learning was an interesting challenge. I created a model with:
 Shared BERT Backbone: Reusing the same BERT encoder for both tasks to enable knowledge sharing and reduce computational overhead.
 
 Task-Specific Heads: Adding separate classification heads for attribute and sentiment tasks:
