@@ -255,6 +255,8 @@ metrics['sentiment_accuracy'] = accuracy_score(sentiment_labels_all, sentiment_p
 metrics['sentiment_f1'] = f1_score(sentiment_labels_all, sentiment_preds_all, average='weighted')
 ```
 
+![alt text](results/training_curves.png)
+
 I'm tracking both accuracy and F1 scores separately for each task because I want to make sure improvements in one task don't come at the expense of the other. This is really important in multi-task learning.
 
 I'm really happy with how this implementation turned out. It creates a robust framework for analyzing Starbucks reviews, and I've learned a ton about the nuances of multi-task learning in the process!
